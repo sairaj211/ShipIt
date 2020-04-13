@@ -1,0 +1,159 @@
+ {
+  "MainMenu": [
+    {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Start",
+        "Action": "LevelScreenFinal"
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.3, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Options",
+        "Action": "Options"
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.45, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Quit",
+        "Action": "QuitConfirmation"
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.60, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "DataFile": "Background",
+      "ModelComponent": {
+        "Material": "Logo3D",
+        "MeshMaterials": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Model": "LOGO3D"
+      },
+      "Name": "Background",
+      "Transform": {
+        "Translate": [
+          0.047043383121490479,
+          0.0042766183614730835,
+          -1.0
+        ]
+      }
+    },
+    {
+      "DataFile": "SpotLight",
+      "ModelComponent": {
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Name": "SpotLight",
+      "SpotLight": {
+        "Color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Intensity": 1.0,
+        "Range": 10.0,
+        "SpotAngle": 30.0
+      },
+      "Transform": {
+        "Translate": [
+          0.44156602025032043,
+          0.33464935421943665,
+          0.0
+        ]
+      }
+    },
+    {
+      "DataFile": "SpotLight",
+      "ModelComponent": {
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Name": "SpotLight",
+      "SpotLight": {
+        "Color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Intensity": 1.0,
+        "Range": 10.0,
+        "SpotAngle": 30.0
+      },
+      "Transform": {
+        "Translate": [
+          -0.46829524636268616,
+          0.38276183605194092,
+          0.0
+        ]
+      }
+    },
+    {
+      "DataFile": "SpotLight",
+      "ModelComponent": {
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Name": "SpotLight",
+      "SpotLight": {
+        "Color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Intensity": 1.0,
+        "Range": 10.0,
+        "SpotAngle": 45.0
+      },
+      "Transform": {
+        "RotationAngles": [
+          116.47892761230469,
+          -2.1240842342376709,
+          0.09644075483083725
+        ],
+        "Translate": [
+          0.0,
+          -0.51342177391052246,
+          -1.2788105010986328
+        ]
+      }
+    }
+  ]
+}

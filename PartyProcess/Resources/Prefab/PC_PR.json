@@ -1,0 +1,154 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : 
+		[
+			{
+				"AffineAnimationName" : "Squish",
+				"BlendDuration" : 0.15000000596046448,
+				"ReturnToDefault" : true,
+				"StateName" : "Input"
+			}
+		],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "coding03.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Programming",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "BlueRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					224.99989318847656,
+					5.0089556680177338e-06,
+					179.99989318847656
+				],
+				"Scale" : 
+				[
+					0.57037615776062012,
+					0.051525324583053589,
+					0.57037621736526489
+				],
+				"Translate" : 
+				[
+					-0.1197158545255661,
+					0.26043543219566345,
+					-0.69427496194839478
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			-0.5,
+			0.0,
+			0.0
+		],
+		"Rescale" : 
+		[
+			-1.5,
+			1.75,
+			1.0
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Generator",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : true,
+		"IsUI" : false,
+		"Material" : "PC_PR",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_Progr",
+	"ParticlesComponent": {
+		"Position": [ -0.7, 3.15, 1.4 ],
+		"Range": [ 2.95, 0.5, 1.55 ],
+		"Velocity": [ 0.0, 4.4, 0.0 ],
+		"Direction": [ 0.0, 0.0, 0.0 ],
+		"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+		"Scale": [ 0.9, 0.9, 0.0 ],
+		"Life": 0.5,
+		"Active Time": 1.0,
+		"Number of Particles": 7,
+		"Minimum Number Of Particles": 4,
+		"Material Name": "Particles_PCProg",
+		"Texture": true,
+		"Effect": 0
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\ProgrammingResourceGenerator.py",
+			".\\Resources\\Scripts\\GeneratorInput.py",
+			".\\Resources\\Scripts\\GeneratorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			-179.99989318847656,
+			-5.0089556680177338e-06,
+			-179.99989318847656
+		],
+		"Scale" : 
+		[
+			3.0,
+			3.0,
+			3.0
+		],
+		"Translate" : 
+		[
+			-0.43053120374679565,
+			1.261712908744812,
+			-16.593486785888672
+		]
+	},
+	"Type" : "Generator"
+}

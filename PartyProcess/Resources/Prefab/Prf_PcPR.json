@@ -1,0 +1,184 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : 
+		[
+			{
+				"AffineAnimationName" : "Squish",
+				"BlendDuration" : 0.15000000596046448,
+				"ReturnToDefault" : true,
+				"StateName" : "Input"
+			}
+		],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "coding03.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Programming",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "BlueRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					29.89100456237793,
+					-0.0,
+					0.10834333300590515
+				],
+				"Scale" : 
+				[
+					0.33332991600036621,
+					0.030399894341826439,
+					0.33332997560501099
+				],
+				"Translate" : 
+				[
+					0.23785138130187988,
+					0.12060964107513428,
+					0.83273768424987793
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			-1.3999999761581421
+		],
+		"Rescale" : 
+		[
+			0.0,
+			0.0,
+			-2.4500000476837158
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Generator",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : false,
+		"IsUI" : false,
+		"Material" : "PC_PR",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_PR",
+	"ParticlesComponent" : 
+	{
+		"AlphaHigh" : 255,
+		"AlphaLow" : 1,
+		"Blue_var" : 
+		[
+			204,
+			102
+		],
+		"Green_var" : 
+		[
+			204,
+			102
+		],
+		"MainDir" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"MaximumRadius" : 3.0,
+		"MinimumRadius" : 1.0,
+		"PartLife" : 0.15999999642372131,
+		"PartNumber" : 4000.0,
+		"PartPos" : 
+		[
+			-0.43053138256072998,
+			1.5649046897888184,
+			-16.208517074584961
+		],
+		"PartScale" : 
+		[
+			0.02500000037252903,
+			0.02500000037252903,
+			0.02500000037252903
+		],
+		"ParticleType" : "Default",
+		"Red_var" : 
+		[
+			204,
+			102
+		],
+		"Runtime" : 0.30000001192092896,
+		"Spread" : 5.0
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\ProgrammingResourceGenerator.py",
+			".\\Resources\\Scripts\\GeneratorInput.py",
+			".\\Resources\\Scripts\\GeneratorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-3.3871636051507892e-10,
+			0.0
+		],
+		"Scale" : 
+		[
+			3.0000002384185791,
+			3.0000002384185791,
+			3.0000002384185791
+		],
+		"Translate" : 
+		[
+			-3.0,
+			0.0,
+			-10.5
+		]
+	},
+	"Type" : "Generator"
+}

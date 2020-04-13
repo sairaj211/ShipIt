@@ -1,0 +1,6497 @@
+{
+	"Children" : 
+	[
+		{
+			"Animator" : 
+			{
+				"AffineStates" : 
+				[
+					{
+						"AffineAnimationName" : "SlowSpin",
+						"BlendDuration" : 0.30000001192092896,
+						"ReturnToDefault" : false,
+						"StateName" : "SlowSpin"
+					}
+				],
+				"DefaultAffineState" : "SlowSpin"
+			},
+			"Children" : 
+			[
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "SlowSpin",
+								"BlendDuration" : 0.30000001192092896,
+								"ReturnToDefault" : false,
+								"StateName" : "SlowSpin"
+							}
+						],
+						"DefaultAffineState" : "SlowSpin"
+					},
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "SN_Base"
+					},
+					"Name" : "DN_Base",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.9975042343139648,
+							2.1832118034362793,
+							1.9975042343139648
+						],
+						"Translate" : 
+						[
+							2.5868945385809639e-07,
+							-2.1729152202606201,
+							-9.2387199401855469e-07
+						]
+					}
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "SlowSpin",
+								"BlendDuration" : 0.30000001192092896,
+								"ReturnToDefault" : false,
+								"StateName" : "SlowSpin"
+							}
+						],
+						"DefaultAffineState" : "SlowSpin"
+					},
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "SN_BG",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "DN_Base",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.9975042343139648,
+							0.0021832119673490524,
+							1.9975042343139648
+						],
+						"Translate" : 
+						[
+							2.5868945385809639e-07,
+							-2.1711525917053223,
+							-9.2387199401855469e-07
+						]
+					}
+				},
+				{
+					"DataFile" : "BgCube",
+					"ModelComponent" : 
+					{
+						"Material" : "Gray80"
+					},
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.054420121014118195,
+							29.27836799621582,
+							0.054420121014118195
+						],
+						"Translate" : 
+						[
+							2.3042427699238033e-07,
+							0.031116539612412453,
+							-8.0466270446777344e-07
+						]
+					}
+				}
+			],
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "SN_ColorTower",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "SN_LowerGear"
+			},
+			"Name" : "Lower",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					152.09999084472656,
+					84.813125610351563,
+					152.09999084472656
+				],
+				"Translate" : 
+				[
+					1.7039649486541748,
+					-2.9050910472869873,
+					-66.370880126953125
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									8.0,
+									0.0
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel"
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									15.999994277954102,
+									0.0
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									24.000001907348633,
+									0.0
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									31.999988555908203,
+									0.0
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "HalfWall",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							-39.999977111816406,
+							0.0
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									8.0,
+									0.0
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel"
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									15.999994277954102,
+									0.0
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									24.000001907348633,
+									0.0
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Transparent80"
+											},
+											"Name" : "Glass",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													1.0,
+													4.1786599159240723,
+													0.17357452213764191
+												],
+												"Translate" : 
+												[
+													0.0,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										},
+										{
+											"DataFile" : "BgCube",
+											"ModelComponent" : 
+											{
+												"Material" : "Black"
+											},
+											"Name" : "Div",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.021308470517396927,
+													4.1786603927612305,
+													0.19985687732696533
+												],
+												"Translate" : 
+												[
+													-0.49274703860282898,
+													2.5437648296356201,
+													4.291534423828125e-06
+												]
+											}
+										}
+									],
+									"DataFile" : "BgCube",
+									"Name" : "Base",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											14.909377098083496,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											10.0,
+											2.6167497634887695,
+											0.99999964237213135
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											68.631179809570313
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GlassPanel",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									31.999988555908203,
+									0.0
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "HalfWall"
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															9.5367431640625e-06,
+															-0.89399999380111694,
+															55.689640045166016
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999333381652832
+														],
+														"Translate" : 
+														[
+															-1.1444091796875e-05,
+															-0.89399999380111694,
+															55.689170837402344
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997596740722656,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689224243164063
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999881744384766,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.214444637298584e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999999046325684,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999687194824219,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.814697265625e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999980926513672,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-7.62939453125e-06,
+															-0.89399999380111694,
+															55.689201354980469
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999969482421875,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-06,
+															-0.89399999380111694,
+															55.689262390136719
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999481201171875,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689193725585938
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999984741210938,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-06,
+															-0.89399999380111694,
+															55.689193725585938
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999839782714844,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999345302581787
+														],
+														"Translate" : 
+														[
+															-8.392333984375e-05,
+															-0.89399999380111694,
+															55.689521789550781
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999618530273438,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											28.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689647674560547
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999321460723877
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997215270996094,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999297618865967
+														],
+														"Translate" : 
+														[
+															1.33514404296875e-05,
+															-0.89399999380111694,
+															55.689212799072266
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999948501586914,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999995350837708,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999889373779297,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689170837402344
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.8000030517578125,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999942779541016,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999303579330444
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999969482421875,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.814697265625e-05,
+															-0.89399999380111694,
+															55.689125061035156
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999786376953125,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999291658401489
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999927520751953,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999321460723877
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999916076660156,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999995350837708,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-5.340576171875e-05,
+															-0.89399999380111694,
+															55.689308166503906
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999942779541016,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											13.999998092651367,
+											0.0
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689647674560547
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999428749084473
+														],
+														"Translate" : 
+														[
+															-7.7486038208007813e-07,
+															-0.89399772882461548,
+															55.689041137695313
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997429847717285,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.6028366088867188e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999998569488525,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-2.1457672119140625e-06,
+															-0.89399999380111694,
+															55.689060211181641
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999999046325684,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.3299998939037323,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689350128173828
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999997138977051,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.430511474609375e-06,
+															-0.89399999380111694,
+															55.689407348632813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999995231628418,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999011516571045
+														],
+														"Translate" : 
+														[
+															7.62939453125e-06,
+															-0.89399999380111694,
+															55.689235687255859
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.2000002861022949,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															8.58306884765625e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.899993896484375,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.245208740234375e-06,
+															-0.89399999380111694,
+															55.689281463623047
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999994277954102,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.245208740234375e-06,
+															-0.89399999380111694,
+															55.689163208007813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999973297119141,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															1.430511474609375e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													7.0,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment"
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999971151351929
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689643859863281
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.430511474609375e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997596740722656,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-2.86102294921875e-06,
+															-0.89399999380111694,
+															55.689167022705078
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999919891357422,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.9899933934211731
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999898910522461,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.814697265625e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999954223632813,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.5,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999912261962891,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-2.86102294921875e-06,
+															-0.89399999380111694,
+															55.689212799072266
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999881744384766,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000016212463379,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															2.002716064453125e-05,
+															-0.89399999380111694,
+															55.689300537109375
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999946594238281,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.811981201171875e-05,
+															-0.89399999380111694,
+															55.689140319824219
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999868392944336,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000010251998901,
+															0.33000001311302185,
+															0.98999333381652832
+														],
+														"Translate" : 
+														[
+															1.621246337890625e-05,
+															-0.89399999380111694,
+															55.68914794921875
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999980926513672,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											7.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															-1.33514404296875e-05,
+															-0.89399999380111694,
+															55.689651489257813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689216613769531
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69996833801269531,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999977111816406,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999965667724609,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															3.814697265625e-05,
+															-0.89399999380111694,
+															55.689094543457031
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999954223632813,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999333381652832
+														],
+														"Translate" : 
+														[
+															-5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689178466796875
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999904632568359,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															3.814697265625e-06,
+															-0.89399999380111694,
+															55.68914794921875
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999893188476563,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.24249267578125e-05,
+															-0.89399999380111694,
+															55.689052581787109
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999900817871094,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999679565429688,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689182281494141
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999935150146484,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689163208007813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999961853027344,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											21.0,
+											0.0
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GearHalf",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.00010424511856399477,
+									-34.999992370605469,
+									0.00010424488573335111
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															9.5367431640625e-06,
+															-0.89399999380111694,
+															55.689640045166016
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999333381652832
+														],
+														"Translate" : 
+														[
+															-1.1444091796875e-05,
+															-0.89399999380111694,
+															55.689170837402344
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997596740722656,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689224243164063
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999881744384766,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.214444637298584e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999999046325684,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999687194824219,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.814697265625e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999980926513672,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-7.62939453125e-06,
+															-0.89399999380111694,
+															55.689201354980469
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999969482421875,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-06,
+															-0.89399999380111694,
+															55.689262390136719
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999481201171875,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689193725585938
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999984741210938,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-06,
+															-0.89399999380111694,
+															55.689193725585938
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999839782714844,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999345302581787
+														],
+														"Translate" : 
+														[
+															-8.392333984375e-05,
+															-0.89399999380111694,
+															55.689521789550781
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999618530273438,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											28.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689647674560547
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999321460723877
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997215270996094,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999297618865967
+														],
+														"Translate" : 
+														[
+															1.33514404296875e-05,
+															-0.89399999380111694,
+															55.689212799072266
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999948501586914,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999995350837708,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999889373779297,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689170837402344
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.8000030517578125,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999942779541016,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999303579330444
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999969482421875,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.814697265625e-05,
+															-0.89399999380111694,
+															55.689125061035156
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999786376953125,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999291658401489
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999927520751953,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999321460723877
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999916076660156,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999995350837708,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-5.340576171875e-05,
+															-0.89399999380111694,
+															55.689308166503906
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999942779541016,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											13.999998092651367,
+											0.0
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689647674560547
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999428749084473
+														],
+														"Translate" : 
+														[
+															-7.7486038208007813e-07,
+															-0.89399772882461548,
+															55.689041137695313
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997429847717285,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.6028366088867188e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999998569488525,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-2.1457672119140625e-06,
+															-0.89399999380111694,
+															55.689060211181641
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999999046325684,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.3299998939037323,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689350128173828
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999997138977051,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.430511474609375e-06,
+															-0.89399999380111694,
+															55.689407348632813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999995231628418,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999011516571045
+														],
+														"Translate" : 
+														[
+															7.62939453125e-06,
+															-0.89399999380111694,
+															55.689235687255859
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.2000002861022949,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															8.58306884765625e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.899993896484375,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.245208740234375e-06,
+															-0.89399999380111694,
+															55.689281463623047
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999994277954102,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-5.245208740234375e-06,
+															-0.89399999380111694,
+															55.689163208007813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999973297119141,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															1.430511474609375e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													7.0,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment"
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999971151351929
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689643859863281
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.430511474609375e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69997596740722656,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-2.86102294921875e-06,
+															-0.89399999380111694,
+															55.689167022705078
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999919891357422,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.9899933934211731
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999898910522461,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.814697265625e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999954223632813,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.5,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-9.5367431640625e-07,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999912261962891,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-2.86102294921875e-06,
+															-0.89399999380111694,
+															55.689212799072266
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999881744384766,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000016212463379,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															2.002716064453125e-05,
+															-0.89399999380111694,
+															55.689300537109375
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999946594238281,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.811981201171875e-05,
+															-0.89399999380111694,
+															55.689140319824219
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999868392944336,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000010251998901,
+															0.33000001311302185,
+															0.98999333381652832
+														],
+														"Translate" : 
+														[
+															1.621246337890625e-05,
+															-0.89399999380111694,
+															55.68914794921875
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999980926513672,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											7.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.99000006914138794
+														],
+														"Translate" : 
+														[
+															-1.33514404296875e-05,
+															-0.89399999380111694,
+															55.689651489257813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth"
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689216613769531
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													0.69996833801269531,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													1.3999977111816406,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000004291534424,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.0999965667724609,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															3.814697265625e-05,
+															-0.89399999380111694,
+															55.689094543457031
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													2.7999954223632813,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999333381652832
+														],
+														"Translate" : 
+														[
+															-5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689178466796875
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													3.4999904632568359,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															3.814697265625e-06,
+															-0.89399999380111694,
+															55.68914794921875
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.1999893188476563,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-3.24249267578125e-05,
+															-0.89399999380111694,
+															55.689052581787109
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													4.8999900817871094,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															-1.9073486328125e-06,
+															-0.89399999380111694,
+															55.689186096191406
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													5.5999679565429688,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.32999998331069946,
+															0.33000001311302185,
+															0.98999315500259399
+														],
+														"Translate" : 
+														[
+															-5.7220458984375e-06,
+															-0.89399999380111694,
+															55.689182281494141
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.2999935150146484,
+													0.0
+												]
+											}
+										},
+										{
+											"Children" : 
+											[
+												{
+													"DataFile" : "BgCube",
+													"ModelComponent" : 
+													{
+														"CastsShadow" : false,
+														"Material" : "Gray80"
+													},
+													"Name" : "Tooth",
+													"Transform" : 
+													{
+														"Scale" : 
+														[
+															0.33000001311302185,
+															0.33000001311302185,
+															0.98999327421188354
+														],
+														"Translate" : 
+														[
+															0.0,
+															-0.89399999380111694,
+															55.689163208007813
+														]
+													}
+												}
+											],
+											"DataFile" : "Group",
+											"Name" : "GearTooth",
+											"Transform" : 
+											{
+												"RotationAngles" : 
+												[
+													0.0,
+													6.9999961853027344,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Group",
+									"Name" : "GearSegment",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											21.0,
+											0.0
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "GearHalf"
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "Supergear"
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Wood04",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "Cylinder64"
+									},
+									"Name" : "C1",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.98785823583602905,
+											0.98785829544067383,
+											0.98785829544067383
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.020313054323196411,
+											0.0
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Wood03",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Cylinder64"
+							},
+							"Name" : "244",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.87503331899642944,
+									0.87503331899642944,
+									0.87503325939178467
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.07109852135181427,
+									0.0
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "SN_Wall",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Cylinder64"
+							},
+							"Name" : "CenterStructure",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.74814927577972412,
+									7.0563406944274902,
+									0.74814987182617188
+								],
+								"Translate" : 
+								[
+									0.0,
+									-2.2151851654052734,
+									0.0
+								]
+							}
+						}
+					],
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Wood04",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cylinder64"
+					},
+					"Name" : "CenterFloor",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							112.52008819580078,
+							0.56260001659393311,
+							112.51999664306641
+						],
+						"Translate" : 
+						[
+							0.0,
+							-0.04270482063293457,
+							0.0
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "BgCube",
+									"ModelComponent" : 
+									{
+										"Material" : "Black"
+									},
+									"Name" : "Line",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.1903851330280304,
+											0.0010000000474974513,
+											30.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.17244851589202881,
+											53.900630950927734
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "DivisionLine",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.0072678606957197189,
+									2.0440869331359863,
+									0.0072678606957197189
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.98073655366897583,
+									1.7881393432617188e-07
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "BgCube",
+									"ModelComponent" : 
+									{
+										"Material" : "Black"
+									},
+									"Name" : "Line",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.1903851330280304,
+											0.0010000000474974513,
+											30.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.17244851589202881,
+											53.900630950927734
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "DivisionLine",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									7.9999971389770508,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.0072678378783166409,
+									2.0440869331359863,
+									0.0072678378783166409
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.98073655366897583,
+									1.7881393432617188e-07
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "BgCube",
+									"ModelComponent" : 
+									{
+										"Material" : "Black"
+									},
+									"Name" : "Line",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.1903851330280304,
+											0.0010000000474974513,
+											30.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.17244851589202881,
+											53.900630950927734
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "DivisionLine",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									16.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.0072678378783166409,
+									2.0440869331359863,
+									0.0072678378783166409
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.98073655366897583,
+									1.7881393432617188e-07
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "BgCube",
+									"ModelComponent" : 
+									{
+										"Material" : "Black"
+									},
+									"Name" : "Line",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.1903851330280304,
+											0.0010000000474974513,
+											30.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.17244851589202881,
+											53.900630950927734
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "DivisionLine",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									24.000001907348633,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.0072678378783166409,
+									2.0440869331359863,
+									0.0072678378783166409
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.98073655366897583,
+									1.7881393432617188e-07
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "BgCube",
+									"ModelComponent" : 
+									{
+										"Material" : "Black"
+									},
+									"Name" : "Line",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.1903851330280304,
+											0.0010000000474974513,
+											30.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.17244851589202881,
+											53.900630950927734
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "DivisionLine",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-7.9999971389770508,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.0072678378783166409,
+									2.0440869331359863,
+									0.0072678378783166409
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.98073655366897583,
+									1.7881393432617188e-07
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "BgCube",
+									"ModelComponent" : 
+									{
+										"Material" : "Black"
+									},
+									"Name" : "Line",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.1903851330280304,
+											0.0010000000474974513,
+											30.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.17244851589202881,
+											53.900630950927734
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "DivisionLine",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-16.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.0072678378783166409,
+									2.0440869331359863,
+									0.0072678378783166409
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.98073655366897583,
+									1.7881393432617188e-07
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "BgCube",
+									"ModelComponent" : 
+									{
+										"Material" : "Black"
+									},
+									"Name" : "Line",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.1903851330280304,
+											0.0010000000474974513,
+											30.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.17244851589202881,
+											53.900630950927734
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "DivisionLine",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-24.000001907348633,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.0072678378783166409,
+									2.0440869331359863,
+									0.0072678378783166409
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.98073655366897583,
+									1.7881393432617188e-07
+								]
+							}
+						}
+					],
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Crystal",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cylinder64"
+					},
+					"Name" : "Glassfloor",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							137.59207153320313,
+							0.48921599984169006,
+							137.59207153320313
+						],
+						"Translate" : 
+						[
+							0.0,
+							-0.47979167103767395,
+							0.0
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cylinder64"
+					},
+					"Name" : "Centerwall",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							83.348342895507813,
+							21.459739685058594,
+							83.348342895507813
+						],
+						"Translate" : 
+						[
+							0.0,
+							8.0,
+							0.0
+						]
+					}
+				},
+				{
+					"Body" : 
+					{
+						"mApplyFriction" : true
+					},
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Joint",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.021733470261096954,
+											0.0020680432207882404,
+											1.0831998586654663
+										],
+										"Translate" : 
+										[
+											-0.00014191865921020508,
+											0.083429150283336639,
+											-0.037986278533935547
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "SN_Color02",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "SN_ARM00"
+							},
+							"Name" : "UpperArm",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									89.999946594238281,
+									-11.531267166137695,
+									-6.0551004314735035e-12
+								],
+								"Scale" : 
+								[
+									27.885923385620117,
+									27.885906219482422,
+									27.885929107666016
+								],
+								"Translate" : 
+								[
+									-6.1817879676818848,
+									13.060258865356445,
+									-2.7952420711517334
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Joint",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.021733470261096954,
+											0.0020680432207882404,
+											1.0831998586654663
+										],
+										"Translate" : 
+										[
+											-0.00014191865921020508,
+											0.083429150283336639,
+											-0.037986278533935547
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "SN_Color02",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "SN_ARM00"
+							},
+							"Name" : "UpperArm",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.028793334960938,
+									10.073039054870605,
+									-0.86944544315338135
+								],
+								"Scale" : 
+								[
+									27.885854721069336,
+									27.886459350585938,
+									27.885971069335938
+								],
+								"Translate" : 
+								[
+									9.5754203796386719,
+									13.175054550170898,
+									-2.818122386932373
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Joint",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.021733470261096954,
+											0.0020680432207882404,
+											1.0831998586654663
+										],
+										"Translate" : 
+										[
+											-0.00014191865921020508,
+											0.083429150283336639,
+											-0.037986278533935547
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "SN_Color02",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "SN_ARM00"
+							},
+							"Name" : "UpperArm",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									89.999946594238281,
+									-25.914999008178711,
+									-6.0551893360516473e-12
+								],
+								"Scale" : 
+								[
+									27.885932922363281,
+									27.885906219482422,
+									27.88593864440918
+								],
+								"Translate" : 
+								[
+									-22.532882690429688,
+									18.027288436889648,
+									-2.7946560382843018
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Joint",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.021733470261096954,
+											0.0020680432207882404,
+											1.0831998586654663
+										],
+										"Translate" : 
+										[
+											-0.00014191865921020508,
+											0.083429150283336639,
+											-0.037986278533935547
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "SN_Color02",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "SN_ARM00"
+							},
+							"Name" : "UpperArm",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									89.999946594238281,
+									-35.999996185302734,
+									-6.0552643628419833e-12
+								],
+								"Scale" : 
+								[
+									27.885913848876953,
+									27.885906219482422,
+									27.885919570922852
+								],
+								"Translate" : 
+								[
+									-29.844877243041992,
+									23.050897598266602,
+									-2.7952685356140137
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Joint",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.021733470261096954,
+											0.0020680432207882404,
+											1.0831998586654663
+										],
+										"Translate" : 
+										[
+											-0.00014191865921020508,
+											0.083429150283336639,
+											-0.037986278533935547
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "SN_Color02",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "SN_ARM00"
+							},
+							"Name" : "UpperArm",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									89.999946594238281,
+									26.482261657714844,
+									-6.0551967086264202e-12
+								],
+								"Scale" : 
+								[
+									27.885917663574219,
+									27.885906219482422,
+									27.885923385620117
+								],
+								"Translate" : 
+								[
+									25.269023895263672,
+									17.755935668945313,
+									-2.7950174808502197
+								]
+							}
+						}
+					],
+					"DataFile" : "Ground",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Renderable" : false
+					},
+					"Name" : "FloorStructure",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							-1.7039999961853027,
+							0.26600000262260437,
+							66.371002197265625
+						]
+					}
+				},
+				{
+					"DataFile" : "BgCube",
+					"ModelComponent" : 
+					{
+						"Material" : "SN_Diagram"
+					},
+					"Name" : "SpaceNeedleDiagram",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							3.1107997894287109,
+							9.3323993682861328,
+							0.0031107999384403229
+						],
+						"Translate" : 
+						[
+							0.0,
+							5.891505241394043,
+							41.743415832519531
+						]
+					}
+				},
+				{
+					"DataFile" : "BgCube",
+					"ModelComponent" : 
+					{
+						"Model" : "Rim"
+					},
+					"Name" : "Rim",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							125.22928619384766,
+							0.21270683407783508,
+							125.22928619384766
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Upper",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					1.7039999961853027,
+					-0.26600000262260437,
+					-66.371002197265625
+				]
+			}
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "Group",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

@@ -1,0 +1,78 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : [],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rescale" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"mCoeffDynamicFriction" : 5.0,
+		"mCoeffStaticFriction" : 5.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Box",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : false,
+		"IsUI" : false,
+		"Material" : "DigipenFloor",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "Cube",
+		"Renderable" : true
+	},
+	"Name" : "Floor",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			35.218559265136719,
+			0.52539879083633423,
+			33.103218078613281
+		],
+		"Translate" : 
+		[
+			0.0,
+			-0.26625967025756836,
+			-8.6862363815307617
+		]
+	},
+	"Type" : "Cube"
+}

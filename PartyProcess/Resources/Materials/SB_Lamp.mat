@@ -1,0 +1,21 @@
+{
+	"AdditiveBlending" : false,
+	"Diffuse" : 
+	[
+		0.98887920379638672,
+		1.0,
+		0.62745094299316406,
+		1.0
+	],
+	"DiffuseTexture" : null,
+	"NormalMap" : null,
+	"Shader" : "Particles",
+	"Shininess" : 1.0,
+	"Specular" : 
+	[
+		0.29999999999999999,
+		0.29999999999999999,
+		0.29999999999999999
+	],
+	"UseLighting" : true
+}

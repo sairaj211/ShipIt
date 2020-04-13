@@ -1,0 +1,155 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : 
+		[
+			{
+				"AffineAnimationName" : "Squish",
+				"BlendDuration" : 0.15000000596046448,
+				"ReturnToDefault" : true,
+				"StateName" : "Input"
+			}
+		],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "coding03.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Art",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "YellowRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					45.000003814697266,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					0.52419352531433105,
+					0.052419394254684448,
+					0.52419352531433105
+				],
+				"Translate" : 
+				[
+					0.12550865113735199,
+					0.3032497763633728,
+					0.68785715103149414
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.69999998807907104,
+			0.0,
+			0.0
+		],
+		"Rescale" : 
+		[
+			-1.7999999523162842,
+			1.0,
+			0.0
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Generator",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : true,
+		"IsUI" : false,
+		"Material" : "PC_AR",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_ART",
+	"Name": "PC_ART",
+    "ParticlesComponent": {
+		"Position": [ -0.7, 3.15, 1.4 ],
+		"Range": [ 2.95, 0.5, 1.55 ],
+		"Velocity": [ 0.0, 4.4, 0.0 ],
+		"Direction": [ 0.0, 0.0, 0.0 ],
+		"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+		"Scale": [ 0.9, 0.9, 0.0 ],
+		"Life": 0.5,
+		"Active Time": 1.0,
+		"Number of Particles": 7,
+		"Minimum Number Of Particles": 4,
+		"Material Name": "Particles_PCArt",
+		"Texture": true,
+		"Effect": 1
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\ArtResourceGenerator.py",
+			".\\Resources\\Scripts\\GeneratorInput.py",
+			".\\Resources\\Scripts\\GeneratorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			3.0,
+			3.0,
+			3.0
+		],
+		"Translate" : 
+		[
+			0.26755303144454956,
+			1.1584370136260986,
+			1.038630485534668
+		]
+	},
+	"Type" : "Generator"
+}

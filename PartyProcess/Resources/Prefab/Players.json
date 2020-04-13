@@ -1,0 +1,1930 @@
+{
+	"Children" : 
+	[
+		{
+			"Audio" : 
+			{
+				"Loop" : false,
+				"mSoundName" : "cartoon_fall-002.wav",
+				"mStartPlaying" : false,
+				"mVolume" : 1.0
+			},
+			"Body" : 
+			{
+				"mApplyFriction" : true,
+				"mConstrainX" : false,
+				"mConstrainY" : false,
+				"mConstrainZ" : false,
+				"mMass" : 1.0,
+				"mUseGravity" : true
+			},
+			"Carrier" : 
+			{
+				"ItemIndices" : []
+			},
+			"Children" : 
+			[
+				{
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 1.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.12,
+						"mCoeffStaticFriction" : 0.2,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : false,
+						"mLType" : "Player-foot",
+						"mRadius" : -1.0,
+						"mShape" : "AABB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "InvisibleCube",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Player1Feet",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.8,
+							0.1,
+							0.8
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					"Type" : "InvisibleCube"
+				},
+				{
+					"AreaSearch" : 
+					{
+						"CompareFunction" : "Closest",
+						"SearchTypes" : 
+						[
+							"ProgrammingResource",
+							"ArtResource",
+							"DesignResource",
+							"PhysicsResource",
+							"AudioResource",
+							"AIResource",
+							"GraphicsResource",
+							"Processor",
+							"Container",
+							"Generator",
+              "GridCell",
+              "Block",
+							"Game"
+						]
+					},
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 0.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.0,
+						"mCoeffStaticFriction" : 0.0,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : true,
+						"mLType" : "SearchArea",
+						"mRadius" : -1.0,
+						"mShape" : "OBB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "SearchArea",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Default",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Interact_Area",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+            "Scale" : 
+						[
+							0.83333333,
+							0.71428571,
+							0.83333333
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.37000003457069397,
+							0.66666666
+						]
+					},
+					"Type" : "SearchArea"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "DustinHead",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "DustinHead",
+						"Renderable" : true
+					},
+					"Name" : "Player1Head",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							1.0,
+							0.85714286,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsDustin",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player1LeftHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							-0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsDustin",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player1RightHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					1.65,
+					0.0
+				],
+				"Rescale" : 
+				[
+					0.0,
+					1.5,
+					0.0
+				],
+				"mCoeffDynamicFriction" : 0.12,
+				"mCoeffStaticFriction" : 0.2,
+				"mDepth" : -1.0,
+				"mHeight" : -1.0,
+				"mIsTrigger" : false,
+				"mLType" : "Player",
+				"mRadius" : -1.0,
+				"mShape" : "AABB",
+				"mWidth" : -1.0
+			},
+			"Controller" : 
+			{
+				"player" : 0
+			},
+			"DataFile" : "Player",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "BodyGreen",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Body",
+				"Renderable" : true
+			},
+			"Name" : "Player1",
+			"ParticlesComponent" : 
+			{
+				"AlphaHigh" : 255,
+				"AlphaLow" : 1,
+				"Blue_var" : 
+				[
+					255,
+					255
+				],
+				"Green_var" : 
+				[
+					255,
+					255
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.5,
+					0.0
+				],
+				"MaximumRadius" : 3.0,
+				"MinimumRadius" : 1.0,
+				"PartLife" : 0.10000000149011612,
+				"PartNumber" : 400.0,
+				"PartPos" : 
+				[
+					-10.0,
+					0.0,
+					-10.0
+				],
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Explosion",
+				"Red_var" : 
+				[
+					255,
+					255
+				],
+				"Runtime" : -1.0,
+				"Spread" : 0.75
+			},
+			"Player" : 
+			{
+				"mHitRecharge" : 0.0,
+				"mRecharge" : 0.0
+			},
+			"ScriptComponent" : 
+			{
+				"always-run" : false,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PlayerPickup.py",
+					".\\Resources\\Scripts\\character_control.py",
+					".\\Resources\\Scripts\\Reset.py",
+					".\\Resources\\Scripts\\PlayerDrop.py",
+					".\\Resources\\Scripts\\PlatformRelationship.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.5,
+					1.75,
+					1.5
+				],
+				"Translate" : 
+				[
+					-10.0,
+					0.0,
+					-10.0
+				]
+			},
+			"Type" : "Player"
+		},
+		{
+			"Audio" : 
+			{
+				"Loop" : false,
+				"mSoundName" : "",
+				"mStartPlaying" : false,
+				"mVolume" : 1.0
+			},
+			"Body" : 
+			{
+				"mApplyFriction" : true,
+				"mConstrainX" : false,
+				"mConstrainY" : false,
+				"mConstrainZ" : false,
+				"mMass" : 1.0,
+				"mUseGravity" : true
+			},
+			"Carrier" : 
+			{
+				"ItemIndices" : []
+			},
+			"Children" : 
+			[
+				{
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 1.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.12,
+						"mCoeffStaticFriction" : 0.2,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : false,
+						"mLType" : "Player-foot",
+						"mRadius" : -1.0,
+						"mShape" : "AABB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "InvisibleCube",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Player3Feet",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.8,
+							0.1,
+							0.8
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					"Type" : "InvisibleCube"
+				},
+				{
+					"AreaSearch" : 
+					{
+						"CompareFunction" : "Closest",
+            "SearchTypes": [
+              "ProgrammingResource",
+              "ArtResource",
+              "DesignResource",
+              "PhysicsResource",
+              "AudioResource",
+              "AIResource",
+              "GraphicsResource",
+              "Processor",
+              "Container",
+              "Generator",
+              "GridCell",
+              "Block",
+              "Game"
+            ]
+					},
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 0.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.0,
+						"mCoeffStaticFriction" : 0.0,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : true,
+						"mLType" : "SearchArea",
+						"mRadius" : -1.0,
+						"mShape" : "OBB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "SearchArea",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Default",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Interact_Area",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.83333333,
+							0.71428571,
+							0.83333333
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.37000003457069397,
+							0.66666666
+						]
+					},
+					"Type" : "SearchArea"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "VidhiHead",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "VidhiHead",
+						"Renderable" : true
+					},
+					"Name" : "Player3Head",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							1.0,
+							0.85714286,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsVidhi",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player3LeftHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsVidhi",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player3RightHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							-0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					1.65,
+					0.0
+				],
+				"Rescale" : 
+				[
+					0.0,
+					1.5,
+					0.0
+				],
+				"mCoeffDynamicFriction" : 0.12,
+				"mCoeffStaticFriction" : 0.2,
+				"mDepth" : -1.0,
+				"mHeight" : -1.0,
+				"mIsTrigger" : false,
+				"mLType" : "Player",
+				"mRadius" : -1.0,
+				"mShape" : "AABB",
+				"mWidth" : -1.0
+			},
+			"Controller" : 
+			{
+				"player" : 2
+			},
+			"DataFile" : "Player",
+			"IsEnabled" : false,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "BodyRed",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Body",
+				"Renderable" : true
+			},
+			"Name" : "Player3",
+			"ParticlesComponent" : 
+			{
+				"AlphaHigh" : 255,
+				"AlphaLow" : 1,
+				"Blue_var" : 
+				[
+					255,
+					255
+				],
+				"Green_var" : 
+				[
+					255,
+					255
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.5,
+					0.0
+				],
+				"MaximumRadius" : 3.0,
+				"MinimumRadius" : 1.0,
+				"PartLife" : 0.10000000149011612,
+				"PartNumber" : 400.0,
+				"PartPos" : 
+				[
+					-3.1535334587097168,
+					-0.875,
+					-3.7860991954803467
+				],
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Explosion",
+				"Red_var" : 
+				[
+					255,
+					255
+				],
+				"Runtime" : -1.0,
+				"Spread" : 0.75
+			},
+			"Player" : 
+			{
+				"mHitRecharge" : 0.0,
+				"mRecharge" : 0.0
+			},
+			"ScriptComponent" : 
+			{
+				"always-run" : false,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PlayerPickup.py",
+					".\\Resources\\Scripts\\character_control.py",
+					".\\Resources\\Scripts\\Reset.py",
+					".\\Resources\\Scripts\\PlayerDrop.py",
+					".\\Resources\\Scripts\\PlatformRelationship.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.5,
+					1.75,
+					1.5
+				],
+				"Translate" : 
+				[
+					-10.0,
+					0.0,
+					10.0
+				]
+			},
+			"Type" : "Player"
+		},
+		{
+			"Audio" : 
+			{
+				"Loop" : false,
+				"mSoundName" : "",
+				"mStartPlaying" : false,
+				"mVolume" : 1.0
+			},
+			"Body" : 
+			{
+				"mApplyFriction" : true,
+				"mConstrainX" : false,
+				"mConstrainY" : false,
+				"mConstrainZ" : false,
+				"mMass" : 1.0,
+				"mUseGravity" : true
+			},
+			"Carrier" : 
+			{
+				"ItemIndices" : []
+			},
+			"Children" : 
+			[
+				{
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 1.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.12,
+						"mCoeffStaticFriction" : 0.2,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : false,
+						"mLType" : "Player-foot",
+						"mRadius" : -1.0,
+						"mShape" : "AABB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "InvisibleCube",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Player2Feet",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.8,
+							0.1,
+							0.8
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					"Type" : "InvisibleCube"
+				},
+				{
+					"AreaSearch" : 
+					{
+						"CompareFunction" : "Closest",
+            "SearchTypes": [
+              "ProgrammingResource",
+              "ArtResource",
+              "DesignResource",
+              "PhysicsResource",
+              "AudioResource",
+              "AIResource",
+              "GraphicsResource",
+              "Processor",
+              "Container",
+              "Generator",
+              "GridCell",
+              "Block",
+              "Game"
+            ]
+					},
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 0.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.0,
+						"mCoeffStaticFriction" : 0.0,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : true,
+						"mLType" : "SearchArea",
+						"mRadius" : -1.0,
+						"mShape" : "OBB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "SearchArea",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Default",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Interact_Area",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.83333333,
+							0.71428571,
+							0.83333333
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.37000003457069397,
+							0.66666666
+						]
+					},
+					"Type" : "SearchArea"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "TrevorHead",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "TrevorHead",
+						"Renderable" : true
+					},
+					"Name" : "Player2Head",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							1.0,
+							0.85714286,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsTrevor",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player2LeftHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsTrevor",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player2RightHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							-0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					1.65,
+					0.0
+				],
+				"Rescale" : 
+				[
+					0.0,
+					1.5,
+					0.0
+				],
+				"mCoeffDynamicFriction" : 0.12,
+				"mCoeffStaticFriction" : 0.2,
+				"mDepth" : -1.0,
+				"mHeight" : -1.0,
+				"mIsTrigger" : false,
+				"mLType" : "Player",
+				"mRadius" : -1.0,
+				"mShape" : "AABB",
+				"mWidth" : -1.0
+			},
+			"Controller" : 
+			{
+				"player" : 1
+			},
+			"DataFile" : "Player",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "BodyBlue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Body",
+				"Renderable" : true
+			},
+			"Name" : "Player2",
+			"ParticlesComponent" : 
+			{
+				"AlphaHigh" : 255,
+				"AlphaLow" : 1,
+				"Blue_var" : 
+				[
+					255,
+					255
+				],
+				"Green_var" : 
+				[
+					255,
+					255
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.5,
+					0.0
+				],
+				"MaximumRadius" : 3.0,
+				"MinimumRadius" : 1.0,
+				"PartLife" : 0.10000000149011612,
+				"PartNumber" : 400.0,
+				"PartPos" : 
+				[
+					10.0,
+					0.0,
+					-10.0
+				],
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Explosion",
+				"Red_var" : 
+				[
+					255,
+					255
+				],
+				"Runtime" : -1.0,
+				"Spread" : 0.75
+			},
+			"Player" : 
+			{
+				"mHitRecharge" : 0.0,
+				"mRecharge" : 0.0
+			},
+			"ScriptComponent" : 
+			{
+				"always-run" : false,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PlayerPickup.py",
+					".\\Resources\\Scripts\\character_control.py",
+					".\\Resources\\Scripts\\Reset.py",
+					".\\Resources\\Scripts\\PlayerDrop.py",
+					".\\Resources\\Scripts\\PlatformRelationship.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.5,
+					1.75,
+					1.5
+				],
+				"Translate" : 
+				[
+					10.0,
+					0.0,
+					-10.0
+				]
+			},
+			"Type" : "Player"
+		},
+		{
+			"Audio" : 
+			{
+				"Loop" : false,
+				"mSoundName" : "cartoon_fall-002.wav",
+				"mStartPlaying" : false,
+				"mVolume" : 1.0
+			},
+			"Body" : 
+			{
+				"mApplyFriction" : true,
+				"mConstrainX" : false,
+				"mConstrainY" : false,
+				"mConstrainZ" : false,
+				"mMass" : 1.0,
+				"mUseGravity" : true
+			},
+			"Carrier" : 
+			{
+				"ItemIndices" : []
+			},
+			"Children" : 
+			[
+				{
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 1.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.12,
+						"mCoeffStaticFriction" : 0.2,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : false,
+						"mLType" : "Player-foot",
+						"mRadius" : -1.0,
+						"mShape" : "AABB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "InvisibleCube",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Player4Feet",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.8,
+							0.1,
+							0.8
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					"Type" : "InvisibleCube"
+				},
+				{
+					"AreaSearch" : 
+					{
+						"CompareFunction" : "Closest",
+            "SearchTypes": [
+              "ProgrammingResource",
+              "ArtResource",
+              "DesignResource",
+              "PhysicsResource",
+              "AudioResource",
+              "AIResource",
+              "GraphicsResource",
+              "Processor",
+              "Container",
+              "Generator",
+              "GridCell",
+              "Block",
+              "Game"
+            ]
+					},
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 0.0,
+						"mUseGravity" : false
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.0,
+						"mCoeffStaticFriction" : 0.0,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : true,
+						"mLType" : "SearchArea",
+						"mRadius" : -1.0,
+						"mShape" : "OBB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "SearchArea",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Default",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : false
+					},
+					"Name" : "Interact_Area",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.83333333,
+							0.71428571,
+							0.83333333
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.37000003457069397,
+							0.66666666
+						]
+					},
+					"Type" : "SearchArea"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "SairajHead",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "SairajHead",
+						"Renderable" : true
+					},
+					"Name" : "Player4Head",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							1.0,
+							0.85714286,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsSairaj",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player4LeftHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.3,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "PlayerBody",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "HandsSairaj",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Player4RightHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.5,
+							0.42857143,
+							0.5
+						],
+						"Translate" : 
+						[
+							-0.5,
+							0.7,
+							0.5
+						]
+					},
+					"Type" : "PlayerBody"
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					1.65,
+					0.0
+				],
+				"Rescale" : 
+				[
+					0.0,
+					1.5,
+					0.0
+				],
+				"mCoeffDynamicFriction" : 0.12,
+				"mCoeffStaticFriction" : 0.2,
+				"mDepth" : -1.0,
+				"mHeight" : -1.0,
+				"mIsTrigger" : false,
+				"mLType" : "Player",
+				"mRadius" : -1.0,
+				"mShape" : "AABB",
+				"mWidth" : -1.0
+			},
+			"Controller" : 
+			{
+				"player" : 3
+			},
+			"DataFile" : "Player",
+			"IsEnabled" : false,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "BodyBlack",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Body",
+				"Renderable" : true
+			},
+			"Name" : "Player4",
+			"ParticlesComponent" : 
+			{
+				"AlphaHigh" : 255,
+				"AlphaLow" : 1,
+				"Blue_var" : 
+				[
+					255,
+					255
+				],
+				"Green_var" : 
+				[
+					255,
+					255
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.5,
+					0.0
+				],
+				"MaximumRadius" : 3.0,
+				"MinimumRadius" : 1.0,
+				"PartLife" : 0.10000000149011612,
+				"PartNumber" : 400.0,
+				"PartPos" : 
+				[
+					0.69953632354736328,
+					-0.875,
+					-5.3521294593811035
+				],
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Default",
+				"Red_var" : 
+				[
+					255,
+					255
+				],
+				"Runtime" : -1.0,
+				"Spread" : 0.75
+			},
+			"Player" : 
+			{
+				"mHitRecharge" : 0.0,
+				"mRecharge" : 0.0
+			},
+			"ScriptComponent" : 
+			{
+				"always-run" : false,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PlayerPickup.py",
+					".\\Resources\\Scripts\\character_control.py",
+					".\\Resources\\Scripts\\Reset.py",
+					".\\Resources\\Scripts\\PlayerDrop.py",
+					".\\Resources\\Scripts\\PlatformRelationship.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.5,
+					1.75,
+					1.5
+				],
+				"Translate" : 
+				[
+					10.0,
+					0.0,
+					10.0
+				]
+			},
+			"Type" : "Player"
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "Players",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

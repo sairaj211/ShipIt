@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PartyProcess.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Audio\BG01.mp3" />
+    <Media Include="Resources\Audio\BG01Ending.mp3" />
+    <Media Include="Resources\Audio\BG02.mp3" />
+    <Media Include="Resources\Audio\BG03.mp3" />
+    <Media Include="Resources\Audio\cartoon_fall-002.wav" />
+    <Media Include="Resources\Audio\cartoon_jump-002.wav" />
+    <Media Include="Resources\Audio\coding01.mp3" />
+    <Media Include="Resources\Audio\coding02.mp3" />
+    <Media Include="Resources\Audio\coding03.mp3" />
+    <Media Include="Resources\Audio\GameDeliver01.mp3" />
+    <Media Include="Resources\Audio\GameDeliver02.mp3" />
+    <Media Include="Resources\Audio\GameFinish.mp3" />
+    <Media Include="Resources\Audio\GameMaker03-01.mp3" />
+    <Media Include="Resources\Audio\GameMaker03.mp3" />
+    <Media Include="Resources\Audio\MergingMaster02.mp3" />
+    <Media Include="Resources\Audio\ModuleDeliver01.mp3" />
+    <Media Include="Resources\Audio\ModuleDeliver02.mp3" />
+    <Media Include="Resources\Audio\warningTimeOut.mp3" />
+    <Media Include="Resources\Audio\WrongInputMaster.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\config.json" />
+    <None Include="Resources\AffineAnimations\Box.aat" />
+    <None Include="Resources\AffineAnimations\RotateYEach4Secs.aat" />
+    <None Include="Resources\Level\DigiPenLevel.json" />
+    <None Include="Resources\Level\OBBTest.json" />
+    <None Include="Resources\Level\TestOBB.json" />
+    <None Include="Resources\Level\LevelSelection.json" />
+    <None Include="Resources\Materials\AI.mat" />
+    <None Include="Resources\Materials\Art.mat" />
+    <None Include="Resources\Materials\Audio.mat" />
+    <None Include="Resources\Materials\Design.mat" />
+    <None Include="Resources\Materials\Graphics.mat" />
+    <None Include="Resources\Materials\Physics.mat" />
+    <None Include="Resources\Materials\Programming.mat" />
+    <None Include="Resources\Models\capsule.fbx" />
+    <None Include="Resources\Prefab\ArtResource.json" />
+    <None Include="Resources\Prefab\Background.json" />
+    <None Include="Resources\Prefab\Billboard.json" />
+    <None Include="Resources\Prefab\Container.json" />
+    <None Include="Resources\Prefab\Cuboid.json" />
+    <None Include="Resources\Prefab\Gate.json" />
+    <None Include="Resources\Prefab\Generator.json" />
+    <None Include="Resources\Prefab\Grid.json" />
+    <None Include="Resources\Prefab\GridCell.json" />
+    <None Include="Resources\Prefab\GridWaypoint.json" />
+    <None Include="Resources\Prefab\Group.json" />
+    <None Include="Resources\Prefab\LogicObject.json" />
+    <None Include="Resources\Level\PartyProcessSandbox.json" />
+    <None Include="Resources\Prefab\Platform.json" />
+    <None Include="Resources\Prefab\PlayerBody.json" />
+    <None Include="Resources\Prefab\ScriptedEnvironment.json" />
+    <None Include="Resources\Prefab\UI.json" />
+    <None Include="Resources\Prefab\SpotLight.json" />
+    <None Include="Resources\Materials\Ant.mat" />
+    <None Include="Resources\Materials\White.mat" />
+    <None Include="Resources\Materials\Green.mat" />
+    <None Include="Resources\Materials\Man0.mat" />
+    <None Include="Resources\AffineAnimations\Turn.aat" />
+    <None Include="Resources\Materials\Noise0.mat" />
+    <None Include="Resources\Materials\Noise1.mat" />
+    <None Include="Resources\Materials\Presentation.mat" />
+    <None Include="Resources\Materials\Skin.mat" />
+    <None Include="Resources\Scripts\BlockInput.py" />
+    <None Include="Resources\Scripts\BlockOutput.py" />
+    <None Include="Resources\Scripts\ClosingPath.py" />
+    <None Include="Resources\Scripts\GameLogic.py" />
+    <None Include="Resources\Scripts\PlatformRelationship.py" />
+    <None Include="Resources\Scripts\RequestUI.py" />
+    <None Include="Resources\Scripts\Reset.py" />
+    <None Include="Resources\Scripts\Treadmill.py" />
+    <None Include="Resources\Scripts\WaypointTeleport.py" />
+    <None Include="Resources\Shaders\Demo.frag" />
+    <None Include="Resources\Shaders\Demo.vert" />
+    <None Include="Resources\Shaders\Line.frag" />
+    <None Include="Resources\Shaders\Line.vert" />
+    <None Include="Resources\Shaders\Outline.frag" />
+    <None Include="Resources\Shaders\Outline.vert" />
+    <None Include="Resources\Prefab\Players.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Localization\en\hello.txt" />
+    <Text Include="Resources\Localization\en\thankyou.txt" />
+    <Text Include="Resources\Localization\ru\hello.txt" />
+    <Text Include="Resources\Localization\ru\thankyou.txt" />
+    <Text Include="Resources\Text\ResourceKey.txt" />
+    <Text Include="Resources\Text\Default.txt" />
+    <Text Include="Resources\Text\GameRecipes.txt" />
+    <Text Include="Resources\Text\ResourceRecipes.txt" />
+    <Text Include="Resources\Text\UnlockLevelData.txt" />
+  </ItemGroup>
+</Project>

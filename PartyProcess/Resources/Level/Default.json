@@ -1,0 +1,7 @@
+{
+  "Default": {
+    "String": "str",
+    "Integer": 0,
+    "Array": [ 0.0, 1.0, 1.5 ]
+  }
+}

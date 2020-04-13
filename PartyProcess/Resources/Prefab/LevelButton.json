@@ -1,0 +1,138 @@
+{
+  "Animator": {
+    "AffineStates": [],
+    "DefaultAffineState": "None",
+    "DefaultSkeletalState": "None",
+    "SkeletalStates": {}
+  },
+  "Body": {
+    "mApplyFriction": true,
+    "mConstrainX": false,
+    "mConstrainY": false,
+    "mConstrainZ": false,
+    "mMass": 0.0,
+    "mUseGravity": false
+  },
+  "Children": [
+    {
+      "DataFile": "SpotLight",
+      "IsEnabled": true,
+      "ModelComponent": {
+        "CastsShadow": false,
+        "IsBillboard": false,
+        "IsUI": false,
+        "Material": "DRLight",
+        "MeshMaterials": [
+          "None"
+        ],
+        "Model": "Sphere",
+        "Renderable": false
+      },
+      "Name": "SpotLight",
+      "SpotLight": {
+        "Color": [
+          0.16962225735187531,
+          0.84504115581512451,
+          0.88725489377975464
+        ],
+        "Intensity": 5.0,
+        "Range": 19.0,
+        "SpotAngle": 20.0
+      },
+      "Transform": {
+        "RotationAngles": [
+          -89.999946594238281,
+          1.999868631362915,
+          5.6596973081468605e-06
+        ],
+        "Scale": [
+          0.049997877329587936,
+          0.050001677125692368,
+          0.049951657652854919
+        ],
+        "Translate": [
+          -0.011106967926025391,
+          8.379,
+          0.0084400177001953125
+        ]
+      },
+      "Type": "SpotLight"
+    },
+    {
+      "Body": {
+        "mApplyFriction": true
+      },
+      "Collider": {
+        "mCoeffDynamicFriction": 0.11999999731779099,
+        "mCoeffStaticFriction": 0.20000000298023224
+      },
+      "DataFile": "Scale",
+      "ModelComponent": {
+        "CastsShadow": false,
+        "Material": "ColorGold",
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Type": "Scale"
+    }
+  ],
+  "Collider": {
+    "Offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rescale": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mCoeffDynamicFriction": 0.10000000149011612,
+    "mCoeffStaticFriction": 0.10000000149011612,
+    "mDepth": -1.0,
+    "mHeight": -1.0,
+    "mIsTrigger": true,
+    "mLType": "LevelButton",
+    "mRadius": -1.0,
+    "mShape": "AABB",
+    "mWidth": -1.0
+  },
+  "IsEnabled": true,
+  "ModelComponent": {
+    "CastsShadow": false,
+    "IsBillboard": false,
+    "IsUI": false,
+    "Material": "LevelButton",
+    "MeshMaterials": [
+      "None"
+    ],
+    "Model": "Cube",
+    "Renderable": true
+  },
+  "Name": "Cube",
+  "Transform": {
+    "RotationAngles": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "Scale": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "Translate": [
+      -16.412965774536133,
+      1.4999980926513672,
+      3.4882698059082031
+    ]
+  },
+  "LevelButton": {},
+  "ScriptComponent": {
+    "scripts": [
+      ".\\Resources\\Scripts\\LevelButton.py"
+    ]
+  },
+  "Type": "LevelButton"
+}

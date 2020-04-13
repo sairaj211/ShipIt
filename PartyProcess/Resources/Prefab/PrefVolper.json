@@ -1,0 +1,149 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : [],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "VolperHead",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "VolperHead"
+			},
+			"Name" : "Head",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-176.92645263671875,
+					-177.28036499023438,
+					176.88671875
+				],
+				"Scale" : 
+				[
+					0.76919853687286377,
+					0.50605440139770508,
+					0.76921743154525757
+				],
+				"Translate" : 
+				[
+					0.022466748952865601,
+					1.0795373916625977,
+					-0.019312381744384766
+				]
+			}
+		},
+		{
+			"Audio" : 
+			{
+				"mVolume" : 1.0
+			},
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					0.0,
+					1.0499999523162842
+				],
+				"Rescale" : 
+				[
+					0.0,
+					0.0,
+					-4.1999998092651367
+				]
+			},
+			"DataFile" : "Container",
+			"ModelComponent" : 
+			{
+				"Material" : "SemiTransparent",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Field",
+			"ParticlesComponent" : 
+			{
+				"ParticleType" : "Default"
+			},
+			"ScriptComponent" : 
+			{
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\Container.py",
+					".\\Resources\\Scripts\\ContainerInput.py",
+					".\\Resources\\Scripts\\ContainerOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-179.99813842773438,
+					-34.693836212158203,
+					-180.00289916992188
+				],
+				"Scale" : 
+				[
+					0.94637322425842285,
+					2.6748530864715576,
+					1.4193621873855591
+				],
+				"Translate" : 
+				[
+					0.061766639351844788,
+					0.57460379600524902,
+					0.048414707183837891
+				]
+			}
+		}
+	],
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : false,
+		"IsUI" : false,
+		"Material" : "BodyBlue",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "BodyTall",
+		"Renderable" : true
+	},
+	"Name" : "Volper",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.12194664776325226,
+			88.606826782226563,
+			0.11693228781223297
+		],
+		"Scale" : 
+		[
+			1.9490134716033936,
+			2.9640562534332275,
+			1.9493917226791382
+		],
+		"Translate" : 
+		[
+			-15.011038780212402,
+			-0.21494720876216888,
+			3.149935245513916
+		]
+	},
+	"Type" : "Background"
+}

@@ -1,0 +1,260 @@
+{
+  "LevelSelection": [
+    {
+      "Name": "Level1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 01 - 01",
+        "Action": "DigiPen01"
+      },
+      "Transform": {
+        "Translate": [ 0.15, 0.15, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 02 - 01",
+        "Action": "Coffee01"
+      },
+      "Transform": {
+        "Translate": [ 0.15, 0.30, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level3",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 03 - 01",
+        "Action": "Needle01"
+      },
+      "Transform": {
+        "Translate": [ 0.15, 0.45, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 01 - 02",
+        "Action": "DigiPen02"
+      },
+      "Transform": {
+        "Translate": [ 0.30, 0.15, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 02 - 02",
+        "Action": "Coffee02"
+      },
+      "Transform": {
+        "Translate": [ 0.30, 0.30, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level3",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 03 - 02",
+        "Action": "Needle02"
+      },
+      "Transform": {
+        "Translate": [ 0.30, 0.45, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 01 - 03",
+        "Action": "DigiPen03"
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.15, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 02 - 03",
+        "Action": "Coffee03"
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.30, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level3",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 03 - 03",
+        "Action": "Needle03"
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.45, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 01 - 04",
+        "Action": "DigiPen04"
+      },
+      "Transform": {
+        "Translate": [ 0.60, 0.15, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 02 - 04",
+        "Action": "Coffee04"
+      },
+      "Transform": {
+        "Translate": [ 0.60, 0.30, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level3",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 03 - 04",
+        "Action": "Needle04"
+      },
+      "Transform": {
+        "Translate": [ 0.60, 0.45, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 01 - 05",
+        "Action": "DigiPen05"
+      },
+      "Transform": {
+        "Translate": [ 0.75, 0.15, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 02 - 05",
+        "Action": "Coffee05"
+      },
+      "Transform": {
+        "Translate": [ 0.75, 0.30, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Level3",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Level 03 - 05",
+        "Action": "Needle05"
+      },
+      "Transform": {
+        "Translate": [ 0.75, 0.45, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Menu",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Main Menu",
+        "Action": "MainMenuConfirmation"
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.75, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    }
+  ]
+}

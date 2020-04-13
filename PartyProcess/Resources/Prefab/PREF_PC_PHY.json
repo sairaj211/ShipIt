@@ -1,0 +1,296 @@
+{
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "GameDeliver01.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Carrier" : 
+	{
+		"ItemIndices" : []
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"Material" : "Blue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Table",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.21554619073867798,
+					0.21551136672496796,
+					0.21554720401763916
+				],
+				"Translate" : 
+				[
+					-0.076090402901172638,
+					0.74678993225097656,
+					-0.016931533813476563
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"Material" : "Blue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Cube",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.21566423773765564,
+					0.21559998393058777,
+					0.21566425263881683
+				],
+				"Translate" : 
+				[
+					-0.082343108952045441,
+					0.74657809734344482,
+					0.47976398468017578
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"Material" : "Blue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Cube",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					8.8839035034179688,
+					7.62939453125e-05,
+					-8.8839035034179688
+				],
+				"Scale" : 
+				[
+					0.2154899537563324,
+					0.21551138162612915,
+					0.21551018953323364
+				],
+				"Translate" : 
+				[
+					-0.069442391395568848,
+					0.74678993225097656,
+					-0.45559501647949219
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"Material" : "Physics",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Rug",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					1.1402508020401001,
+					0.14400224387645721,
+					1.1402508020401001
+				],
+				"Translate" : 
+				[
+					0.31052455306053162,
+					-0.13467863202095032,
+					0.061962127685546875
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Atom",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Atom"
+			},
+			"Name" : "Atom",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.99155747890472412,
+					0.99116820096969604,
+					0.99155092239379883
+				],
+				"Translate" : 
+				[
+					0.10472122579813004,
+					-0.13467884063720703,
+					0.72314882278442383
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rescale" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Processor",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : true,
+		"IsUI" : false,
+		"Material" : "PC",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_PHY",
+	"ParticlesComponent" : 
+	{
+		"AlphaHigh" : 255,
+		"AlphaLow" : 1,
+		"Blue_var" : 
+		[
+			255,
+			1
+		],
+		"Green_var" : 
+		[
+			255,
+			1
+		],
+		"MainDir" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"MaximumRadius" : 3.0,
+		"MinimumRadius" : 1.0,
+		"PartLife" : 0.5,
+		"PartNumber" : 400.0,
+		"PartPos" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"PartScale" : 
+		[
+			0.05000000074505806,
+			0.05000000074505806,
+			0.05000000074505806
+		],
+		"ParticleType" : "Default",
+		"Red_var" : 
+		[
+			255,
+			1
+		],
+		"Runtime" : 0.5,
+		"Spread" : 1.0
+	},
+	"Processor" : 
+	{
+		"MaxInput" : 3,
+		"MaxProcessingTime" : 3.0,
+		"Recipes" : 
+		[
+			3
+		]
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\ProcessorInput.py",
+			".\\Resources\\Scripts\\PickupProcessor.py",
+			".\\Resources\\Scripts\\ProcessorGenerate.py",
+			".\\Resources\\Scripts\\ProcessorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			-97.326034545898438,
+			-89.999946594238281,
+			97.326034545898438
+		],
+		"Scale" : 
+		[
+			2.0008955001831055,
+			1.9998944997787476,
+			2.0008571147918701
+		],
+		"Translate" : 
+		[
+			-11.997770309448242,
+			0.93649917840957642,
+			5.4195013046264648
+		]
+	},
+	"Type" : "Processor"
+}

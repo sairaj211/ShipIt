@@ -1,0 +1,5638 @@
+{
+	"GeneralMap" : 
+	[
+		{
+			"Children" : 
+			[
+				{
+					"DRLightComponent" : 
+					{
+						"LightColor" : 
+						[
+							0.048195499926805496,
+							0.04901963472366333,
+							0.034602094441652298
+						]
+					},
+					"DataFile" : "DRLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Sun",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-71.411880493164063,
+							-23.223588943481445,
+							43.096256256103516
+						],
+						"Translate" : 
+						[
+							0.0,
+							46.670768737792969,
+							0.0
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SLTower",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"Intensity" : 1.0,
+						"Range" : 79.0,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-61.541313171386719,
+							-42.38433837890625,
+							6.9352395257737953e-06
+						],
+						"Translate" : 
+						[
+							22.319679260253906,
+							12.407336235046387,
+							3.2907929420471191
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SLCoffee",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"Intensity" : 1.0,
+						"Range" : 79.0,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-43.509387969970703,
+							-0.0,
+							0.0
+						],
+						"Translate" : 
+						[
+							0.25650596618652344,
+							6.9555811882019043,
+							-21.042905807495117
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SLLogo",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"Intensity" : 1.0,
+						"Range" : 79.0,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-76.571800231933594,
+							-0.0,
+							0.0
+						],
+						"Translate" : 
+						[
+							-10.710893630981445,
+							16.9718017578125,
+							-1.6094174385070801
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SLDigipen",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"Intensity" : 1.0,
+						"Range" : 79.0,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-28.036727905273438,
+							-0.0,
+							0.0
+						],
+						"Translate" : 
+						[
+							-44.250194549560547,
+							7.9075250625610352,
+							5.0905356407165527
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Lights"
+		},
+		{
+			"Children" : 
+			[
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Programming",
+								"Model" : "TowerLow"
+							},
+							"Name" : "Lower",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.7400000095367432,
+									1.7400000095367432,
+									1.7400000095367432
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Ninja",
+								"Model" : "TowerUp"
+							},
+							"Name" : "Upper",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.8199998140335083,
+									1.8199998140335083,
+									1.8199998140335083
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Transparent50",
+								"Model" : "TowerUpDome"
+							},
+							"Name" : "Dome"
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Model" : "Building00"
+							},
+							"Name" : "Building00",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									-2.3685898780822754,
+									0.0,
+									-0.10446155071258545
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "White",
+								"Model" : "Building01"
+							},
+							"Name" : "Building01",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									1.1152281761169434,
+									0.0,
+									1.5985565185546875
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Model" : "Building02"
+							},
+							"Name" : "Building02",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									1.5554499626159668,
+									0.0,
+									0.51318097114562988
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Model" : "Building01"
+							},
+							"Name" : "Building01",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									-0.60078716278076172,
+									1.071539713848324e-06,
+									-2.0522823333740234
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Model" : "Building01"
+							},
+							"Name" : "Building01",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									2.1979579925537109,
+									5.1661652378243161e-07,
+									-1.833703875541687
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Gray50",
+								"Model" : "Building02"
+							},
+							"Name" : "Building02",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-45.033580780029297,
+									0.0
+								],
+								"Scale" : 
+								[
+									1.0983209609985352,
+									1.0983208417892456,
+									1.0983209609985352
+								],
+								"Translate" : 
+								[
+									1.5776739120483398,
+									-2.6913920692095417e-07,
+									-2.7469992637634277
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Gray80",
+								"Model" : "Building02"
+							},
+							"Name" : "Building02",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									2.0466389656066895,
+									4.9089163667304092e-07,
+									0.68741309642791748
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "White",
+								"Model" : "Building02"
+							},
+							"Name" : "Building02",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-46.424190521240234,
+									0.0
+								],
+								"Scale" : 
+								[
+									1.0983209609985352,
+									1.0983208417892456,
+									1.0983209609985352
+								],
+								"Translate" : 
+								[
+									1.9377470016479492,
+									-3.0283698038147122e-07,
+									1.5633265972137451
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Gray50",
+								"Model" : "Building00"
+							},
+							"Name" : "Building00",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									0.15976762771606445,
+									0.0,
+									-2.5714411735534668
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Gray80",
+								"Model" : "Building00"
+							},
+							"Name" : "Building00",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									2.0986714363098145,
+									0.0,
+									-0.83224856853485107
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Model" : "Building00"
+							},
+							"Name" : "Building00",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0983208417892456,
+									1.0983208417892456,
+									1.0983208417892456
+								],
+								"Translate" : 
+								[
+									0.43432378768920898,
+									0.0,
+									-1.8358060121536255
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "World03Logo"
+							},
+							"Name" : "World02Logo",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.54171186685562134,
+									0.010081549175083637,
+									0.54171174764633179
+								],
+								"Translate" : 
+								[
+									-0.44078159332275391,
+									0.037720449268817902,
+									0.37574303150177002
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"Model" : "NPC"
+							},
+							"Name" : "npc",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.2745802104473114,
+									0.2745802104473114,
+									0.2745802104473114
+								],
+								"Translate" : 
+								[
+									-0.80865669250488281,
+									0.0,
+									0.068101763725280762
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"Model" : "NPC"
+							},
+							"Name" : "npc",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.999755859375,
+									-66.857666015625,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.27458029985427856,
+									0.2745802104473114,
+									0.27458029985427856
+								],
+								"Translate" : 
+								[
+									0.59998703002929688,
+									0.0,
+									0.20754098892211914
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"Model" : "NPC"
+							},
+							"Name" : "npc",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.999755859375,
+									-66.857666015625,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.27458029985427856,
+									0.2745802104473114,
+									0.27458029985427856
+								],
+								"Translate" : 
+								[
+									-0.0796966552734375,
+									-3.828215085377451e-06,
+									0.41698276996612549
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"Model" : "NPC"
+							},
+							"Name" : "npc",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99806213378906,
+									72.716133117675781,
+									-179.99806213378906
+								],
+								"Scale" : 
+								[
+									0.27458015084266663,
+									0.2745802104473114,
+									0.27458015084266663
+								],
+								"Translate" : 
+								[
+									-0.50336146354675293,
+									-7.9176561484928243e-06,
+									-0.45893716812133789
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"Model" : "NPC"
+							},
+							"Name" : "npc",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99806213378906,
+									72.716133117675781,
+									-179.99806213378906
+								],
+								"Scale" : 
+								[
+									0.27458015084266663,
+									0.2745802104473114,
+									0.27458015084266663
+								],
+								"Translate" : 
+								[
+									0.83820104598999023,
+									7.9526859053657972e-07,
+									0.21801096200942993
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "Tower",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							7.3839988708496094,
+							7.3839988708496094,
+							7.3839988708496094
+						],
+						"Translate" : 
+						[
+							33.013145446777344,
+							0.0,
+							12.967927932739258
+						]
+					}
+				},
+				{
+					"Collider" : 
+					{
+						"mCoeffDynamicFriction" : 5.0,
+						"mCoeffStaticFriction" : 5.0
+					},
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Gray50",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Renderable" : false
+					},
+					"Name" : "Floor",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							134.39358520507813,
+							0.10000000149011612,
+							193.10517883300781
+						],
+						"Translate" : 
+						[
+							0.032279014587402344,
+							0.5,
+							44.020347595214844
+						]
+					}
+				},
+				{
+					"Camera" : 
+					{
+						"FieldOfView" : 64.099998474121094,
+						"IsDefault" : true,
+						"NearPlane" : 0.10000000149011612
+					},
+					"DataFile" : "Camera",
+					"Name" : "Game_Camera",
+					"ScriptComponent" : 
+					{
+						"scripts" : 
+						[
+							".\\Resources\\Scripts\\PartyCamTEST.py"
+						]
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-45.000003814697266,
+							-7.0435680754599161e-06,
+							5.9031087309979746e-12
+						],
+						"Translate" : 
+						[
+							-6.0,
+							40.0,
+							30.0
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									3.8499999046325684,
+									0.0,
+									-2.7999999523162842
+								],
+								"Rescale" : 
+								[
+									3.1500000953674316,
+									0.0,
+									0.34999999403953552
+								]
+							},
+							"DataFile" : "Cube",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorDigipen",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "DigiPenBuilding"
+							},
+							"Name" : "DigipenBuilding",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									14.749898910522461,
+									14.749898910522461,
+									14.749898910522461
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									2.9901084899902344,
+									-0.79800045490264893,
+									4.1418981552124023
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									3.1940727233886719,
+									-0.79799950122833252,
+									3.4122030735015869
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									3.83599853515625,
+									-0.79799950122833252,
+									2.636244535446167
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									4.5754795074462891,
+									-0.79799950122833252,
+									2.5257155895233154
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									5.1755771636962891,
+									-0.79799950122833252,
+									1.8537800312042236
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									5.5107536315917969,
+									-0.79799985885620117,
+									1.0097675323486328
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									5.1275825500488281,
+									-0.79799938201904297,
+									0.17612934112548828
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									6.3606185913085938,
+									-0.79799985885620117,
+									0.11158370971679688
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									1.4999998807907104,
+									1.0
+								],
+								"Translate" : 
+								[
+									7.3809623718261719,
+									-0.79799985885620117,
+									-0.60084438323974609
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									1.4999998807907104,
+									1.0
+								],
+								"Translate" : 
+								[
+									9.6585617065429688,
+									-0.79799985885620117,
+									-0.88139438629150391
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									1.4999998807907104,
+									1.0
+								],
+								"Translate" : 
+								[
+									8.8127326965332031,
+									-0.79799985885620117,
+									-0.8436737060546875
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									1.4999998807907104,
+									1.0
+								],
+								"Translate" : 
+								[
+									7.9692420959472656,
+									-0.79799938201904297,
+									-0.76849651336669922
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									1.4999998807907104,
+									1.0
+								],
+								"Translate" : 
+								[
+									0.89471054077148438,
+									-0.79800057411193848,
+									5.4398908615112305
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									1.4999998807907104,
+									1.0
+								],
+								"Translate" : 
+								[
+									-0.678375244140625,
+									-0.79799985885620117,
+									5.4819879531860352
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									1.4999998807907104,
+									1.0
+								],
+								"Translate" : 
+								[
+									-2.3809051513671875,
+									-0.79799985885620117,
+									5.0726747512817383
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.0,
+									2.0,
+									2.0
+								],
+								"Translate" : 
+								[
+									11.442672729492188,
+									-0.79799902439117432,
+									-4.0568513870239258
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.0,
+									2.0,
+									2.0
+								],
+								"Translate" : 
+								[
+									11.469234466552734,
+									-0.79799985885620117,
+									-6.9829840660095215
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.0,
+									2.0,
+									2.0
+								],
+								"Translate" : 
+								[
+									8.4830589294433594,
+									-0.79799985885620117,
+									-8.0446329116821289
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.0,
+									2.0,
+									2.0
+								],
+								"Translate" : 
+								[
+									4.6377639770507813,
+									-0.79799985885620117,
+									-7.5128593444824219
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.0,
+									2.0,
+									2.0
+								],
+								"Translate" : 
+								[
+									-2.0743904113769531,
+									-0.79800021648406982,
+									-5.1874608993530273
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.0,
+									2.0,
+									2.0
+								],
+								"Translate" : 
+								[
+									-3.3310165405273438,
+									-0.79799985885620117,
+									1.0164422988891602
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.0,
+									2.0,
+									2.0
+								],
+								"Translate" : 
+								[
+									-3.7009506225585938,
+									-0.79800093173980713,
+									-2.8869056701660156
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.4088054895401001,
+									1.8780403137207031,
+									1.179243803024292
+								],
+								"Translate" : 
+								[
+									2.0470619201660156,
+									-0.31938987970352173,
+									3.68719482421875
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.4088054895401001,
+									1.8780403137207031,
+									1.179243803024292
+								],
+								"Translate" : 
+								[
+									1.8363151550292969,
+									-0.31938987970352173,
+									3.9616012573242188
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.4088054895401001,
+									1.8780403137207031,
+									1.179243803024292
+								],
+								"Translate" : 
+								[
+									2.441986083984375,
+									-0.31938958168029785,
+									2.1109151840209961
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									10.925056457519531,
+									0.0
+								],
+								"Scale" : 
+								[
+									2.7103056907653809,
+									1.9144006967544556,
+									1.1792434453964233
+								],
+								"Translate" : 
+								[
+									5.3754768371582031,
+									-0.27248620986938477,
+									-0.59122323989868164
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									9.316502571105957,
+									0.0
+								],
+								"Scale" : 
+								[
+									2.7103052139282227,
+									1.9144006967544556,
+									1.179242730140686
+								],
+								"Translate" : 
+								[
+									8.4081649780273438,
+									-0.27248620986938477,
+									-1.7210664749145508
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.5133113861083984,
+									1.8780403137207031,
+									1.179243803024292
+								],
+								"Translate" : 
+								[
+									-0.081409454345703125,
+									-0.31938987970352173,
+									4.7303886413574219
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "World01Logo"
+							},
+							"Name" : "World01Logo",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									5.8018875122070313,
+									0.10797631740570068,
+									6.2203884124755859
+								],
+								"Translate" : 
+								[
+									1.8282966613769531,
+									0.94678503274917603,
+									-1.7657260894775391
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "Digipen",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.8479999303817749,
+							0.8479999303817749,
+							0.8479999303817749
+						],
+						"Translate" : 
+						[
+							-45.715152740478516,
+							0.79799997806549072,
+							7.2506217956542969
+						]
+					}
+				},
+				{
+					"DataFile" : "Skybox",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Skybox",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							-8.5278453826904297,
+							58.240787506103516,
+							40.572208404541016
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Red",
+								"Model" : "Car"
+							},
+							"Name" : "Car",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.18144868314266205,
+									0.18144868314266205,
+									0.18144868314266205
+								],
+								"Translate" : 
+								[
+									0.059148583561182022,
+									0.089737087488174438,
+									0.44758260250091553
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"Model" : "Car"
+							},
+							"Name" : "Car",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.18144868314266205,
+									0.18144868314266205,
+									0.18144868314266205
+								],
+								"Translate" : 
+								[
+									0.29313427209854126,
+									0.089737087488174438,
+									0.45686495304107666
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Blue",
+								"Model" : "Car"
+							},
+							"Name" : "Car",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.18144868314266205,
+									0.18144868314266205,
+									0.18144868314266205
+								],
+								"Translate" : 
+								[
+									0.55594390630722046,
+									0.089737087488174438,
+									0.42387831211090088
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Yellow",
+								"Model" : "Car"
+							},
+							"Name" : "Car",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									87.097587585449219,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.18145295977592468,
+									0.18144868314266205,
+									0.18145278096199036
+								],
+								"Translate" : 
+								[
+									-0.31914034485816956,
+									0.10128018260002136,
+									-0.51502728462219238
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "White",
+								"Model" : "Car"
+							},
+							"Name" : "Car",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									87.097579956054688,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.18145294487476349,
+									0.18144868314266205,
+									0.18144910037517548
+								],
+								"Translate" : 
+								[
+									-0.3168720006942749,
+									0.089737087488174438,
+									-0.19305157661437988
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"Model" : "Car"
+							},
+							"Name" : "Car",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									87.097579956054688,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.18145164847373962,
+									0.18144868314266205,
+									0.18144969642162323
+								],
+								"Translate" : 
+								[
+									-0.31103548407554626,
+									0.089737087488174438,
+									0.10616707801818848
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Black"
+							},
+							"Name" : "Door",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-28.126949310302734,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									-0.077700473368167877,
+									0.10616908967494965,
+									0.23198509216308594
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									0.11030176281929016,
+									0.10616908967494965,
+									0.28150093555450439
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									0.28869143128395081,
+									0.10616908967494965,
+									0.28150093555450439
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									0.46424403786659241,
+									0.10616908967494965,
+									0.28150093555450439
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									-0.14505663514137268,
+									0.10616908967494965,
+									0.13880836963653564
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									-0.14505663514137268,
+									0.10616908967494965,
+									-0.039583921432495117
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									-0.14505663514137268,
+									0.10616908967494965,
+									-0.21047687530517578
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "blue-ground"
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.14451383054256439,
+									0.19264747202396393,
+									0.1209656298160553
+								],
+								"Translate" : 
+								[
+									-0.14505663514137268,
+									0.10616908967494965,
+									-0.42302298545837402
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "World02Logo"
+							},
+							"Name" : "World02Logo",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.7161175012588501,
+									0.013327331282198429,
+									0.716117262840271
+								],
+								"Translate" : 
+								[
+									0.21029371023178101,
+									0.23605141043663025,
+									-0.20350885391235352
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									0.76831960678100586,
+									0.057073593139648438,
+									-0.34942770004272461
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									0.77083367109298706,
+									0.057073593139648438,
+									0.046596050262451172
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									-0.4535335898399353,
+									0.057073600590229034,
+									-0.35038089752197266
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									-0.40396440029144287,
+									0.057073596864938736,
+									-0.013308048248291016
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									0.75804972648620605,
+									0.057073593139648438,
+									0.28405570983886719
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									-0.04309893399477005,
+									0.057074073702096939,
+									-0.84602212905883789
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									0.54685664176940918,
+									0.057074073702096939,
+									-0.73945903778076172
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.37773171067237854,
+									0.37773171067237854,
+									0.37773171067237854
+								],
+								"Translate" : 
+								[
+									0.24674621224403381,
+									0.057074073702096939,
+									-0.76539754867553711
+								]
+							}
+						}
+					],
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"Material" : "Orange",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "CoffeBuilding"
+					},
+					"Name" : "Coffee",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							8.2667999267578125,
+							8.2667999267578125,
+							8.2667999267578125
+						],
+						"Translate" : 
+						[
+							-0.97294998168945313,
+							-0.35052156448364258,
+							-17.411159515380859
+						]
+					}
+				},
+				{
+					"DataFile" : "BgCube",
+					"ModelComponent" : 
+					{
+						"Material" : "ColorWater",
+						"Model" : "MR_Terrain"
+					},
+					"Name" : "Mountain",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							229.86070251464844,
+							85.510398864746094,
+							85.510398864746094
+						],
+						"Translate" : 
+						[
+							2.2908468246459961,
+							-11.503698348999023,
+							-77.462936401367188
+						]
+					}
+				},
+				{
+					"DataFile" : "BgCube",
+					"ModelComponent" : 
+					{
+						"Material" : "ColorGrass",
+						"Model" : "MR_Terrain"
+					},
+					"Name" : "Mountain",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							21.192373275756836,
+							121.27513122558594,
+							85.510498046875
+						],
+						"Translate" : 
+						[
+							-73.128631591796875,
+							-6.9851760864257813,
+							-12.089748382568359
+						]
+					}
+				},
+				{
+					"DataFile" : "BgCube",
+					"ModelComponent" : 
+					{
+						"Material" : "GeneralMap"
+					},
+					"Name" : "Map",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							197.56867980957031,
+							0.10000000149011612,
+							98.784339904785156
+						],
+						"Translate" : 
+						[
+							28.436063766479492,
+							0.10999999940395355,
+							-0.45470428466796875
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-20.002941131591797,
+									0.12129486352205276,
+									-58.260829925537109
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									6.8329019546508789,
+									0.12129490077495575,
+									-59.176753997802734
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-46.204208374023438,
+									0.1212950199842453,
+									-58.417182922363281
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-59.870975494384766,
+									0.1212950199842453,
+									-56.880195617675781
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-59.067813873291016,
+									0.12129522114992142,
+									-28.744575500488281
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-50.268661499023438,
+									0.12130287289619446,
+									10.039274215698242
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-62.311244964599609,
+									0.12129882723093033,
+									-11.647480010986328
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-22.342126846313477,
+									0.12130286544561386,
+									12.869892120361328
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									21.004756927490234,
+									0.12129867076873779,
+									-60.142547607421875
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-37.763683319091797,
+									0.12129495292901993,
+									-58.55987548828125
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-59.951740264892578,
+									0.12129875272512436,
+									-19.964832305908203
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-35.968551635742188,
+									0.12130287289619446,
+									12.249576568603516
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									18.023334503173828,
+									0.121294304728508,
+									11.000804901123047
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-60.405593872070313,
+									0.12130275368690491,
+									-0.37969207763671875
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									48.170490264892578,
+									0.12129499763250351,
+									-26.278800964355469
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-58.4947509765625,
+									0.12129513919353485,
+									-40.394744873046875
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									30.994785308837891,
+									0.12129869312047958,
+									-59.008003234863281
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									43.541763305664063,
+									0.1212950125336647,
+									-46.347393035888672
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									44.015308380126953,
+									0.12129510939121246,
+									-33.53338623046875
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-5.855226993560791,
+									0.1212950199842453,
+									-60.762184143066406
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									3.0021603107452393,
+									0.12129902839660645,
+									11.287803649902344
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									39.404281616210938,
+									0.12129875272512436,
+									-56.675430297851563
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									9.4928874969482422,
+									0.1212942898273468,
+									12.833473205566406
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-26.586002349853516,
+									0.12129499018192291,
+									-60.260494232177734
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									31.473705291748047,
+									0.12129402160644531,
+									9.419036865234375
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-5.5963172912597656,
+									0.12129401415586472,
+									10.841072082519531
+								]
+							}
+						},
+						{
+							"DataFile" : "BgCube",
+							"ModelComponent" : 
+							{
+								"Material" : "Green",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "Tree",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									12.490530014038086,
+									12.490530014038086,
+									12.490530014038086
+								],
+								"Translate" : 
+								[
+									-14.718349456787109,
+									0.12129402160644531,
+									10.401666641235352
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "tREES",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							21.153804779052734
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Scenario",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.0,
+					0.0,
+					-21.153804779052734
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"Audio" : 
+					{
+						"mSoundName" : "cartoon_jump-002.wav",
+						"mVolume" : 1.0
+					},
+					"Children" : 
+					[
+						{
+							"Body" : 
+							{
+								"mApplyFriction" : true,
+								"mMass" : 1.0
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224,
+								"mLType" : "Player-foot"
+							},
+							"DataFile" : "InvisibleCube",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Player1Feet",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.79995304346084595,
+									0.099999494850635529,
+									0.79995304346084595
+								],
+								"Translate" : 
+								[
+									-0.00046791997738182545,
+									4.3570995330810547e-05,
+									-0.0050640106201171875
+								]
+							}
+						},
+						{
+							"AreaSearch" : 
+							{
+								"SearchTypes" : 
+								[
+									"ProgrammingResource",
+									"ArtResource",
+									"DesignResource",
+									"PhysicsResource",
+									"AudioResource",
+									"AIResource",
+									"GraphicsResource",
+									"Processor",
+									"Container",
+									"Generator",
+									"GridCell",
+									"PongGame",
+									"BomberGame",
+									"TetrisGame",
+									"AlienGame",
+									"MazeGame",
+									"ScienceGame",
+									"PoolGame",
+									"FoodGame",
+									"DiceGame",
+									"SpaceGame",
+									"CoinGame",
+									"LunkGame",
+									"KeyGame",
+									"NinjaGame",
+									"StarGame",
+									"BirdGame",
+									"SimulationGame",
+									"SwordGame",
+									"FighterGame",
+									"HorrorGame",
+									"PipeGame",
+									"ZombieGame",
+									"PortalGame",
+									"DragonGame",
+									"WarGame"
+								]
+							},
+							"DataFile" : "SearchArea",
+							"ModelComponent" : 
+							{
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Interact_Area",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.75599998235702515,
+									0.75599998235702515,
+									0.75599998235702515
+								],
+								"Translate" : 
+								[
+									0.047372817993164063,
+									0.37145650386810303,
+									0.48913002014160156
+								]
+							}
+						},
+						{
+							"DataFile" : "PlayerBody",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "DustinHead",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "DustinHead"
+							},
+							"Name" : "Player1Head",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									0.85714668035507202,
+									1.0
+								],
+								"Translate" : 
+								[
+									0.00020694732666015625,
+									1.0,
+									1.8895461835199967e-06
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"AffineStates" : 
+								[
+									{
+										"AffineAnimationName" : "HandFloat",
+										"BlendDuration" : 0.30000001192092896,
+										"ReturnToDefault" : false,
+										"StateName" : "Float"
+									}
+								],
+								"DefaultAffineState" : "Float"
+							},
+							"DataFile" : "PlayerBody",
+							"ModelComponent" : 
+							{
+								"Material" : "HandsDustin",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Player1LeftHand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									4.57763671875e-05,
+									-3645.016845703125,
+									179.9998779296875
+								],
+								"Scale" : 
+								[
+									0.50000005960464478,
+									0.42899975180625916,
+									0.50000005960464478
+								],
+								"Translate" : 
+								[
+									0.36757373809814453,
+									0.20797255635261536,
+									0.27280998229980469
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"AffineStates" : 
+								[
+									{
+										"AffineAnimationName" : "HandFloat",
+										"BlendDuration" : 0.30000001192092896,
+										"ReturnToDefault" : false,
+										"StateName" : "Float"
+									}
+								],
+								"DefaultAffineState" : "Float"
+							},
+							"DataFile" : "PlayerBody",
+							"ModelComponent" : 
+							{
+								"Material" : "HandsDustin",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Player1RightHand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									4.57763671875e-05,
+									-3645.016845703125,
+									179.9998779296875
+								],
+								"Scale" : 
+								[
+									0.49999973177909851,
+									0.4290001392364502,
+									0.49999973177909851
+								],
+								"Translate" : 
+								[
+									-0.25257128477096558,
+									0.21194890141487122,
+									0.41241073608398438
+								]
+							}
+						},
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									1.0,
+									1.0
+								],
+								"Intensity" : 1.0,
+								"Range" : 136.0,
+								"SpotAngle" : 45.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									233.7255859375,
+									0.00012901450099889189,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.03120906837284565,
+									0.031200423836708069,
+									0.031210003420710564
+								],
+								"Translate" : 
+								[
+									0.03691864013671875,
+									1.9025580883026123,
+									-0.12484461069107056
+								]
+							}
+						},
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									1.0,
+									1.0
+								],
+								"Intensity" : 1.0,
+								"Range" : 25.0,
+								"SpotAngle" : 45.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									317.4765625,
+									-0.00020117411622777581,
+									0.000152587890625
+								],
+								"Scale" : 
+								[
+									0.031208943575620651,
+									0.031200423836708069,
+									0.031210010871291161
+								],
+								"Translate" : 
+								[
+									0.036887168884277344,
+									1.7594054937362671,
+									0.73001664876937866
+								]
+							}
+						}
+					],
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.82499998807907104,
+							0.0
+						]
+					},
+					"Controller" : 
+					{
+						"player" : 0
+					},
+					"DataFile" : "Player",
+					"ModelComponent" : 
+					{
+						"Material" : "BodyBlack",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Body"
+					},
+					"Name" : "Player1",
+					"ParticlesComponent" : 
+					{
+						"Blue_var" : 
+						[
+							255,
+							255
+						],
+						"Green_var" : 
+						[
+							255,
+							255
+						],
+						"MainDir" : 
+						[
+							0.0,
+							0.5,
+							0.0
+						],
+						"PartLife" : 0.10000000149011612,
+						"PartNumber" : 400.0,
+						"PartPos" : 
+						[
+							-30.612339019775391,
+							1.3256449699401855,
+							-34.791847229003906
+						],
+						"PartScale" : 
+						[
+							0.05000000074505806,
+							0.05000000074505806,
+							0.05000000074505806
+						],
+						"ParticleType" : "Explosion",
+						"Red_var" : 
+						[
+							255,
+							255
+						],
+						"Runtime" : -1.0,
+						"Spread" : 0.75
+					},
+					"Player" : 
+					{
+						"mHitRecharge" : 0.0,
+						"mRecharge" : 0.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99989318847656,
+							3689.999755859375,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							3.2040131092071533,
+							3.2049999237060547,
+							3.2040131092071533
+						],
+						"Translate" : 
+						[
+							-29.517356872558594,
+							1.3246909379959106,
+							-14.317451477050781
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17977035045623779,
+									1.4915038347244263,
+									0.0083408355712890625
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGold",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									6.3727264404296875,
+									359.96002197265625
+								],
+								"Scale" : 
+								[
+									2.0021681785583496,
+									2.0021440982818604,
+									2.0021753311157227
+								],
+								"Translate" : 
+								[
+									0.047855019569396973,
+									0.39975816011428833,
+									-0.003360748291015625
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							-57.249126434326172,
+							0.27303653955459595,
+							6.3631668090820313
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"Material" : "ColorSilver",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.1797565221786499,
+									1.4915038347244263,
+									0.008342742919921875
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorSilver",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									2.5929183959960938,
+									0.1577911376953125
+								],
+								"Scale" : 
+								[
+									2.0022382736206055,
+									2.0021431446075439,
+									2.0022356510162354
+								],
+								"Translate" : 
+								[
+									0.048835158348083496,
+									0.40623047947883606,
+									-0.005565643310546875
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							-52.359592437744141,
+							0.27303850650787354,
+							13.482712745666504
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17977035045623779,
+									1.4915038347244263,
+									0.0083408355712890625
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorBronze",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									4.121978759765625,
+									0.0043792724609375
+								],
+								"Scale" : 
+								[
+									2.0022406578063965,
+									2.0021431446075439,
+									2.0022406578063965
+								],
+								"Translate" : 
+								[
+									0.048430800437927246,
+									0.40553417801856995,
+									-0.0039997100830078125
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							-44.520599365234375,
+							0.27303853631019592,
+							16.278274536132813
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17977035045623779,
+									1.4915038347244263,
+									0.0083408355712890625
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGold",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									179.99961853027344,
+									53.576343536376953,
+									180.00094604492188
+								],
+								"Scale" : 
+								[
+									2.0022451877593994,
+									2.0021417140960693,
+									2.0022702217102051
+								],
+								"Translate" : 
+								[
+									0.049217343330383301,
+									0.4273231029510498,
+									-0.072687149047851563
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							-36.515865325927734,
+							0.27303662896156311,
+							13.967170715332031
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17977035045623779,
+									1.4915038347244263,
+									0.0083408355712890625
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"Material" : "ColorGolden",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									179.99948120117188,
+									31.096263885498047,
+									180.00234985351563
+								],
+								"Scale" : 
+								[
+									2.0022358894348145,
+									2.0021431446075439,
+									2.0022358894348145
+								],
+								"Translate" : 
+								[
+									0.069052815437316895,
+									0.63994359970092773,
+									-0.40191078186035156
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							-31.189043045043945,
+							0.27303659915924072,
+							6.7725915908813477
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17977035045623779,
+									1.4915038347244263,
+									0.0083408355712890625
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGold",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									9.342071533203125,
+									0.0439605712890625
+								],
+								"Scale" : 
+								[
+									2.0021383762359619,
+									2.0021438598632813,
+									2.0021884441375732
+								],
+								"Translate" : 
+								[
+									0.13817393779754639,
+									0.4629262387752533,
+									-0.03655242919921875
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							-11.216366767883301,
+							0.27303656935691833,
+							-12.143135070800781
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGold",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									2.5927276611328125,
+									359.9979248046875
+								],
+								"Scale" : 
+								[
+									2.0022363662719727,
+									2.0021429061889648,
+									2.0022339820861816
+								],
+								"Translate" : 
+								[
+									0.058459877967834473,
+									0.39590224623680115,
+									-0.0068538188934326172
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							-5.3806667327880859,
+							0.27303659915924072,
+							-9.4434337615966797
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGold",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									8.6234054565429688,
+									359.4169921875
+								],
+								"Scale" : 
+								[
+									2.0022268295288086,
+									2.0021343231201172,
+									2.0022294521331787
+								],
+								"Translate" : 
+								[
+									0.053690455853939056,
+									0.42683804035186768,
+									0.02117002010345459
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							0.75623226165771484,
+							0.27303659915924072,
+							-9.1773166656494141
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorBronze",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									2.5927276611328125,
+									0.003936767578125
+								],
+								"Scale" : 
+								[
+									2.0022068023681641,
+									2.0021781921386719,
+									2.002204418182373
+								],
+								"Translate" : 
+								[
+									-0.62689626216888428,
+									0.51484239101409912,
+									0.14620232582092285
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							7.6171140670776367,
+							0.27303466200828552,
+							-11.193578720092773
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0003662109375,
+									50.625049591064453,
+									0.003265380859375
+								],
+								"Scale" : 
+								[
+									2.0022385120391846,
+									2.0021431446075439,
+									2.0022337436676025
+								],
+								"Translate" : 
+								[
+									0.052786946296691895,
+									0.44920480251312256,
+									-0.0072069168090820313
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "Wood05",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							12.523639678955078,
+							0.27303463220596313,
+							-14.125202178955078
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"IsEnabled" : false,
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGolden",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									179.99961853027344,
+									1.827362060546875,
+									179.99993896484375
+								],
+								"Scale" : 
+								[
+									2.0022382736206055,
+									2.0021431446075439,
+									2.0022406578063965
+								],
+								"Translate" : 
+								[
+									0.3629462718963623,
+									0.47968012094497681,
+									0.19528007507324219
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "blue-ground",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							21.725214004516602,
+							0.27303445339202881,
+							5.1361846923828125
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"IsEnabled" : false,
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGolden",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.000274658203125,
+									148.08824157714844,
+									359.96978759765625
+								],
+								"Scale" : 
+								[
+									2.0022172927856445,
+									2.0021431446075439,
+									2.0022284984588623
+								],
+								"Translate" : 
+								[
+									0.054408252239227295,
+									0.40475708246231079,
+									-0.0061807632446289063
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "blue-ground",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							21.359806060791016,
+							0.27303427457809448,
+							14.302163124084473
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"IsEnabled" : false,
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGolden",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									179.99961853027344,
+									111.31199645996094,
+									180.10108947753906
+								],
+								"Scale" : 
+								[
+									2.0022335052490234,
+									2.0021431446075439,
+									2.0022332668304443
+								],
+								"Translate" : 
+								[
+									0.045525312423706055,
+									0.43219199776649475,
+									0.096103668212890625
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "blue-ground",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							25.483432769775391,
+							0.27303433418273926,
+							21.368324279785156
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"IsEnabled" : false,
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGolden",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.0002593994140625,
+									6.32763671875,
+									0.004180908203125
+								],
+								"Scale" : 
+								[
+									2.0022337436676025,
+									2.0021431446075439,
+									2.0022337436676025
+								],
+								"Translate" : 
+								[
+									0.015358328819274902,
+									0.41017347574234009,
+									0.3144073486328125
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "blue-ground",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							33.178691864013672,
+							0.27303430438041687,
+							24.153726577758789
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "SpotLight",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SpotLight",
+							"SpotLight" : 
+							{
+								"Color" : 
+								[
+									1.0,
+									0.99999350309371948,
+									0.99998998641967773
+								],
+								"Intensity" : 3.0,
+								"Range" : 21.0,
+								"SpotAngle" : 21.0
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									84.758377075195313,
+									87.327812194824219,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									0.049995355308055878,
+									0.050002217292785645,
+									0.049919385462999344
+								],
+								"Translate" : 
+								[
+									-0.17968523502349854,
+									1.4915038347244263,
+									0.0083065032958984375
+								]
+							}
+						},
+						{
+							"Animator" : 
+							{
+								"DefaultSkeletalState" : "None"
+							},
+							"Body" : 
+							{
+								"mApplyFriction" : true
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224
+							},
+							"DataFile" : "Scale",
+							"IsEnabled" : false,
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "ColorGolden",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-0.000274658203125,
+									97.092079162597656,
+									0.1318511962890625
+								],
+								"Scale" : 
+								[
+									2.0022189617156982,
+									2.0021247863769531,
+									2.0022041797637939
+								],
+								"Translate" : 
+								[
+									0.038767158985137939,
+									0.52455246448516846,
+									1.2314796447753906
+								]
+							}
+						}
+					],
+					"DataFile" : "LevelButton",
+					"LevelButton" : 
+					{
+						"LevelID" : 1,
+						"WorldID" : 1
+					},
+					"ModelComponent" : 
+					{
+						"Material" : "blue-ground",
+						"Model" : "LevelButton"
+					},
+					"Name" : "LevelButton",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99961853027344,
+							-87.327812194824219,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.8948144912719727,
+							1.8948596715927124,
+							1.8948144912719727
+						],
+						"Translate" : 
+						[
+							40.780654907226563,
+							0.27303436398506165,
+							20.521526336669922
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Interactions",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.0,
+					0.0,
+					-20.474395751953125
+				]
+			}
+		},
+		{
+			"DataFile" : "BgCube",
+			"ModelComponent" : 
+			{
+				"Material" : "Logo"
+			},
+			"Name" : "World02Logo",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					11.765581130981445,
+					0.21896378695964813,
+					11.765581130981445
+				],
+				"Translate" : 
+				[
+					-9.1995878219604492,
+					0.1231684684753418,
+					-6.6077938079833984
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Renderable" : false
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.8619990348815918,
+							22.171995162963867,
+							167.8819580078125
+						],
+						"Translate" : 
+						[
+							50.21173095703125,
+							-6.366521574818762e-06,
+							-25.657428741455078
+						]
+					}
+				},
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Renderable" : false
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.8619990348815918,
+							22.171995162963867,
+							167.8819580078125
+						],
+						"Translate" : 
+						[
+							-62.222763061523438,
+							-6.366521574818762e-06,
+							-25.657428741455078
+						]
+					}
+				},
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Renderable" : false
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							271.18505859375,
+							22.171995162963867,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							16.629541397094727
+						]
+					}
+				},
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Renderable" : false
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							271.18505859375,
+							22.171995162963867,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							-76.942337036132813
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Colliders"
+		}
+	]
+}

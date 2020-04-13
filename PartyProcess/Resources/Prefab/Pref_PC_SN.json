@@ -1,0 +1,738 @@
+{
+	"Children" : 
+	[
+		{
+			"Audio" : 
+			{
+				"mSoundName" : "GameDeliver01.mp3",
+				"mVolume" : 1.0
+			},
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Design",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Background",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							29.994867324829102,
+							89.999946594238281,
+							0.040237925946712494
+						],
+						"Scale" : 
+						[
+							0.1666666716337204,
+							0.0066666640341281891,
+							0.1666666716337204
+						],
+						"Translate" : 
+						[
+							0.053909409791231155,
+							0.7353661060333252,
+							-0.0077588558197021484
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Art",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Background",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							29.994823455810547,
+							89.999946594238281,
+							0.0343671515583992
+						],
+						"Scale" : 
+						[
+							0.1666666716337204,
+							0.0066666663624346256,
+							0.16665913164615631
+						],
+						"Translate" : 
+						[
+							0.062637090682983398,
+							0.7286684513092041,
+							0.38316178321838379
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Art",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Background",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							29.994867324829102,
+							89.999946594238281,
+							-0.0051290160045027733
+						],
+						"Scale" : 
+						[
+							0.16666600108146667,
+							0.0066666570492088795,
+							0.16666619479656219
+						],
+						"Translate" : 
+						[
+							0.069252438843250275,
+							0.73886370658874512,
+							-0.36287856101989746
+						]
+					}
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					0.0,
+					1.0499999523162842
+				],
+				"Rescale" : 
+				[
+					0.0,
+					0.0,
+					-2.4500000476837158
+				]
+			},
+			"DataFile" : "Processor",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "PC_SN",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "PC"
+			},
+			"Name" : "PC_Audio",
+			"ParticlesComponent" : 
+			{
+				"Blue_var" : 
+				[
+					255,
+					1
+				],
+				"Green_var" : 
+				[
+					255,
+					1
+				],
+				"PartLife" : 0.5,
+				"PartNumber" : 400.0,
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Default",
+				"Red_var" : 
+				[
+					255,
+					1
+				],
+				"Runtime" : 0.5,
+				"Spread" : 1.0
+			},
+			"Processor" : 
+			{
+				"MaxProcessingTime" : 3.0,
+				"Recipes" : 
+				[
+					4
+				]
+			},
+			"ScriptComponent" : 
+			{
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PickupProcessor.py",
+					".\\Resources\\Scripts\\ProcessorInput.py",
+					".\\Resources\\Scripts\\ProcessorGenerate.py",
+					".\\Resources\\Scripts\\ProcessorOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0051290160045027733,
+					-89.999946594238281,
+					0.0051290160045027733
+				],
+				"Scale" : 
+				[
+					3.0,
+					3.0,
+					3.0
+				],
+				"Translate" : 
+				[
+					0.39830684661865234,
+					-0.70980548858642578,
+					0.038608551025390625
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Black",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cylinder10"
+					},
+					"Name" : "Up",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.060499906539917,
+							0.088452860713005066,
+							1.060499906539917
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.90833514928817749,
+							0.0
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Black",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Mid",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.35038337111473083,
+							1.1803489923477173,
+							1.0099999904632568
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.35641318559646606,
+							0.0
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Black",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cylinder10"
+					},
+					"Name" : "Down",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.0099999904632568,
+							0.084240823984146118,
+							1.0099999904632568
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.024473130702972412,
+							0.0
+						]
+					}
+				}
+			],
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Gray50",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Cylinder10"
+			},
+			"Name" : "Boofer",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.52613300085067749,
+					1.8956856727600098,
+					0.52613300085067749
+				],
+				"Translate" : 
+				[
+					2.4424400329589844,
+					-0.74866318702697754,
+					-0.86262798309326172
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Black",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Headphones"
+			},
+			"Name" : "HeadPhones",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-20.478727340698242,
+					75.378921508789063,
+					1.0146845852432307e-05
+				],
+				"Scale" : 
+				[
+					1.3400018215179443,
+					1.3399993181228638,
+					1.3400003910064697
+				],
+				"Translate" : 
+				[
+					1.4092798233032227,
+					0.77360892295837402,
+					0.011549949645996094
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Gray50",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "MIDI",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.0018157958984375,
+							5.340576171875e-05,
+							0.0010223388671875
+						],
+						"Scale" : 
+						[
+							0.26999995112419128,
+							0.40939784049987793,
+							0.14046090841293335
+						],
+						"Translate" : 
+						[
+							-0.32075917720794678,
+							0.46964168548583984,
+							0.38448727130889893
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "MIDI",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.0018157958984375,
+							5.340576171875e-05,
+							0.0010223388671875
+						],
+						"Scale" : 
+						[
+							0.26999995112419128,
+							0.40939784049987793,
+							0.14046090841293335
+						],
+						"Translate" : 
+						[
+							-0.320728600025177,
+							0.46959304809570313,
+							0.15499293804168701
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Gray50",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "MIDI",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.0018157958984375,
+							5.340576171875e-05,
+							0.0010223388671875
+						],
+						"Scale" : 
+						[
+							0.26999995112419128,
+							0.40939784049987793,
+							0.14046090841293335
+						],
+						"Translate" : 
+						[
+							-0.32077467441558838,
+							0.46957969665527344,
+							-0.090426445007324219
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "MIDI",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.0016326904296875,
+							0.0,
+							0.0008392333984375
+						],
+						"Scale" : 
+						[
+							0.27000001072883606,
+							0.40939784049987793,
+							0.14046092331409454
+						],
+						"Translate" : 
+						[
+							-0.37807202339172363,
+							0.46956920623779297,
+							-0.26932322978973389
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Keyboard",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "keyboard",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.96072387695313,
+							48.438636779785156,
+							179.93339538574219
+						],
+						"Scale" : 
+						[
+							1.3332480192184448,
+							0.22522138059139252,
+							0.31972658634185791
+						],
+						"Translate" : 
+						[
+							0.19654625654220581,
+							0.41287136077880859,
+							0.015332579612731934
+						]
+					}
+				}
+			],
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Black",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "MIDI",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					179.96089172363281,
+					-69.230072021484375,
+					-179.93336486816406
+				],
+				"Scale" : 
+				[
+					0.72095566987991333,
+					0.20329277217388153,
+					1.2295444011688232
+				],
+				"Translate" : 
+				[
+					-1.702282190322876,
+					-0.60653853416442871,
+					0.60070514678955078
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Audio",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Rug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					45.000003814697266,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0,
+					0.1000000461935997,
+					0.99999988079071045
+				],
+				"Translate" : 
+				[
+					2.5144689083099365,
+					-0.39013051986694336,
+					0.38215255737304688
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Black",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cylinder10"
+					},
+					"Name" : "Up",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.060499906539917,
+							0.088452860713005066,
+							1.060499906539917
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.90833514928817749,
+							0.0
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Black",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Mid",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.35038337111473083,
+							1.1803489923477173,
+							1.0099999904632568
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.35641318559646606,
+							0.0
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Black",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cylinder10"
+					},
+					"Name" : "Down",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.0099999904632568,
+							0.084240823984146118,
+							1.0099999904632568
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.024473130702972412,
+							0.0
+						]
+					}
+				}
+			],
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Gray50",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Cylinder10"
+			},
+			"Name" : "Boofer",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.52613300085067749,
+					1.8956856727600098,
+					0.52613300085067749
+				],
+				"Translate" : 
+				[
+					-1.9370279312133789,
+					-0.74866318702697754,
+					-0.86262798309326172
+				]
+			}
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "PC_SN",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			-11.060329437255859,
+			2.3092565536499023,
+			-22.910533905029297
+		]
+	},
+	"Type" : "Group"
+}

@@ -1,0 +1,24 @@
+{
+  "Duration": 1.0,
+  "TicksPerSecond": 8.0,
+  "Keyframes": [
+    {
+      "Time": 0.0,
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Rotate": [ 0.0, 0.0, 0.0 ],
+      "Translate": [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Time": 0.5,
+      "Scale": [ 1.1, 0.8, 1.1 ],
+      "Rotate": [ 0.0, 0.0, 0.0 ],
+      "Translate": [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "Time": 1.0,
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Rotate": [ 0.0, 0.0, 0.0 ],
+      "Translate": [ 0.0, 0.0, 0.0 ]
+    }
+  ]
+}

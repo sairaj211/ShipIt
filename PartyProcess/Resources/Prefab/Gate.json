@@ -1,0 +1,83 @@
+{
+  "Name": "GateBase",
+  "Type": "Gate",
+  "IsEnabled": true,
+  "Audio": {
+    "mVolume": 1.0
+  },
+  "Children": [
+    {
+      "DataFile": "Block",
+      "ModelComponent": {
+        "Material": "WarningStripes",
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Name": "GateArm",
+      "Transform": {
+        "Scale": [
+          0.5,
+          0.5,
+          3.5
+        ],
+        "Translate": [
+          0.0,
+          0.0,
+          1.75
+        ]
+      }
+    }
+  ],
+  "ModelComponent": {
+    "Material": "White",
+    "Renderable": true,
+    "CastsShadow": true,
+    "MeshMaterials": [
+      "None"
+    ],
+    "Model": "Sphere"
+  },
+  "ScriptComponent": {
+    "scripts": [
+      ".\\Resources\\Scripts\\GateSFX.py"
+    ]
+  },
+  "Transform": {
+    "RotationAngles": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Translate": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "AffineSequence": {
+    "Mode": 0,
+    "TimerStart": 0.0
+  },
+  "Animator": {
+    "AffineStates": [
+      {
+        "AffineAnimationName": "RotateUp",
+        "BlendDuration": 0.0,
+        "ReturnToDefault": true,
+        "StateName": "Open"
+      },
+      {
+        "AffineAnimationName": "RotateDown",
+        "BlendDuration": 0.0,
+        "ReturnToDefault": true,
+        "StateName": "Close"
+      }
+    ]
+  }
+}

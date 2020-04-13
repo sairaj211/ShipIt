@@ -1,0 +1,19 @@
+{
+  "Type": "Light",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 0.1, 0.1, 0.1 ],
+    "Translate": [ 0.4, 0.4, 1.0 ],
+    "RotationAngles": [ 0.0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Sphere",
+    "Material": "Light",
+    "Renderable": false,
+    "CastsShadow": false
+  },
+  "LocalLightComponent": {
+    "Radius": 2.0,
+    "LightColor": [ 1.0, 1.0, 1.0 ]
+  }
+}

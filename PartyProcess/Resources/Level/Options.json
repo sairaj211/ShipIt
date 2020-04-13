@@ -1,0 +1,145 @@
+{
+  "Options": [
+    {
+      "Name": "Text1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Text",
+        "String": "Audio"
+      },
+      "Transform": {
+        "Translate": [ 0.4, 0.25, 0.0 ],
+        "Scale": [ 0.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Slider",
+        "Label": "Volume",
+        "Min Value": 0,
+        "Max Value": 100
+      },
+      "Transform": {
+        "Translate": [ 0.5, 0.25, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Text2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Text",
+        "String": "Mute"
+      },
+      "Transform": {
+        "Translate": [ 0.4, 0.4, 0.0 ],
+        "Scale": [ 0.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Radio1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Radio",
+        "Label": "Mute",
+        "Options": [ "On", "Off" ]
+      },
+      "Transform": {
+        "Translate": [ 0.5, 0.4, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Text3",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Text",
+        "String": "Full Screen"
+      },
+      "Transform": {
+        "Translate": [ 0.4, 0.55, 0.0 ],
+        "Scale": [ 0.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Radio1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Radio",
+        "Label": "FullScreen",
+        "Options": [ "On", "Off" ]
+      },
+      "Transform": {
+        "Translate": [ 0.5, 0.55, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Text3",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Text",
+        "String": "Resolution"
+      },
+      "Transform": {
+        "Translate": [ 0.4, 0.7, 0.0 ],
+        "Scale": [ 0.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Radio2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Radio",
+        "Label": "Resolution",
+        "Options": [ "800x600", "1280x1024", "1600x1200", "1920x1080" ]
+      },
+      "Transform": {
+        "Translate": [ 0.5, 0.7, 0.0 ],
+        "Scale": [ 400.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Back",
+        "Action": ""
+      },
+      "Transform": {
+        "Translate": [ 0.45, 0.9, 0.0 ],
+        "Scale": [ 200.0, 50.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    }
+  ]
+}

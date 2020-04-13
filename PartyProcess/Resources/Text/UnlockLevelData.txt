@@ -1,0 +1,15 @@
+1,DigiPen01,Y,0,0,X
+1,DigiPen02,N,40,0,X
+1,DigiPen03,N,40,0,X
+1,DigiPen04,N,40,0,X
+1,DigiPen05,N,40,0,X
+2,Coffee01,N,30,0,X
+2,Coffee02,N,30,0,X
+2,Coffee03,N,30,0,X
+2,Coffee04,N,30,0,X
+2,Coffee05,N,30,0,X
+3,Needle01,N,30,0,X
+3,Needle02,N,30,0,X
+3,Needle03,N,30,0,X
+3,Needle04,N,30,0,X
+3,Needle05,N,30,0,X

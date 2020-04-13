@@ -1,0 +1,277 @@
+{
+	"Children" : 
+	[
+		{
+			"Animator" : 
+			{
+				"AffineStates" : 
+				[
+					{
+						"AffineAnimationName" : "Squish",
+						"BlendDuration" : 0.15,
+						"ReturnToDefault" : true,
+						"StateName" : "Input"
+					}
+				],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"Audio" : 
+			{
+				"Loop" : false,
+				"mSoundName" : "coding03.mp3",
+				"mStartPlaying" : false,
+				"mVolume" : 1.0
+			},
+			"Body" : 
+			{
+				"mApplyFriction" : true,
+				"mConstrainX" : false,
+				"mConstrainY" : false,
+				"mConstrainZ" : false,
+				"mMass" : 0.0,
+				"mUseGravity" : false
+			},
+			"Children" : 
+			[
+				{
+					"DataFile" : "Billboard",
+					"IsEnabled" : false,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : true,
+						"IsUI" : false,
+						"Material" : "Default",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Quad",
+						"Renderable" : true
+					},
+					"Name" : "Simon",
+					"ScriptComponent" : 
+					{
+						"always-run" : false,
+						"scripts" : 
+						[
+							".\\Resources\\Scripts\\default.py"
+						]
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							90.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.6,
+							0.6,
+							0.6
+						],
+						"Translate" : 
+						[
+							0.0,
+							1.5,
+							0.0
+						]
+					},
+					"Type" : "Billboard"
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"Rescale" : 
+				[
+					-1.0,
+					0.0,
+					0.0
+				],
+				"mCoeffDynamicFriction" : 0.0,
+				"mCoeffStaticFriction" : 0.0,
+				"mDepth" : -1.0,
+				"mHeight" : -1.0,
+				"mIsTrigger" : false,
+				"mLType" : "Generator",
+				"mRadius" : -1.0,
+				"mShape" : "OBB",
+				"mWidth" : -1.0
+			},
+			"DataFile" : "Generator",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "PC_AR",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "PC",
+				"Renderable" : true
+			},
+			"Name" : "Computer",
+			"ParticlesComponent" : 
+			{
+				"AlphaHigh" : 255,
+				"AlphaLow" : 1,
+				"Blue_var" : 
+				[
+					204,
+					102
+				],
+				"Green_var" : 
+				[
+					204,
+					102
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"MaximumRadius" : 3.0,
+				"MinimumRadius" : 1.0,
+				"PartLife" : 0.15999999642372131,
+				"PartNumber" : 4000.0,
+				"PartPos" : 
+				[
+					-10.299431800842285,
+					1.4180954694747925,
+					-6.3429436683654785
+				],
+				"PartScale" : 
+				[
+					0.02500000037252903,
+					0.02500000037252903,
+					0.02500000037252903
+				],
+				"ParticleType" : "Default",
+				"Red_var" : 
+				[
+					204,
+					102
+				],
+				"Runtime" : 0.30000001192092896,
+				"Spread" : 5.0
+			},
+			"ScriptComponent" : 
+			{
+				"always-run" : false,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\GeneratorInput.py",
+					".\\Resources\\Scripts\\ArtResourceGenerator.py",
+					".\\Resources\\Scripts\\GeneratorOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					-90.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					2.5,
+					2.5,
+					2.5
+				],
+				"Translate" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			"Type" : "Generator"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "Art",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Cube",
+				"Renderable" : true
+			},
+			"Name" : "YellowRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					45.0,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0,
+					0.1,
+					1.0
+				],
+				"Translate" : 
+				[
+					-2.0,
+					0.0,
+					0.0
+				]
+			},
+			"Type" : "Background"
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "ArtGenerator",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

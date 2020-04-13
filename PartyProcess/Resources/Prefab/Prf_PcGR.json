@@ -1,0 +1,423 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : [],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "GameDeliver01.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Carrier" : 
+	{
+		"ItemIndices" : []
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Programming",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "PR",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-149.99942016601563,
+					-0.54119718074798584,
+					-179.99989318847656
+				],
+				"Scale" : 
+				[
+					0.16667594015598297,
+					0.0066666468046605587,
+					0.16666603088378906
+				],
+				"Translate" : 
+				[
+					-0.1035301685333252,
+					0.82516717910766602,
+					0.00019553303718566895
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Art",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "AR",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-149.99969482421875,
+					-0.54119718074798584,
+					-179.99989318847656
+				],
+				"Scale" : 
+				[
+					0.16665229201316833,
+					0.0066666621714830399,
+					0.16666588187217712
+				],
+				"Translate" : 
+				[
+					-0.11321043968200684,
+					0.81585651636123657,
+					-0.37186843156814575
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Graphics",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "RedRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-149.99943542480469,
+					-0.54119718074798584,
+					-179.99989318847656
+				],
+				"Scale" : 
+				[
+					0.33331999182701111,
+					0.030039854347705841,
+					0.33333116769790649
+				],
+				"Translate" : 
+				[
+					0.24410343170166016,
+					0.07622838020324707,
+					-0.76401424407958984
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Z",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.0011045560240745544,
+							89.251205444335938,
+							-0.0011064335703849792
+						],
+						"Scale" : 
+						[
+							1.2404816150665283,
+							0.17999944090843201,
+							0.17999961972236633
+						],
+						"Translate" : 
+						[
+							-0.054549090564250946,
+							-9.059906005859375e-06,
+							0.55946564674377441
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "X",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.2404812574386597,
+							0.18000000715255737,
+							0.17999997735023499
+						],
+						"Translate" : 
+						[
+							-0.57983279228210449,
+							0.0,
+							-1.9073486328125e-06
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Green",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Y",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.999755859375,
+							87.987075805664063,
+							-89.999946594238281
+						],
+						"Scale" : 
+						[
+							1.2404114007949829,
+							0.17999653518199921,
+							0.18000002205371857
+						],
+						"Translate" : 
+						[
+							-0.10179406404495239,
+							0.70636916160583496,
+							-0.018312454223632813
+						]
+					}
+				}
+			],
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Red",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Renderable" : false
+			},
+			"Name" : "Gizmo",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0002593994140625,
+					-88.528274536132813,
+					0.0
+				],
+				"Scale" : 
+				[
+					0.33331999182701111,
+					0.33333128690719604,
+					0.33331957459449768
+				],
+				"Translate" : 
+				[
+					-0.31241202354431152,
+					0.044198572635650635,
+					-0.52281373739242554
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Art",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "AR",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-149.99969482421875,
+					-0.54119718074798584,
+					-179.99989318847656
+				],
+				"Scale" : 
+				[
+					0.16665233671665192,
+					0.0066666677594184875,
+					0.1666659414768219
+				],
+				"Translate" : 
+				[
+					-0.093373775482177734,
+					0.81585240364074707,
+					0.39311832189559937
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			1.0499999523162842
+		],
+		"Rescale" : 
+		[
+			0.34999999403953552,
+			0.69999998807907104,
+			-2.0999999046325684
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Processor",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : false,
+		"IsUI" : false,
+		"Material" : "PC_GR",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_GR",
+	"ParticlesComponent" : 
+	{
+		"AlphaHigh" : 255,
+		"AlphaLow" : 1,
+		"Blue_var" : 
+		[
+			255,
+			1
+		],
+		"Green_var" : 
+		[
+			255,
+			1
+		],
+		"MainDir" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"MaximumRadius" : 3.0,
+		"MinimumRadius" : 1.0,
+		"PartLife" : 0.5,
+		"PartNumber" : 400.0,
+		"PartPos" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"PartScale" : 
+		[
+			0.05000000074505806,
+			0.05000000074505806,
+			0.05000000074505806
+		],
+		"ParticleType" : "Explosion",
+		"Red_var" : 
+		[
+			255,
+			1
+		],
+		"Runtime" : 0.5,
+		"Spread" : 1.0
+	},
+	"Processor" : 
+	{
+		"MaxInput" : 3,
+		"MaxProcessingTime" : 3.0,
+		"Recipes" : 
+		[
+			6
+		]
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\PickupProcessor.py",
+			".\\Resources\\Scripts\\ProcessorInput.py",
+			".\\Resources\\Scripts\\ProcessorGenerate.py",
+			".\\Resources\\Scripts\\ProcessorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			-4.5802034040476336e-13,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			3.0000002384185791,
+			3.0,
+			3.0000002384185791
+		],
+		"Translate" : 
+		[
+			-3.0,
+			0.0,
+			-10.5
+		]
+	},
+	"Type" : "Processor"
+}

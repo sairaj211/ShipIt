@@ -1,0 +1,40 @@
+{
+  "Type": "Sphere",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 1.0, 1.0, 1.0 ],
+    "Translate": [ 0.0, 0.0, 0.0 ],
+    "RotationAngles": [ 0.0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Sphere",
+    "Material": "Ground",
+    "Renderable": true,
+    "CastsShadow": true
+  },
+  "Body": {
+    "mPos": 0.0,
+    "mPrevPos": 0.0,
+    "mVel": 0.0,
+    "mAcc": 0.0,
+    "mTotalForce": 0.0,
+    "constantVelocity": 0.0,
+    "mApplyFriction": true,
+    "isConstantVelocitySet": false,
+    "constrainX": false,
+    "constrainY": false,
+    "mUseGravity": false,
+    "mMass": 0.0
+  },
+  "Collider": {
+    "mLType": "Box",
+    "mShape": "AABB",
+    "mIsTrigger": false,
+    "mCoeffStaticFriction": 0.1,
+    "mCoeffDynamicFriction": 0.1
+  },
+  "Animator": {
+    "DefaultAffineState": "None",
+    "DefaultSkeletalState": "None"
+  }
+}

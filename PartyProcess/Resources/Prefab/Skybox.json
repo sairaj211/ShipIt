@@ -1,0 +1,16 @@
+{
+  "Name": "Sandbox_Skybox",
+  "Type": "Skybox",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 1000.0, 1000.0, 1000.0 ],
+    "Translate": [ 0.0, 0.0, 0.0 ],
+    "RotationAngles": [ 0.0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Cube",
+    "Material": "SkyBox",
+    "Renderable": true,
+    "CastsShadow": false
+  }
+}

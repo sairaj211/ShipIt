@@ -1,0 +1,68 @@
+ {
+    "LevelSelector": [
+    {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "DigiPen Level",
+        "Action": "Clean01"
+      },
+       "Transform": {
+        "Translate" : [0.45, 0.3, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "Starbucks Level",
+        "Action": "Clean02"
+      },
+       "Transform": {
+        "Translate" : [0.45, 0.45, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+   {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "Space Needle Level",
+        "Action": "03"
+      },
+       "Transform": {
+        "Translate" : [0.45, 0.60, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "Mars Level",
+        "Action": "04_02"
+      },
+       "Transform": {
+        "Translate" : [0.45, 0.75, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    }
+  ]
+}

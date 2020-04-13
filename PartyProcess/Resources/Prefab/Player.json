@@ -1,0 +1,73 @@
+{
+  "Type": "Player",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 1.5, 1.75, 1.5 ],
+    "Translate": [ 0.0, 0.0, 0.0 ],
+    "RotationAngles": [ 0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Sphere",
+    "Renderable": true,
+    "CastsShadow": true
+  },
+  "Body": {
+    "mPos": 0.0,
+    "mPrevPos": 0.0,
+    "mVel": 0.0,
+    "mAcc": 0.0,
+    "mTotalForce": 0.0,
+    "constantVelocity": 200.0,
+    "mApplyFriction": true,
+    "mMass": 1.0,
+    "isConstantVelocitySet": true,
+    "mConstrainX": false,
+    "mConstrainY": false,
+    "mConstrainZ": false,
+    "mUseGravity": true
+  },
+  "Collider": {
+    "mCoeffStaticFriction": 0.2,
+    "mCoeffDynamicFriction": 0.12,
+    "mLType": "Player",
+    "mShape": "AABB"
+  },
+  "ScriptComponent": {
+    "scripts": [
+      ".\\Resources\\Scripts\\character_control.py",
+      ".\\Resources\\Scripts\\Reset.py",
+      ".\\Resources\\Scripts\\PlayerPickup.py",
+      ".\\Resources\\Scripts\\PlayerDrop.py",
+      ".\\Resources\\Scripts\\PlatformRelationship.py"
+    ]
+  },
+  "Controller": {
+    "player": -1
+  },
+  "Player": {
+    "mRecharge": 2.0
+  },
+  "Carrier": {
+
+  },
+  "ParticlesComponent": {
+    "Position": [ 0.0, 0.0, 0.0 ],
+    "Range": [ 0.5, 0.0, 0.5 ],
+    "Velocity": [ 0.5, 0.0, -4.0 ],
+    "Direction": [ 0.0, 0.0, 0.0 ],
+    "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+    "Scale": [ 0.2, 0.2, 0.2 ],
+    "Life": 0.5,
+    "Number of Particles": 100,
+    "Minimum Number Of Particles": 50,
+    "Material Name": "Particles_Trail",
+    "Texture": true,
+    "Effect": 0
+  },
+  "Audio": {
+
+  },
+  "Observer": {
+
+  }
+}

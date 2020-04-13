@@ -1,0 +1,41 @@
+{
+  "Name": "Scale",
+  "Type": "Scale",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 2.0, 3.0, 2.0 ],
+    "Translate": [ 0.0, 0.0, 0.0 ],
+    "RotationAngles": [ 0.0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Scale",
+    "Material": "Art",
+    "Renderable": true,
+    "CastsShadow": true
+  },
+  "Body": {
+    "mUseGravity": false,
+    "mMass": 0.5
+  },
+  "Collider": {
+    "mShape": "AABB",
+    "mIsTrigger": false,
+    "mWidth": -1.0,
+    "mHeight": -1.0,
+    "mDepth": -1.0,
+    "mRadius": -1.0,
+    "Offset": [ 0.0, 0.0, 0.0 ],
+    "Rescale": [ 0.0, 0.0, 0.0 ]
+  },
+  "Animator": {
+    "AffineStates": [
+      {
+        "StateName": "Spin",
+        "AffineAnimationName": "Spin",
+        "BlendDuration": 0.3,
+        "ReturnToDefault": false
+      }
+    ],
+    "DefaultAffineState": "Spin"
+  }
+}

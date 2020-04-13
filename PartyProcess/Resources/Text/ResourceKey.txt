@@ -1,0 +1,12 @@
+Resources
+	ProgrammingResource : 0
+	ArtResource         : 1
+	DesignResource      : 2
+	PhysicsResource     : 3
+	AudioResource       : 4
+	AIResource          : 5
+	GraphicsResource    : 6
+Games
+	FPSGames       : 0
+	SimulationGame : 1
+	PlatformerGame : 2

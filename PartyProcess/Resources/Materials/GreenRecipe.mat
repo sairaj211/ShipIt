@@ -1,0 +1,8 @@
+{
+  "DiffuseTexture": "GreenRecipe",
+  "Diffuse": [ 0.01, 0.01, 0.01, 1.0 ],
+  "Specular": [ 0.1, 0.1, 0.1 ],
+  "Shininess": 1.0,
+  "UseLighting": false,
+  "Shader": "DRLighting"
+}

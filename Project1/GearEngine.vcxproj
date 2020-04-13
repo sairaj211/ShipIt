@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A456DE1B-53A7-4664-8CB5-A13CFEF1CC71}</ProjectGuid>
+    <RootNamespace>GearEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>GearEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ExtensionsToDeleteOnClean>*.dll;$(ExtensionsToDeleteOnClean)</ExtensionsToDeleteOnClean>
+    <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
+    <TargetName>GearEngine</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(PlatformTarget)\$(Configuration)\</OutDir>
+    <TargetName>GearEngine</TargetName>
+    <ExtensionsToDeleteOnClean>*.dll;$(ExtensionsToDeleteOnClean)</ExtensionsToDeleteOnClean>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;$(ProjectDir)Dependencies\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <PreprocessorDefinitions>GEAR_PLATFORM_WINDOWS;GEAR_BUILD_DLL;SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)Dependencies\Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc141-mt.lib;opengl32.lib;glew32.lib;SDL2.lib;SDL2main.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source;$(ProjectDir)Dependencies\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>GEAR_PLATFORM_WINDOWS;GEAR_BUILD_DLL;SDL_MAIN_HANDLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)Dependencies\Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc141-mt.lib;opengl32.lib;glew32.lib;SDL2.lib;SDL2main.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Dependencies\Include\ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="Source\Components\Block.cpp" />
+    <ClCompile Include="Source\Components\AffineSequence.cpp" />
+    <ClCompile Include="Source\Components\Building.cpp" />
+    <ClCompile Include="Source\Components\GridWaypoint.cpp" />
+    <ClCompile Include="Source\Components\LevelButton.cpp" />
+    <ClCompile Include="Source\Events\ChangeAnimationStateEvent.cpp" />
+    <ClCompile Include="Source\Events\HighlightEvent.cpp" />
+    <ClCompile Include="Source\Components\Teleport.cpp" />
+    <ClCompile Include="Source\Events\LevelCompleteEvent.cpp" />
+    <ClCompile Include="Source\Events\ResetGridEvent.cpp" />
+    <ClCompile Include="Source\Events\UpdateLevelEvent.cpp" />
+    <ClCompile Include="Source\Events\UpdateSliderPositionEvent.cpp" />
+    <ClCompile Include="Source\Events\CellEjectEvent.cpp" />
+    <ClCompile Include="Source\InstancedParticle.cpp" />
+    <ClCompile Include="Source\Physics\GJK.cpp" />
+    <ClCompile Include="Source\Physics\AABBTree.cpp" />
+    <ClCompile Include="Source\Physics\CollisionManager.cpp" />
+    <ClCompile Include="Source\Events\UIActionEvent.cpp" />
+    <ClCompile Include="Source\Managers\SceneManager.cpp" />
+    <ClCompile Include="Source\Components\Generator.cpp" />
+    <ClCompile Include="Source\Components\AreaSearch.cpp" />
+    <ClCompile Include="Source\Components\Carrier.cpp" />
+    <ClCompile Include="Source\Components\Grid.cpp" />
+    <ClCompile Include="Source\Components\Processor.cpp" />
+    <ClCompile Include="Source\Components\SpotLight.cpp" />
+    <ClCompile Include="Source\Components\UIComponent.cpp" />
+    <ClCompile Include="Source\EditCamera.cpp" />
+    <ClCompile Include="Source\Editor\ImGuizmo.cpp" />
+    <ClCompile Include="Source\Editor\MaterialEditor.cpp" />
+    <ClCompile Include="Source\Events\CellUpdateEvent.cpp" />
+    <ClCompile Include="Source\Events\ContainerMatch.cpp" />
+    <ClCompile Include="Source\Events\InitLevelEvent.cpp" />
+    <ClCompile Include="Source\Events\InputEvent.cpp" />
+    <ClCompile Include="Source\Events\CreateGameEvent.cpp" />
+    <ClCompile Include="Source\Events\GeneratorInputEvent.cpp" />
+    <ClCompile Include="Source\Events\GeneratorOutputEvent.cpp" />
+    <ClCompile Include="Source\Events\OrphanEvent.cpp" />
+    <ClCompile Include="Source\Components\Observer.cpp" />
+    <ClCompile Include="Source\Events\PlayerDropEvent.cpp" />
+    <ClCompile Include="Source\Events\PlayerPickupEvent.cpp" />
+    <ClCompile Include="Source\Events\ContainerInputEvent.cpp" />
+    <ClCompile Include="Source\Events\ContainerOutputEvent.cpp" />
+    <ClCompile Include="Source\Events\RecipeMatchEvent.cpp" />
+    <ClCompile Include="Source\Events\RequestFilledEvent.cpp" />
+    <ClCompile Include="Source\Events\RequestMadeEvent.cpp" />
+    <ClCompile Include="Source\Events\ResetEntityEvent.cpp" />
+    <ClCompile Include="Source\Events\AttackEvent.cpp" />
+    <ClCompile Include="Source\Events\SetCellEvent.cpp" />
+    <ClCompile Include="Source\Managers\EnemyStateManager.cpp" />
+    <ClCompile Include="Source\Components\Enemy.cpp" />
+    <ClCompile Include="Source\Components\Bullet.cpp" />
+    <ClCompile Include="Source\Events\ContactEvent.cpp" />
+    <ClCompile Include="Source\Components\Camera.cpp" />
+    <ClCompile Include="Source\Components\ButtonComponent.cpp" />
+    <ClCompile Include="Dependencies\Include\ImGui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Include\ImGui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Include\ImGui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Include\ImGui\imgui_impl_opengl3.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Include\ImGui\imgui_impl_sdl.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Include\ImGui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Include\jsoncpp\jsoncpp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Components\Animator.cpp" />
+    <ClCompile Include="Source\Components\Audio.cpp" />
+    <ClCompile Include="Source\Components\Player.cpp" />
+    <ClCompile Include="Source\Editor\RayCast.cpp" />
+    <ClCompile Include="Source\Input\Mouse.cpp" />
+    <ClCompile Include="Source\Components\Body.cpp" />
+    <ClCompile Include="Source\Components\Collider.cpp" />
+    <ClCompile Include="Source\Components\ParticlesComponent.cpp" />
+    <ClCompile Include="Source\Events\PauseEvent.cpp" />
+    <ClCompile Include="Source\Managers\LocalizationManager.cpp" />
+    <ClCompile Include="Source\Managers\ParticleManager.cpp" />
+    <ClCompile Include="Source\Managers\ScriptManager.cpp" />
+    <ClCompile Include="Source\Physics\PhysicsManager.cpp" />
+    <ClCompile Include="Source\Physics\Shape.cpp" />
+    <ClCompile Include="Source\Random\Noise.cpp" />
+    <ClCompile Include="Source\Random\RandomNumberGenerator.cpp" />
+    <ClCompile Include="Source\Resource.cpp" />
+    <ClCompile Include="Source\Components\ScriptComponent.cpp" />
+    <ClCompile Include="Source\Input\Bindings.cpp" />
+    <ClCompile Include="Source\Components\Controller.cpp" />
+    <ClCompile Include="Source\Input\GamePad.cpp" />
+    <ClCompile Include="Source\Managers\EventManager.cpp" />
+    <ClCompile Include="Source\Components\DirectionalLightComponent.cpp" />
+    <ClCompile Include="Source\Components\LocalLightComponent.cpp" />
+    <ClCompile Include="Source\Components\ModelComponent.cpp" />
+    <ClCompile Include="Source\Editor\LevelEditor.cpp" />
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\FBO.cpp" />
+    <ClCompile Include="Source\Managers\CameraManager.cpp" />
+    <ClCompile Include="Source\Managers\FrameRateManager.cpp" />
+    <ClCompile Include="Source\Managers\ShapeGenerator.cpp" />
+    <ClCompile Include="Source\Mesh.cpp" />
+    <ClCompile Include="Source\Managers\Log.cpp" />
+    <ClCompile Include="Source\Managers\Renderer.cpp" />
+    <ClCompile Include="Source\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Source\Managers\InputManager.cpp" />
+    <ClCompile Include="Source\Resources\AffineAnimation.cpp" />
+    <ClCompile Include="Source\Resources\Material.cpp" />
+    <ClCompile Include="Source\Resources\Model.cpp" />
+    <ClCompile Include="Source\Resources\Shader.cpp" />
+    <ClCompile Include="Source\Resources\SkeletalAnimation.cpp" />
+    <ClCompile Include="Source\Resources\Text.cpp" />
+    <ClCompile Include="Source\Resources\Texture.cpp" />
+    <ClCompile Include="Source\Component.cpp" />
+    <ClCompile Include="Source\Components\Transform.cpp" />
+    <ClCompile Include="Source\Entity.cpp" />
+    <ClCompile Include="Source\Managers\AudioManager.cpp" />
+    <ClCompile Include="Source\Managers\ComponentManager.cpp" />
+    <ClCompile Include="Source\Managers\EntityManager.cpp" />
+    <ClCompile Include="Source\Managers\MemoryManager.cpp" />
+    <ClCompile Include="Source\Managers\ObjectFactory.cpp" />
+    <ClCompile Include="Source\Managers\ResourceManager.cpp" />
+    <ClCompile Include="Source\Resources\JsonData.cpp" />
+    <ClCompile Include="Source\Events\UpdatedScriptEvent.cpp" />
+    <ClCompile Include="Source\Skeleton.cpp" />
+    <ClCompile Include="Source\Timer.cpp" />
+    <ClInclude Include="Dependencies\Include\ImGui\imgui_stdlib.h" />
+    <ClInclude Include="Source\Components\AffineSequence.h" />
+    <ClInclude Include="Source\Components\Block.h" />
+    <ClInclude Include="Source\Components\Building.h" />
+    <ClInclude Include="Source\Components\GridWaypoint.h" />
+    <ClInclude Include="Source\Components\LevelButton.h" />
+    <ClInclude Include="Source\Events\HighlightEvent.h" />
+    <ClInclude Include="Source\Events\ChangeAnimationStateEvent.h" />
+    <ClInclude Include="Source\Components\Teleport.h" />
+    <ClInclude Include="Source\Events\LevelCompleteEvent.h" />
+    <ClInclude Include="Source\Events\ResetGridEvent.h" />
+    <ClInclude Include="Source\Events\UpdateLevelEvent.h" />
+    <ClInclude Include="Source\Events\UpdateSliderPositionEvent.h" />
+    <ClInclude Include="Source\Events\CellEjectEvent.h" />
+    <ClInclude Include="Source\InstancedParticle.h" />
+    <ClInclude Include="Source\Physics\GJK.h" />
+    <ClInclude Include="Source\Physics\AABBTree.h" />
+    <ClInclude Include="Source\Physics\CollisionManager.h" />
+    <ClInclude Include="Source\Events\UIActionEvent.h" />
+    <ClInclude Include="Source\Managers\SceneManager.h" />
+    <ClCompile Include="Source\Utility.cpp" />
+    <ClInclude Include="Source\Components\Generator.h" />
+    <ClInclude Include="Source\Components\AreaSearch.h" />
+    <ClInclude Include="Source\Components\Carrier.h" />
+    <ClInclude Include="Source\Components\Grid.h" />
+    <ClInclude Include="Source\Components\Processor.h" />
+    <ClInclude Include="Source\Components\SpotLight.h" />
+    <ClInclude Include="Source\Components\UIComponent.h" />
+    <ClInclude Include="Source\EditCamera.h" />
+    <ClInclude Include="Source\Editor\ImGuizmo.h" />
+    <ClInclude Include="Source\Editor\MaterialEditor.h" />
+    <ClInclude Include="Source\Events\CellUpdateEvent.h" />
+    <ClInclude Include="Source\Events\ContainerMatchEvent.h" />
+    <ClInclude Include="Source\Events\InitLevelEvent.h" />
+    <ClInclude Include="Source\Events\InputEvent.h" />
+    <ClInclude Include="Source\Events\CreateGameEvent.h" />
+    <ClInclude Include="Source\Events\GeneratorInputEvent.h" />
+    <ClInclude Include="Source\Events\GeneratorOutputEvent.h" />
+    <ClInclude Include="Source\Events\OrphanEvent.h" />
+    <ClInclude Include="Source\Components\Observer.h" />
+    <ClInclude Include="Source\Events\PlayerDropEvent.h" />
+    <ClInclude Include="Source\Events\PlayerPickupEvent.h" />
+    <ClInclude Include="Source\Events\ContainerInputEvent.h" />
+    <ClInclude Include="Source\Events\ContainerOutputEvent.h" />
+    <ClInclude Include="Source\Events\RecipeMatchEvent.h" />
+    <ClInclude Include="Source\Events\RequestFilledEvent.h" />
+    <ClInclude Include="Source\Events\RequestMadeEvent.h" />
+    <ClInclude Include="Source\Events\ResetEntityEvent.h" />
+    <ClInclude Include="Source\Events\AttackEvent.h" />
+    <ClCompile Include="Source\Components\Wall.cpp" />
+    <ClInclude Include="Source\Events\SetCellEvent.h" />
+    <ClInclude Include="Source\Managers\EnemyStateManager.h" />
+    <ClInclude Include="Source\Components\Enemy.h" />
+    <ClInclude Include="Source\Components\Bullet.h" />
+    <ClInclude Include="Source\Events\ContactEvent.h" />
+    <ClInclude Include="Source\Components\Camera.h" />
+    <ClInclude Include="Source\Components\ButtonComponent.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imconfig.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imgui.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imgui_impl_sdl.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imgui_internal.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Dependencies\Include\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Dependencies\Include\stb_image_write.h" />
+    <ClInclude Include="Source\Components\Animator.h" />
+    <ClInclude Include="Source\Components\Audio.h" />
+    <ClInclude Include="Source\Components\Player.h" />
+    <ClInclude Include="Source\Editor\RayCast.h" />
+    <ClInclude Include="Source\Input\Mouse.h" />
+    <ClInclude Include="Source\EntryPoint.h" />
+    <ClInclude Include="Source\Components\Body.h" />
+    <ClInclude Include="Source\Components\Collider.h" />
+    <ClInclude Include="Source\Physics\Shape.h" />
+    <ClInclude Include="Source\Components\ParticlesComponent.h" />
+    <ClInclude Include="Source\Core.h" />
+    <ClInclude Include="Source\Events\PauseEvent.h" />
+    <ClInclude Include="Gear.h" />
+    <ClInclude Include="Source\Managers\LocalizationManager.h" />
+    <ClInclude Include="Source\Managers\ParticleManager.h" />
+    <ClInclude Include="Source\Managers\ScriptManager.h" />
+    <ClInclude Include="Source\Physics\PhysicsManager.h" />
+    <ClInclude Include="Source\Random\Noise.h" />
+    <ClInclude Include="Source\Components\ScriptComponent.h" />
+    <ClInclude Include="Source\Input\Bindings.h" />
+    <ClInclude Include="Source\Components\Controller.h" />
+    <ClInclude Include="Source\Input\GamePad.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\async.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\async_logger-inl.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\async_logger.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\common-inl.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\common.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\formatter.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\logger-inl.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\logger.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\spdlog-inl.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\spdlog.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\tweakme.h" />
+    <ClInclude Include="Dependencies\Include\spdlog\include\spdlog\version.h" />
+    <ClInclude Include="Source\Event.h" />
+    <ClInclude Include="Source\Managers\EventManager.h" />
+    <ClInclude Include="Source\Components\DirectionalLightComponent.h" />
+    <ClInclude Include="Source\Components\LocalLightComponent.h" />
+    <ClInclude Include="Source\Components\ModelComponent.h" />
+    <ClInclude Include="Dependencies\Include\jsoncpp\json\json-forwards.h" />
+    <ClInclude Include="Dependencies\Include\jsoncpp\json\json.h" />
+    <ClInclude Include="Dependencies\Include\stb_image.h" />
+    <ClInclude Include="Source\Editor\LevelEditor.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\FBO.h" />
+    <ClInclude Include="Source\Managers\CameraManager.h" />
+    <ClInclude Include="Source\Managers\Log.h" />
+    <ClInclude Include="Source\Managers\Renderer.h" />
+    <ClInclude Include="Source\Managers\ShapeGenerator.h" />
+    <ClInclude Include="Source\Mesh.h" />
+    <ClInclude Include="Source\pch.h" />
+    <ClInclude Include="Source\Framework.h" />
+    <ClInclude Include="Source\Managers\InputManager.h" />
+    <ClInclude Include="Source\Random\RandomNumberGenerator.h" />
+    <ClInclude Include="Source\Resources\AffineAnimation.h" />
+    <ClInclude Include="Source\Resources\SkeletalAnimation.h" />
+    <ClInclude Include="Source\Resources\Text.h" />
+    <ClInclude Include="Source\Scripting\engine.h" />
+    <ClInclude Include="Source\Events\UpdatedScriptEvent.h" />
+    <ClInclude Include="Source\Skeleton.h" />
+    <ClInclude Include="Source\TestDefine.h" />
+    <ClInclude Include="Source\Timer.h" />
+    <ClInclude Include="Source\Components\Wall.h" />
+    <ClInclude Include="Source\Utility.h" />
+    <CopyFileToFolders Include="Dependencies\DLLibrary\assimp-vc141-mt.dll">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\fmod.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\fmodL.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\fmodstudio.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\fmodstudioL.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\glew32.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\python3.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\python37.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\python37_d.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\python3_d.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\SDL2.dll">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Dependencies\DLLibrary\freetype.dll">
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+    <None Include="Resources\Json\BlueMaterial.json" />
+    <None Include="Resources\Json\Cube.json" />
+    <None Include="Resources\Json\Cube2D.json" />
+    <None Include="Resources\Json\Default.json" />
+    <None Include="Resources\Json\DRLight.json" />
+    <None Include="Resources\Materials\Body.mat" />
+    <None Include="Resources\Json\Enemy.json" />
+    <None Include="Resources\Materials\Glass.mat" />
+    <None Include="Resources\Json\Ground.json" />
+    <None Include="Resources\Json\Light.json" />
+    <None Include="Resources\Materials\Hand.mat" />
+    <None Include="Resources\Materials\Helmet.mat" />
+    <None Include="Resources\Materials\Leg.mat" />
+    <None Include="Resources\Json\LightMaterial.json" />
+    <None Include="Resources\Json\OrangeMaterial.json" />
+    <None Include="Resources\Json\Particle.json" />
+    <None Include="Resources\Json\Player.json" />
+    <None Include="Resources\Json\Skybox.json" />
+    <None Include="Resources\Json\Test.json" />
+    <None Include="Resources\Json\TestLevel.json" />
+    <None Include="Resources\Materials\Default.mat" />
+    <None Include="Resources\KeyBindings\Bindings.json" />
+    <None Include="Resources\Models\cyber.fbx" />
+    <None Include="Resources\Models\gh_sample_animation.fbx" />
+    <ClInclude Include="ai\BehaviorTreeBuilder.h" />
+    <ClInclude Include="ai\BaseBehaviorNode.h" />
+    <ClInclude Include="Source\Managers\FrameRateManager.h" />
+    <ClInclude Include="Source\Resources\Material.h" />
+    <ClInclude Include="Source\Resources\Model.h" />
+    <ClInclude Include="Source\Resources\Shader.h" />
+    <ClInclude Include="Source\Resources\Texture.h" />
+    <ClInclude Include="Source\Component.h" />
+    <ClInclude Include="Source\Components\Transform.h" />
+    <ClInclude Include="Source\Entity.h" />
+    <ClInclude Include="Source\Managers\AudioManager.h" />
+    <ClInclude Include="Source\Managers\ComponentManager.h" />
+    <ClInclude Include="Source\Managers\EntityManager.h" />
+    <ClInclude Include="Source\Managers\MemoryManager.h" />
+    <ClInclude Include="Source\Managers\ObjectFactory.h" />
+    <ClInclude Include="Source\Managers\ResourceManager.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="Source\Resources\JsonData.h" />
+    <None Include="Resources\Models\scene.fbx" />
+    <None Include="Resources\Shaders\Ambient.frag" />
+    <None Include="Resources\Shaders\Ambient.vert" />
+    <None Include="Resources\Shaders\DRLighting.frag" />
+    <None Include="Resources\Shaders\DRLighting.vert" />
+    <None Include="Resources\Shaders\Forward.frag" />
+    <None Include="Resources\Shaders\Forward.vert" />
+    <None Include="Resources\Shaders\GBuffer.frag" />
+    <None Include="Resources\Shaders\GBuffer.vert" />
+    <None Include="Resources\Shaders\Light.frag" />
+    <None Include="Resources\Shaders\Light.vert" />
+    <None Include="Resources\Shaders\LocalLighting.frag" />
+    <None Include="Resources\Shaders\LocalLighting.vert" />
+    <None Include="Resources\Shaders\Particles.frag" />
+    <None Include="Resources\Shaders\Particles.vert" />
+    <None Include="Resources\Shaders\PBuffer.frag" />
+    <None Include="Resources\Shaders\PBuffer.vert" />
+    <None Include="Resources\Shaders\Shadow.frag" />
+    <None Include="Resources\Shaders\Shadow.vert" />
+    <None Include="Resources\Scripts\simple_test_script.py" />
+    <Text Include="Resources\logs\basic-log.txt" />
+    <None Include="Resources\Shaders\Default.frag" />
+    <None Include="Resources\Shaders\Default.vert" />
+    <Text Include="Resources\Scripts\test.py">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\arm_dif.png" />
+    <Image Include="Resources\Textures\body_dif.png" />
+    <Image Include="Resources\Textures\Default.png" />
+    <Image Include="Resources\Textures\glass_dif.png" />
+    <Image Include="Resources\Textures\hand_dif.png" />
+    <Image Include="Resources\Textures\helmet_dif.png" />
+    <Image Include="Resources\Textures\leg_dif.png" />
+    <Image Include="Resources\Textures\skybox5.png" />
+    <Image Include="Resources\Textures\skybox3.png" />
+    <Image Include="Resources\Textures\skybox4.png" />
+    <Image Include="Resources\Textures\skybox1.png" />
+    <Image Include="Resources\Textures\skybox0.png" />
+    <Image Include="Resources\Textures\skybox2.png" />
+    <Image Include="Resources\Textures\Star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dependencies\Library\assimp-vc141-mt.lib" />
+    <Library Include="Dependencies\Library\fmodL_vc.lib" />
+    <Library Include="Dependencies\Library\fmodstudioL_vc.lib" />
+    <Library Include="Dependencies\Library\fmodstudio_vc.lib" />
+    <Library Include="Dependencies\Library\fmod_vc.lib" />
+    <Library Include="Dependencies\Library\freetype.lib" />
+    <Library Include="Dependencies\Library\glew32.lib" />
+    <Library Include="Dependencies\Library\python3.lib" />
+    <Library Include="Dependencies\Library\python37.lib" />
+    <Library Include="Dependencies\Library\python37_d.lib" />
+    <Library Include="Dependencies\Library\python3_d.lib" />
+    <Library Include="Dependencies\Library\SDL2.lib" />
+    <Library Include="Dependencies\Library\SDL2main.lib" />
+    <Library Include="Dependencies\Library\SDL2test.lib" />
+    <Library Include="Dependencies\Library\_tkinter.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

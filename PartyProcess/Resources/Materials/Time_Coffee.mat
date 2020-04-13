@@ -1,0 +1,7 @@
+{
+  "DiffuseTexture": "UI_TL02",
+  "Diffuse": [ 0.0, 0.0, 1.0, 1.0 ],
+  "Specular": [ 0.6, 0.6, 0.6 ],
+  "Shininess": 10.0,
+  "Shader": "DRLighting"
+}

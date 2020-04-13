@@ -1,0 +1,39 @@
+{
+  "Name": "Fighter_Game",
+  "Type": "Game",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 1.0, 0.3, 1.5 ],
+    "Translate": [ 0.0, 0.0, 0.0 ],
+    "RotationAngles": [ 0.0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Cube",
+    "Material": "Fighter",
+    "Renderable": true,
+    "CastsShadow": true
+  },
+  "Body": {
+    "mUseGravity": true,
+    "mMass": 0.5
+  },
+  "Collider": {
+    "mLType": "Resource",
+    "mShape": "AABB",
+    "mIsTrigger": false,
+    "mWidth": -1.0,
+    "mHeight": -1.0,
+    "mDepth": -1.0,
+    "mRadius": -1.0,
+    "Offset": [ 0.0, 0.0, 0.0 ],
+    "Rescale": [ 0.0, 0.0, 0.0 ]
+  },
+  "Observer": {
+
+  },
+  "ScriptComponent": {
+    "scripts": [
+      ".\\Resources\\Scripts\\PlatformRelationship.py"
+    ]
+  }
+}

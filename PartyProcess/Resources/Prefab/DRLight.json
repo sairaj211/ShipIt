@@ -1,0 +1,19 @@
+{
+  "Type": "DRLight",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 0.1, 0.1, 0.1 ],
+    "Translate": [ 0.0, 5.0, 4.0 ],
+    "RotationAngles": [ 0.0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Sphere",
+    "Material": "DRLight",
+    "Renderable": false,
+    "CastsShadow": false
+  },
+  "DRLightComponent": {
+    "LookPosition": [ 0.0, 0.0, 0.0 ],
+    "LightColor": [ 1.0, 1.0, 1.0 ]
+  }
+}

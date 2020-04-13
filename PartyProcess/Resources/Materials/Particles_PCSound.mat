@@ -1,0 +1,7 @@
+{
+  "DiffuseTexture": "ParticleSn",
+  "Diffuse": [ 1.0, 1.0, 1.0, 1.0 ],
+  "Specular": [ 0.01, 0.01, 0.01 ],
+  "Shininess": 20.0,
+  "Shader": "Particles"
+}

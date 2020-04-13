@@ -1,0 +1,13 @@
+{
+  "LevelFile": "DigiPen03Level",
+  "Name": "World 1 - Level 3",
+  "Music": "BG01.mp3",
+  "Time": 360,
+  "Difficulty": [ 3, 3, 2 ],
+  "Level Number": 1,
+  "Grading": [
+    [ 10.0, 20.0, 30.0, 45.0 ],
+    [ 15.0, 30.0, 45.0, 70.0 ],
+    [ 20.0, 40.0, 60.0, 80.0 ]
+  ]
+}

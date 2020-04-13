@@ -1,0 +1,96 @@
+{
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "GameDeliver01.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"GridWaypoint" : 
+	{
+		"MaxDuration" : 90,
+		"MinDuration" : 90,
+		"Order" : 0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : true,
+		"IsUI" : false,
+		"Material" : "Black",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "Quad",
+		"Renderable" : true
+	},
+	"Name" : "Waypoint01",
+	"ParticlesComponent" : 
+	{
+		"AlphaHigh" : 255,
+		"AlphaLow" : 1,
+		"Blue_var" : 
+		[
+			255,
+			255
+		],
+		"Green_var" : 
+		[
+			255,
+			255
+		],
+		"MainDir" : 
+		[
+			0.0,
+			0.5,
+			0.0
+		],
+		"MaximumRadius" : 3.0,
+		"MinimumRadius" : 1.0,
+		"PartLife" : 0.10000000149011612,
+		"PartNumber" : 400.0,
+		"PartPos" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"PartScale" : 
+		[
+			0.05000000074505806,
+			0.05000000074505806,
+			0.05000000074505806
+		],
+		"ParticleType" : "Explosion",
+		"Red_var" : 
+		[
+			255,
+			255
+		],
+		"Runtime" : -1.0,
+		"Spread" : 0.75
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			-89.999946594238281,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			5.5,
+			5.4999985694885254,
+			5.4999985694885254
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			-6.5
+		]
+	},
+	"Type" : "GridWaypoint"
+}

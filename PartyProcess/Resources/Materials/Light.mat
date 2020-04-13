@@ -1,0 +1,6 @@
+{
+  "Diffuse": [ 1.0, 1.0, 1.0, 1.0 ],
+  "Specular": [ 0.3, 0.3, 0.3 ],
+  "Shininess": 256.0,
+  "UseLighting": false
+}

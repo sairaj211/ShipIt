@@ -1,0 +1,13 @@
+{
+  "LevelFile": "Coffee05Level",
+  "Name": "World 2 - Level 5",
+  "Music": "BG02.mp3",
+  "Time": 360,
+  "Difficulty": [ 3, 3, 2 ],
+  "Level Number": 2,
+  "Grading": [
+    [ 10.0, 20.0, 30.0, 45.0 ],
+    [ 15.0, 30.0, 45.0, 70.0 ],
+    [ 20.0, 40.0, 60.0, 80.0 ]
+  ]
+}

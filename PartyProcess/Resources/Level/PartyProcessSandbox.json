@@ -1,0 +1,177 @@
+{
+  "PartyProcessSandbox": [
+    {
+      "Name": "Player1",
+      "DataFile": "Player",
+      "Transform": {
+        "Translate": [
+          0.0,
+          6.0,
+          0.0
+        ]
+      },
+      "Children": [
+        {
+          "Name": "Pickup_Area",
+          "DataFile": "SearchArea",
+          "Transform": {
+            "Translate": [ 0.0, 0.0, 1.0 ]
+          },
+          "AreaSearch": {
+            "SearchTypes": [
+              "RedResource",
+              "OrangeResource",
+              "YellowResource",
+              "GreenResource",
+              "BlueResource",
+              "PurpleResource"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Processor1",
+      "DataFile": "Processor",
+      "Transform": {
+        "Scale": [ 3.0, 3.0, 1.5 ],
+        "Translate": [ 4.0, 1.5, -3.0 ],
+        "RotationAngles": [ 0.0, -90.0, 0.0 ]
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\PickupProcessor.py",
+          ".\\Resources\\Scripts\\ProcessorGenerate.py",
+          ".\\Resources\\Scripts\\ProcessorInput.py",
+          ".\\Resources\\Scripts\\ProcessorOutput.py",
+          ".\\Resources\\Scripts\\OrangeRecipe.py",
+          ".\\Resources\\Scripts\\GreenRecipe.py",
+          ".\\Resources\\Scripts\\PurpleRecipe.py"
+        ]
+      },
+      "Collider": {
+        "Rescale": [ -1.5, 0.0, 1.5 ]
+      },
+      "Processor": {
+        "MaxProcessingTime": 3.0
+      },
+      "Children": [
+        {
+          "Name": "Interact_Area",
+          "DataFile": "SearchArea",
+          "Transform": {
+            "Scale": [ 1.0, 1.0, 2.0 ],
+            "Translate": [ 0.0, 0.0, 1.5 ]
+          },
+          "AreaSearch": {
+            "CompareFunction": "None",
+            "SearchTypes": [
+              "Player"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "DataFile": "RedResource",
+      "Transform": {
+        "Translate": [ -7.0, 1.5, 6.0 ]
+      }
+    },
+    {
+      "DataFile": "RedResource",
+      "Transform": {
+        "Translate": [ -7.5, 0.5, 6.5 ]
+      }
+    },
+    {
+      "DataFile": "RedResource",
+      "Transform": {
+        "Translate": [ -6.5, 0.5, 6.5 ]
+      }
+    },
+    {
+      "DataFile": "RedResource",
+      "Transform": {
+        "Translate": [ -7.0, 0.5, 5.5 ]
+      }
+    },
+    {
+      "DataFile": "YellowResource",
+      "Transform": {
+        "Translate": [ -7.0, 1.5, 0.0 ]
+      }
+    },
+    {
+      "DataFile": "YellowResource",
+      "Transform": {
+        "Translate": [ -7.5, 0.5, 0.5 ]
+      }
+    },
+    {
+      "DataFile": "YellowResource",
+      "Transform": {
+        "Translate": [ -6.5, 0.5, 0.5 ]
+      }
+    },
+    {
+      "DataFile": "YellowResource",
+      "Transform": {
+        "Translate": [ -7.0, 0.5, -0.5 ]
+      }
+    },
+    {
+      "DataFile": "BlueResource",
+      "Transform": {
+        "Translate": [ -7.0, 1.5, -6.0 ]
+      }
+    },
+    {
+      "DataFile": "BlueResource",
+      "Transform": {
+        "Translate": [ -7.5, 0.5, -5.5 ]
+      }
+    },
+    {
+      "DataFile": "BlueResource",
+      "Transform": {
+        "Translate": [ -6.5, 0.5, -5.5 ]
+      }
+    },
+    {
+      "DataFile": "BlueResource",
+      "Transform": {
+        "Translate": [ -7.0, 0.5, -6.5 ]
+      }
+    },
+    {
+      "Name": "Sun",
+      "DataFile": "DRLight",
+      "Transform": {
+        "Translate": [ -75.0, 50.0, -75.0 ]
+      }
+    },
+    {
+      "DataFile": "Ground",
+      "Transform": {
+        "Scale": [ 100.0, 100.0, 100.0 ]
+      }
+    },
+    {
+      "DataFile": "Skybox"
+    },
+    {
+      "Name": "Edit_Camera",
+      "DataFile": "Camera",
+      "Camera": {
+        "Default": false
+      },
+      "Transform": {
+        "Translate": [ 1.0, 6.0, 30.0 ]
+      },
+      "ScriptComponent": {
+        "scripts": [ ".\\Resources\\Scripts\\simple_cam_control.py" ]
+      }
+    }
+  ]
+}

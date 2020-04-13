@@ -1,0 +1,110 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : [],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"Material" : "Transparent80",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Cube",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.38999998569488525,
+					0.38999998569488525,
+					0.38999998569488525
+				],
+				"Translate" : 
+				[
+					0.0,
+					0.055835366249084473,
+					0.0
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"Rescale" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"mCoeffDynamicFriction" : 0.10000000149011612,
+		"mCoeffStaticFriction" : 0.10000000149011612,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Box",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : true,
+		"IsUI" : false,
+		"Material" : "Gray50",
+		"MeshMaterials" : 
+		[
+			"None",
+			"None"
+		],
+		"Model" : "MR_Spaceship",
+		"Renderable" : true
+	},
+	"Name" : "Spaceship",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			6.5,
+			6.5,
+			6.5
+		],
+		"Translate" : 
+		[
+			0.0,
+			1.0,
+			1.0
+		]
+	},
+	"Type" : "Cube"
+}

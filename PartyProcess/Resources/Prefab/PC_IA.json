@@ -1,0 +1,258 @@
+{
+	"Children" : 
+	[
+		{
+			"Audio" : 
+			{
+				"mSoundName" : "GameDeliver01.mp3",
+				"mVolume" : 1.0
+			},
+			"Children" : 
+			[
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere"
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.2155001163482666,
+							0.21550010144710541,
+							0.2155001163482666
+						],
+						"Translate" : 
+						[
+							-0.058822784572839737,
+							0.76278585195541382,
+							-0.021128654479980469
+						]
+					}
+				},
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"Material" : "FlatDesign",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere"
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.2155001163482666,
+							0.21550010144710541,
+							0.2155001163482666
+						],
+						"Translate" : 
+						[
+							-0.066332198679447174,
+							0.75931644439697266,
+							0.45357656478881836
+						]
+					}
+				},
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"Material" : "FlatDesign",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere"
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.2155001163482666,
+							0.21550010144710541,
+							0.2155001163482666
+						],
+						"Translate" : 
+						[
+							-0.073289640247821808,
+							0.73500007390975952,
+							-0.45393800735473633
+						]
+					}
+				}
+			],
+			"DataFile" : "Processor",
+			"ModelComponent" : 
+			{
+				"Material" : "PC",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "PC"
+			},
+			"Name" : "PC_IA",
+			"ParticlesComponent" : 
+			{
+				"Blue_var" : 
+				[
+					255,
+					1
+				],
+				"Green_var" : 
+				[
+					255,
+					1
+				],
+				"PartLife" : 0.5,
+				"PartNumber" : 400.0,
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Explosion",
+				"Red_var" : 
+				[
+					255,
+					1
+				],
+				"Runtime" : 0.5,
+				"Spread" : 1.0
+			},
+			"Processor" : 
+			{
+				"MaxProcessingTime" : 3.0,
+				"Recipes" : 
+				[
+					5
+				]
+			},
+			"ScriptComponent" : 
+			{
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PickupProcessor.py",
+					".\\Resources\\Scripts\\ProcessorInput.py",
+					".\\Resources\\Scripts\\ProcessorGenerate.py",
+					".\\Resources\\Scripts\\ProcessorOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					1.999998927116394,
+					1.9999990463256836,
+					1.999998927116394
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"Material" : "PC_AI",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Rug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					8.0140889622271061e-05,
+					-89.999946594238281,
+					8.0140875070355833e-05
+				],
+				"Scale" : 
+				[
+					2.5605583190917969,
+					0.21143947541713715,
+					2.4005236625671387
+				],
+				"Translate" : 
+				[
+					0.11405093967914581,
+					-0.32996165752410889,
+					-0.0011947952443733811
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "IA",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "IA"
+			},
+			"Name" : "Robot",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					179.99819946289063,
+					-17.112602233886719,
+					-179.99806213378906
+				],
+				"Scale" : 
+				[
+					1.8805369138717651,
+					1.8805390596389771,
+					1.8805369138717651
+				],
+				"Translate" : 
+				[
+					1.3558636903762817,
+					-0.26080244779586792,
+					0.81857037544250488
+				]
+			}
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "PC_IA",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

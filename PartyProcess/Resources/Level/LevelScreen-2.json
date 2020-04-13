@@ -1,0 +1,667 @@
+{
+	"LevelScreen-2" : 
+	[
+		{
+			"Audio" : 
+			{
+				"mSoundName" : "cartoon_jump-002.wav",
+				"mVolume" : 1.0
+			},
+			"Children" : 
+			[
+				{
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mMass" : 1.0
+					},
+					"Collider" : 
+					{
+						"mCoeffDynamicFriction" : 0.11999999731779099,
+						"mCoeffStaticFriction" : 0.20000000298023224,
+						"mLType" : "Player-foot"
+					},
+					"DataFile" : "InvisibleCube",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Player1Feet",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.79995304346084595,
+							0.099999494850635529,
+							0.79995298385620117
+						],
+						"Translate" : 
+						[
+							-0.00228118896484375,
+							5.3942203521728516e-05,
+							-0.003675529733300209
+						]
+					}
+				},
+				{
+					"AreaSearch" : 
+					{
+						"SearchTypes" : 
+						[
+							"ProgrammingResource",
+							"ArtResource",
+							"DesignResource",
+							"PhysicsResource",
+							"AudioResource",
+							"AIResource",
+							"GraphicsResource",
+							"Processor",
+							"Container",
+							"Generator",
+							"GridCell",
+							"PongGame",
+							"BomberGame",
+							"TetrisGame",
+							"AlienGame",
+							"MazeGame",
+							"ScienceGame",
+							"PoolGame",
+							"FoodGame",
+							"DiceGame",
+							"SpaceGame",
+							"CoinGame",
+							"LunkGame",
+							"KeyGame",
+							"NinjaGame",
+							"StarGame",
+							"BirdGame",
+							"SimulationGame",
+							"SwordGame",
+							"FighterGame",
+							"HorrorGame",
+							"PipeGame",
+							"ZombieGame",
+							"PortalGame",
+							"DragonGame",
+							"WarGame"
+						]
+					},
+					"DataFile" : "SearchArea",
+					"ModelComponent" : 
+					{
+						"Material" : "Default",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Interact_Area",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.75599998235702515,
+							0.75599998235702515,
+							0.75599998235702515
+						],
+						"Translate" : 
+						[
+							0.047368526458740234,
+							0.37145650386810303,
+							0.48912906646728516
+						]
+					}
+				},
+				{
+					"DataFile" : "PlayerBody",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "DustinHead",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "DustinHead"
+					},
+					"Name" : "Player1Head",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.0,
+							0.85714668035507202,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.00020742416381835938,
+							1.0,
+							9.5367431640625e-07
+						]
+					}
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.30000001192092896,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float"
+					},
+					"DataFile" : "PlayerBody",
+					"ModelComponent" : 
+					{
+						"Material" : "HandsDustin",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Player1LeftHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-180.0,
+							-269.99993896484375,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.50000005960464478,
+							0.42899987101554871,
+							0.50000005960464478
+						],
+						"Translate" : 
+						[
+							-0.50467300415039063,
+							0.6714673638343811,
+							0.50030547380447388
+						]
+					}
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : 
+						[
+							{
+								"AffineAnimationName" : "HandFloat",
+								"BlendDuration" : 0.30000001192092896,
+								"ReturnToDefault" : false,
+								"StateName" : "Float"
+							}
+						],
+						"DefaultAffineState" : "Float"
+					},
+					"DataFile" : "PlayerBody",
+					"ModelComponent" : 
+					{
+						"Material" : "HandsDustin",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Player1RightHand",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-180.0,
+							-269.99993896484375,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.4999995231628418,
+							0.42900010943412781,
+							0.4999995231628418
+						],
+						"Translate" : 
+						[
+							0.49935245513916016,
+							0.6714673638343811,
+							0.50023955106735229
+						]
+					}
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					0.82499998807907104,
+					0.0
+				]
+			},
+			"Controller" : 
+			{
+				"player" : 0
+			},
+			"DataFile" : "Player",
+			"ModelComponent" : 
+			{
+				"Material" : "BodyGreen",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Body"
+			},
+			"Name" : "Player1",
+			"ParticlesComponent" : 
+			{
+				"Blue_var" : 
+				[
+					255,
+					255
+				],
+				"Green_var" : 
+				[
+					255,
+					255
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.5,
+					0.0
+				],
+				"PartLife" : 0.10000000149011612,
+				"PartNumber" : 400.0,
+				"PartPos" : 
+				[
+					-9.7700538635253906,
+					0.25967282056808472,
+					-2.489483118057251
+				],
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Explosion",
+				"Red_var" : 
+				[
+					255,
+					255
+				],
+				"Runtime" : -1.0,
+				"Spread" : 0.75
+			},
+			"Player" : 
+			{
+				"mHitRecharge" : 0.0,
+				"mRecharge" : 0.0
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					359.99993896484375,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0049999952316284,
+					1.1725000143051147,
+					1.0049999952316284
+				],
+				"Translate" : 
+				[
+					-9.7700538635253906,
+					0.25957316160202026,
+					-1.3944957256317139
+				]
+			}
+		},
+		{
+			"Collider" : 
+			{
+				"mCoeffDynamicFriction" : 5.0,
+				"mCoeffStaticFriction" : 5.0
+			},
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Cube",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					80.0,
+					1.0,
+					25.0
+				]
+			}
+		},
+		{
+			"Camera" : 
+			{
+				"FieldOfView" : 59.799999237060547,
+				"IsDefault" : true,
+				"NearPlane" : 0.10000000149011612
+			},
+			"DataFile" : "Camera",
+			"Name" : "Game_Camera",
+			"ScriptComponent" : 
+			{
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PartyCamTEST.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-45.000003814697266,
+					-7.0435680754599161e-06,
+					5.9031087309979746e-12
+				],
+				"Translate" : 
+				[
+					-1.0,
+					40.0,
+					25.0
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							0.16962225735187531,
+							0.84504115581512451,
+							0.88725489377975464
+						],
+						"Intensity" : 2.5,
+						"Range" : 20.0,
+						"SpotAngle" : 20.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-89.999946594238281,
+							1.9998689889907837,
+							5.5529103519802447e-06
+						],
+						"Scale" : 
+						[
+							0.049997877329587936,
+							0.050001669675111771,
+							0.049919337034225464
+						],
+						"Translate" : 
+						[
+							-0.0111083984375,
+							2.7551150321960449,
+							0.0084409713745117188
+						]
+					}
+				}
+			],
+			"DataFile" : "LevelButton",
+			"LevelButton" : 
+			{
+				"LevelID" : 1
+			},
+			"Name" : "LevelButton",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.75,
+					0.75,
+					0.75
+				],
+				"Translate" : 
+				[
+					-28.809980392456055,
+					1.4999961853027344,
+					4.6536808013916016
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							0.16962225735187531,
+							0.84504115581512451,
+							0.88725489377975464
+						],
+						"Range" : 20.0,
+						"SpotAngle" : 20.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-89.999946594238281,
+							1.9998689889907837,
+							5.5529103519802447e-06
+						],
+						"Scale" : 
+						[
+							0.049997877329587936,
+							0.050001669675111771,
+							0.049919337034225464
+						],
+						"Translate" : 
+						[
+							-0.0111083984375,
+							2.7551150321960449,
+							0.0084409713745117188
+						]
+					}
+				}
+			],
+			"DataFile" : "LevelButton",
+			"LevelButton" : 
+			{
+				"LevelID" : 2
+			},
+			"Name" : "LevelButton",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.75,
+					0.75,
+					0.75
+				],
+				"Translate" : 
+				[
+					-10.233837127685547,
+					1.4999961853027344,
+					-6.0102806091308594
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							0.16962225735187531,
+							0.84504115581512451,
+							0.88725489377975464
+						],
+						"Range" : 20.0,
+						"SpotAngle" : 20.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-89.999946594238281,
+							1.9998689889907837,
+							5.5529103519802447e-06
+						],
+						"Scale" : 
+						[
+							0.049997877329587936,
+							0.050001669675111771,
+							0.049919337034225464
+						],
+						"Translate" : 
+						[
+							-0.0111083984375,
+							2.7551150321960449,
+							0.0084409713745117188
+						]
+					}
+				}
+			],
+			"DataFile" : "LevelButton",
+			"LevelButton" : 
+			{
+				"LevelID" : 3
+			},
+			"Name" : "LevelButton",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.75,
+					0.75,
+					0.75
+				],
+				"Translate" : 
+				[
+					6.7492866516113281,
+					1.4999961853027344,
+					6.7457504272460938
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							0.16962225735187531,
+							0.84504115581512451,
+							0.88725489377975464
+						],
+						"Range" : 20.0,
+						"SpotAngle" : 20.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-89.999946594238281,
+							1.9998689889907837,
+							5.5529103519802447e-06
+						],
+						"Scale" : 
+						[
+							0.049997877329587936,
+							0.050001669675111771,
+							0.049919337034225464
+						],
+						"Translate" : 
+						[
+							-0.0111083984375,
+							2.7551150321960449,
+							0.0084409713745117188
+						]
+					}
+				}
+			],
+			"DataFile" : "LevelButton",
+			"LevelButton" : 
+			{
+				"LevelID" : 4
+			},
+			"Name" : "LevelButton",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.75,
+					0.75,
+					0.75
+				],
+				"Translate" : 
+				[
+					29.981451034545898,
+					1.4999961853027344,
+					-6.7999072074890137
+				]
+			}
+		}
+	]
+}

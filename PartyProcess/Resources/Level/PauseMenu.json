@@ -1,0 +1,84 @@
+{
+    "PauseMenu": [
+    {
+      "Name": "Button1",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "Resume",
+        "Action": ""
+      },
+       "Transform": {
+        "Translate" : [0.45, 0.175, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button2",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "Restart",
+        "Action": "RestartConfirmation"
+      },
+      "Transform": {
+         "Translate" : [0.45, 0.325, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button2",
+      "DataFile": "UI",
+      "UIComponent": {
+        "Type": "Button",
+        "Label": "Options",
+        "Action": "LevelScreenFinal"
+      },
+      "Transform": {
+         "Translate" : [0.45, 0.475, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button3",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "Main Menu",
+        "Action":"MainMenuConfirmation"
+      },
+      "Transform": {
+         "Translate" : [0.45, 0.625, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    },
+    {
+      "Name": "Button4",
+      "DataFile": "UI",
+      "UIComponent":{
+        "Type": "Button",
+        "Label": "Quit",
+        "Action": "QuitConfirmation"
+      },
+      "Transform": {
+         "Translate" : [0.45, 0.775, 0.0],
+        "Scale" : [200.0, 50.0, 0.0]
+      },
+      "ModelComponent": {
+        "Material": "Test_White"
+      }
+    }
+  ]
+}

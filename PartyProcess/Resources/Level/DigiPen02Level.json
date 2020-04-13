@@ -1,0 +1,9243 @@
+{
+	"DigiPen02Level" : 
+	[
+		{
+			"Children" : 
+			[
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "HandsIvan",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.568466186523438,
+									20.264404296875,
+									-87.060806274414063
+								],
+								"Scale" : 
+								[
+									0.30666661262512207,
+									0.30666676163673401,
+									0.30666670203208923
+								],
+								"Translate" : 
+								[
+									-0.41674339771270752,
+									0.98575764894485474,
+									0.50490856170654297
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "HandsIvan",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.568466186523438,
+									20.264404296875,
+									-87.060806274414063
+								],
+								"Scale" : 
+								[
+									0.30666661262512207,
+									0.30666676163673401,
+									0.30666670203208923
+								],
+								"Translate" : 
+								[
+									-0.30327355861663818,
+									0.68172764778137207,
+									0.54991912841796875
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "IvanHead",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "IvanHead"
+							},
+							"Name" : "IvanHead",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									122.75351715087891,
+									1.1920928955078125,
+									142.89984130859375
+								],
+								"Translate" : 
+								[
+									0.15926527976989746,
+									1.101881742477417,
+									0.11417198181152344
+								]
+							}
+						}
+					],
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "BodyYellow",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Body"
+					},
+					"Name" : "Ivan",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-28.262483596801758,
+							79.56689453125,
+							-36.429431915283203
+						],
+						"Scale" : 
+						[
+							1.5000027418136597,
+							1.4999970197677612,
+							1.5000110864639282
+						],
+						"Translate" : 
+						[
+							13.712501525878906,
+							0.29516184329986572,
+							-10.90611457824707
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.5684814453125,
+									20.26439094543457,
+									-87.060813903808594
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.3066667914390564,
+									0.30666735768318176
+								],
+								"Translate" : 
+								[
+									-0.416015625,
+									0.98575758934020996,
+									0.50515121221542358
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.5684814453125,
+									20.26439094543457,
+									-87.060813903808594
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.3066667914390564,
+									0.30666735768318176
+								],
+								"Translate" : 
+								[
+									-0.30272293090820313,
+									0.68172764778137207,
+									0.55010265111923218
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "IvanHead"
+							},
+							"Name" : "IvanHead",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									-0.014786720275878906,
+									1.0606298446655273,
+									0.050017226487398148
+								]
+							}
+						}
+					],
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "BodyBlack",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Body"
+					},
+					"Name" : "People",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.4999996423721313,
+							1.4999998807907104,
+							1.4999998807907104
+						],
+						"Translate" : 
+						[
+							19.888696670532227,
+							9.9422140121459961,
+							-12.866750717163086
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.5684814453125,
+									20.26439094543457,
+									-87.060813903808594
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.3066667914390564,
+									0.30666735768318176
+								],
+								"Translate" : 
+								[
+									-0.416015625,
+									0.98575758934020996,
+									0.50515121221542358
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.5684814453125,
+									20.26439094543457,
+									-87.060813903808594
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.3066667914390564,
+									0.30666735768318176
+								],
+								"Translate" : 
+								[
+									-0.30272293090820313,
+									0.68172764778137207,
+									0.55010265111923218
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "IvanHead"
+							},
+							"Name" : "IvanHead",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									-0.014786720275878906,
+									1.0606298446655273,
+									0.050017226487398148
+								]
+							}
+						}
+					],
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "BodyBlack",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Body"
+					},
+					"Name" : "People",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99989318847656,
+							-49.842201232910156,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							1.4999986886978149,
+							1.4999998807907104,
+							1.4999986886978149
+						],
+						"Translate" : 
+						[
+							19.888696670532227,
+							10.004087448120117,
+							-10.684438705444336
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.5684814453125,
+									20.26439094543457,
+									-87.060813903808594
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.3066667914390564,
+									0.30666735768318176
+								],
+								"Translate" : 
+								[
+									-0.416015625,
+									0.98575758934020996,
+									0.50515121221542358
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									81.5684814453125,
+									20.26439094543457,
+									-87.060813903808594
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.3066667914390564,
+									0.30666735768318176
+								],
+								"Translate" : 
+								[
+									0.71064090728759766,
+									0.78624820709228516,
+									0.40862846374511719
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "IvanHead"
+							},
+							"Name" : "IvanHead",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									-0.014787673950195313,
+									1.0608415603637695,
+									0.1566779613494873
+								]
+							}
+						}
+					],
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "BodyBlack",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Body"
+					},
+					"Name" : "People",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.4999996423721313,
+							1.4999998807907104,
+							1.4999998807907104
+						],
+						"Translate" : 
+						[
+							-18.439847946166992,
+							9.9632902145385742,
+							-9.7824115753173828
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-98.431327819824219,
+									-19.725845336914063,
+									92.939048767089844
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.30666676163673401,
+									0.30666738748550415
+								],
+								"Translate" : 
+								[
+									-0.41600951552391052,
+									0.35437822341918945,
+									0.50514984130859375
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Hand",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-98.431327819824219,
+									-19.725845336914063,
+									92.939048767089844
+								],
+								"Scale" : 
+								[
+									0.30666664242744446,
+									0.30666676163673401,
+									0.30666738748550415
+								],
+								"Translate" : 
+								[
+									0.70961713790893555,
+									0.32070398330688477,
+									0.19085121154785156
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "IvanHead"
+							},
+							"Name" : "IvanHead",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									-0.014787673950195313,
+									1.0608415603637695,
+									0.1566779613494873
+								]
+							}
+						}
+					],
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "BodyBlack",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Body"
+					},
+					"Name" : "People",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.00027329777367413044,
+							89.730720520019531,
+							-0.00027330138254910707
+						],
+						"Scale" : 
+						[
+							1.4999995231628418,
+							1.4999998807907104,
+							1.5000003576278687
+						],
+						"Translate" : 
+						[
+							-19.203638076782227,
+							9.9824838638305664,
+							-6.9010295867919922
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "cartoon_fall-002.wav",
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"Body" : 
+									{
+										"mApplyFriction" : true,
+										"mMass" : 1.0
+									},
+									"Collider" : 
+									{
+										"mCoeffDynamicFriction" : 0.11999999731779099,
+										"mCoeffStaticFriction" : 0.20000000298023224,
+										"mLType" : "Player-foot"
+									},
+									"DataFile" : "InvisibleCube",
+									"ModelComponent" : 
+									{
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player1Feet",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.80000001192092896,
+											0.10000000149011612,
+											0.80000001192092896
+										]
+									}
+								},
+								{
+									"AreaSearch" : 
+									{
+                    "SearchTypes": [
+                      "ProgrammingResource",
+                      "ArtResource",
+                      "DesignResource",
+                      "PhysicsResource",
+                      "AudioResource",
+                      "AIResource",
+                      "GraphicsResource",
+                      "Processor",
+                      "Container",
+                      "Generator",
+                      "GridCell",
+                      "Block",
+                      "Game"
+                    ]
+									},
+									"DataFile" : "SearchArea",
+									"ModelComponent" : 
+									{
+										"Material" : "Default",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Interact_Area",
+									"Transform" : 
+									{
+										"Scale" : 
+						        [
+							        0.83333333,
+							        0.71428571,
+							        0.83333333
+						        ],
+						        "Translate" : 
+						        [
+							        0.0,
+							        0.37000003457069397,
+							        0.66666666
+						        ]
+									}
+								},
+								{
+									"DataFile" : "PlayerBody",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "DustinHead",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "DustinHead"
+									},
+									"Name" : "Player1Head",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.0,
+											0.8571428656578064,
+											1.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											1.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"ModelComponent" : 
+									{
+										"Material" : "HandsDustin",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player1LeftHand",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											5.1527622417779639e-06,
+											-0.019771456718444824,
+											5.1527622417779639e-06
+										],
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											-0.49999475479125977,
+											0.67903214693069458,
+											0.5000033974647522
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"ModelComponent" : 
+									{
+										"Material" : "HandsDustin",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player1RightHand",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											5.1527622417779639e-06,
+											-0.019771456718444824,
+											5.1527622417779639e-06
+										],
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											0.50000524520874023,
+											0.67903214693069458,
+											0.49995055794715881
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.6499999761581421,
+									0.0
+								],
+								"Rescale" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								]
+							},
+							"Controller" : 
+							{
+								"player" : 0
+							},
+							"DataFile" : "Player",
+							"ModelComponent" : 
+							{
+								"Material" : "BodyGreen",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Body"
+							},
+							"Name" : "Player1",
+							"Player" : 
+							{
+								"mHitRecharge" : 0.0,
+								"mRecharge" : 0.0
+							},
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									-10.0,
+									0.0,
+									-10.0
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"Body" : 
+									{
+										"mApplyFriction" : true,
+										"mMass" : 1.0
+									},
+									"Collider" : 
+									{
+										"mCoeffDynamicFriction" : 0.11999999731779099,
+										"mCoeffStaticFriction" : 0.20000000298023224,
+										"mLType" : "Player-foot"
+									},
+									"DataFile" : "InvisibleCube",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player3Feet",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.80000001192092896,
+											0.10000000149011612,
+											0.80000001192092896
+										]
+									}
+								},
+								{
+									"AreaSearch" : 
+									{
+                    "SearchTypes": [
+                      "ProgrammingResource",
+                      "ArtResource",
+                      "DesignResource",
+                      "PhysicsResource",
+                      "AudioResource",
+                      "AIResource",
+                      "GraphicsResource",
+                      "Processor",
+                      "Container",
+                      "Generator",
+                      "GridCell",
+                      "Block",
+                      "Game"
+                    ]
+									},
+									"DataFile" : "SearchArea",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "Default",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Interact_Area",
+									"Transform" : 
+									{
+										"Scale" : 
+						        [
+							        0.83333333,
+							        0.71428571,
+							        0.83333333
+						        ],
+						        "Translate" : 
+						        [
+							        0.0,
+							        0.37000003457069397,
+							        0.66666666
+						        ]
+									}
+								},
+								{
+									"DataFile" : "PlayerBody",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "VidhiHead",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "VidhiHead"
+									},
+									"Name" : "Player3Head",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.0,
+											0.8571428656578064,
+											1.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											1.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "HandsVidhi",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player3LeftHand",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											0.5,
+											0.70110481977462769,
+											0.5
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "HandsVidhi",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player3RightHand",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											-0.5,
+											0.70110481977462769,
+											0.5
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.6499999761581421,
+									0.0
+								],
+								"Rescale" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								]
+							},
+							"Controller" : 
+							{
+								"player" : 2
+							},
+							"DataFile" : "Player",
+							"IsEnabled" : false,
+							"ModelComponent" : 
+							{
+								"Material" : "BodyRed",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Body"
+							},
+							"Name" : "Player3",
+							"Player" : 
+							{
+								"mHitRecharge" : 0.0,
+								"mRecharge" : 0.0
+							},
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									-10.0,
+									0.0,
+									10.0
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"Body" : 
+									{
+										"mApplyFriction" : true,
+										"mMass" : 1.0
+									},
+									"Collider" : 
+									{
+										"mCoeffDynamicFriction" : 0.11999999731779099,
+										"mCoeffStaticFriction" : 0.20000000298023224,
+										"mLType" : "Player-foot"
+									},
+									"DataFile" : "InvisibleCube",
+									"ModelComponent" : 
+									{
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player2Feet",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.80000001192092896,
+											0.10000000149011612,
+											0.80000001192092896
+										]
+									}
+								},
+								{
+									"AreaSearch" : 
+									{
+                    "SearchTypes": [
+                      "ProgrammingResource",
+                      "ArtResource",
+                      "DesignResource",
+                      "PhysicsResource",
+                      "AudioResource",
+                      "AIResource",
+                      "GraphicsResource",
+                      "Processor",
+                      "Container",
+                      "Generator",
+                      "GridCell",
+                      "Block",
+                      "Game"
+                    ]
+									},
+									"DataFile" : "SearchArea",
+									"ModelComponent" : 
+									{
+										"Material" : "Default",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Interact_Area",
+									"Transform" : 
+									{
+										"Scale" : 
+						        [
+							        0.83333333,
+							        0.71428571,
+							        0.83333333
+						        ],
+						        "Translate" : 
+						        [
+							        0.0,
+							        0.37000003457069397,
+							        0.66666666
+						        ]
+									}
+								},
+								{
+									"DataFile" : "PlayerBody",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "TrevorHead",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "TrevorHead"
+									},
+									"Name" : "Player2Head",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.0,
+											0.8571428656578064,
+											1.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											1.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"ModelComponent" : 
+									{
+										"Material" : "HandsTrevor",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player2LeftHand",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											5.1527622417779639e-06,
+											-0.019771456718444824,
+											5.1527622417779639e-06
+										],
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											0.49999284744262695,
+											0.67903214693069458,
+											0.49995031952857971
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"ModelComponent" : 
+									{
+										"Material" : "HandsTrevor",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player2RightHand",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											5.1527622417779639e-06,
+											-0.019771456718444824,
+											5.1527622417779639e-06
+										],
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											-0.50000524520874023,
+											0.67903214693069458,
+											0.50000321865081787
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.6499999761581421,
+									0.0
+								],
+								"Rescale" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								]
+							},
+							"Controller" : 
+							{
+								"player" : 1
+							},
+							"DataFile" : "Player",
+							"ModelComponent" : 
+							{
+								"Material" : "BodyBlue",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Body"
+							},
+							"Name" : "Player2",
+							"Player" : 
+							{
+								"mHitRecharge" : 0.0,
+								"mRecharge" : 0.0
+							},
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									10.0,
+									0.0,
+									-10.0
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "cartoon_fall-002.wav",
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"Body" : 
+									{
+										"mApplyFriction" : true,
+										"mMass" : 1.0
+									},
+									"Collider" : 
+									{
+										"mCoeffDynamicFriction" : 0.11999999731779099,
+										"mCoeffStaticFriction" : 0.20000000298023224,
+										"mLType" : "Player-foot"
+									},
+									"DataFile" : "InvisibleCube",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player4Feet",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.80000001192092896,
+											0.10000000149011612,
+											0.80000001192092896
+										]
+									}
+								},
+								{
+									"AreaSearch" : 
+									{
+                    "SearchTypes": [
+                      "ProgrammingResource",
+                      "ArtResource",
+                      "DesignResource",
+                      "PhysicsResource",
+                      "AudioResource",
+                      "AIResource",
+                      "GraphicsResource",
+                      "Processor",
+                      "Container",
+                      "Generator",
+                      "GridCell",
+                      "Block",
+                      "Game"
+                    ]
+									},
+									"DataFile" : "SearchArea",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "Default",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Interact_Area",
+									"Transform" : 
+									{
+										"Scale" : 
+						        [
+							        0.83333333,
+							        0.71428571,
+							        0.83333333
+						        ],
+						        "Translate" : 
+						        [
+							        0.0,
+							        0.37000003457069397,
+							        0.66666666
+						        ]
+									}
+								},
+								{
+									"DataFile" : "PlayerBody",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "SairajHead",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "SairajHead"
+									},
+									"Name" : "Player4Head",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.0,
+											0.8571428656578064,
+											1.0
+										],
+										"Translate" : 
+										[
+											0.0,
+											1.0,
+											0.0
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "HandsSairaj",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player4LeftHand",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											0.5,
+											0.70110481977462769,
+											0.5
+										]
+									}
+								},
+								{
+									"Animator" : 
+									{
+										"AffineStates" : 
+										[
+											{
+												"AffineAnimationName" : "HandFloat",
+												"BlendDuration" : 0.30000001192092896,
+												"ReturnToDefault" : false,
+												"StateName" : "Float"
+											}
+										],
+										"DefaultAffineState" : "Float"
+									},
+									"DataFile" : "PlayerBody",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "HandsSairaj",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Player4RightHand",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.5,
+											0.4285714328289032,
+											0.5
+										],
+										"Translate" : 
+										[
+											-0.5,
+											0.70110481977462769,
+											0.5
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.6499999761581421,
+									0.0
+								],
+								"Rescale" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								]
+							},
+							"Controller" : 
+							{
+								"player" : 3
+							},
+							"DataFile" : "Player",
+							"IsEnabled" : false,
+							"ModelComponent" : 
+							{
+								"Material" : "BodyBlack",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Body"
+							},
+							"Name" : "Player4",
+							"Player" : 
+							{
+								"mHitRecharge" : 0.0,
+								"mRecharge" : 0.0
+							},
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									10.0,
+									0.0,
+									10.0
+								]
+							}
+						}
+					],
+					"DataFile" : "Players"
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Characters"
+		},
+		{
+			"DataFile" : "Skybox",
+			"ModelComponent" : 
+			{
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Skybox",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					8.123255729675293,
+					27.086099624633789,
+					23.819404602050781
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "GameTV",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											265.06097412109375,
+											1.2314424514770508,
+											179.89506530761719
+										],
+										"Scale" : 
+										[
+											0.14252085983753204,
+											1.2356910705566406,
+											0.61838197708129883
+										],
+										"Translate" : 
+										[
+											0.581451416015625,
+											-0.00062921643257141113,
+											0.0072579458355903625
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "TV",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-178.1910400390625,
+									-0.6153254508972168,
+									-161.81465148925781
+								],
+								"Scale" : 
+								[
+									0.12860953807830811,
+									2.6297335624694824,
+									3.8393456935882568
+								],
+								"Translate" : 
+								[
+									16.322263717651367,
+									6.4308972358703613,
+									1.0105724334716797
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Red",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.71100002527236938,
+											0.71099996566772461,
+											0.71100002527236938
+										],
+										"Translate" : 
+										[
+											-0.039933204650878906,
+											-0.049131870269775391,
+											0.16736888885498047
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Red",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.71100002527236938,
+											0.71099996566772461,
+											0.71100002527236938
+										],
+										"Translate" : 
+										[
+											-0.19022083282470703,
+											0.010194778442382813,
+											-0.045083045959472656
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "White",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "SignalFireExtingusher",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									44.877265930175781,
+									0.0
+								],
+								"Translate" : 
+								[
+									16.731655120849609,
+									6.8853940963745117,
+									-8.3072032928466797
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"Audio" : 
+									{
+										"mVolume" : 1.0
+									},
+									"DataFile" : "Block",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "SheetContainer",
+									"ParticlesComponent" : 
+									{
+										"Blue_var" : 
+										[
+											255,
+											1
+										],
+										"Green_var" : 
+										[
+											255,
+											1
+										],
+										"PartLife" : 5.0,
+										"PartNumber" : 2000.0,
+										"PartScale" : 
+										[
+											0.05000000074505806,
+											0.05000000074505806,
+											0.05000000074505806
+										],
+										"ParticleType" : "Default",
+										"Red_var" : 
+										[
+											255,
+											1
+										],
+										"Runtime" : -1.0,
+										"Spread" : 3.5
+									},
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.38999995589256287,
+											0.32169023156166077,
+											0.33803623914718628
+										],
+										"Translate" : 
+										[
+											0.78982877731323242,
+											-0.25879919528961182,
+											-0.71069186925888062
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.77999991178512573,
+											0.23096193373203278,
+											1.0491602420806885
+										],
+										"Translate" : 
+										[
+											0.24043464660644531,
+											0.34681308269500732,
+											-0.18399351835250854
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.77999991178512573,
+											0.23096193373203278,
+											1.0491602420806885
+										],
+										"Translate" : 
+										[
+											0.182098388671875,
+											0.29453581571578979,
+											-0.33526688814163208
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-2.6146881282329559e-07,
+											-4.291534423828125e-06,
+											-36.982883453369141
+										],
+										"Scale" : 
+										[
+											0.2807995080947876,
+											0.08314630389213562,
+											0.37828901410102844
+										],
+										"Translate" : 
+										[
+											0.56125640869140625,
+											0.47557199001312256,
+											-0.18397627770900726
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Green",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-5.8172736316919327e-07,
+											-1.3828277587890625e-05,
+											-36.982883453369141
+										],
+										"Scale" : 
+										[
+											0.17128776013851166,
+											0.050719261169433594,
+											0.23075628280639648
+										],
+										"Translate" : 
+										[
+											0.56787633895874023,
+											0.49198693037033081,
+											-0.18397389352321625
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Sheet",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-0.00053405755897983909,
+											-51.270622253417969,
+											1.5258781786542386e-05
+										],
+										"Scale" : 
+										[
+											0.38437789678573608,
+											0.024970117956399918,
+											0.25218647718429565
+										],
+										"Translate" : 
+										[
+											0.1107945442199707,
+											-0.39521059393882751,
+											0.49807712435722351
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Sheet",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-180.00027465820313,
+											-53.123481750488281,
+											-179.9998779296875
+										],
+										"Scale" : 
+										[
+											0.38437798619270325,
+											0.024970117956399918,
+											0.25218647718429565
+										],
+										"Translate" : 
+										[
+											0.53116941452026367,
+											-0.39521044492721558,
+											0.39522895216941833
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Sheet",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-0.00053405755897983909,
+											-42.811477661132813,
+											1.5258781786542386e-05
+										],
+										"Scale" : 
+										[
+											0.38437768816947937,
+											0.024970117956399918,
+											0.25218653678894043
+										],
+										"Translate" : 
+										[
+											0.60362052917480469,
+											-0.41886979341506958,
+											-0.10401253402233124
+										]
+									}
+								},
+								{
+									"Audio" : 
+									{
+										"mVolume" : 1.0
+									},
+									"DataFile" : "Block",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "SheetContainer",
+									"ParticlesComponent" : 
+									{
+										"Blue_var" : 
+										[
+											255,
+											1
+										],
+										"Green_var" : 
+										[
+											255,
+											1
+										],
+										"PartLife" : 5.0,
+										"PartNumber" : 2000.0,
+										"PartScale" : 
+										[
+											0.05000000074505806,
+											0.05000000074505806,
+											0.05000000074505806
+										],
+										"ParticleType" : "Default",
+										"Red_var" : 
+										[
+											255,
+											1
+										],
+										"Runtime" : -1.0,
+										"Spread" : 3.5
+									},
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-0.00053405755897983909,
+											-2.3645975589752197,
+											1.5258781786542386e-05
+										],
+										"Scale" : 
+										[
+											0.38437780737876892,
+											0.34201666712760925,
+											0.31234461069107056
+										],
+										"Translate" : 
+										[
+											1.3616271018981934,
+											-0.26517683267593384,
+											-0.69895416498184204
+										]
+									}
+								}
+							],
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Printer",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.00053405755897983909,
+									2.3645975589752197,
+									-1.5258781786542386e-05
+								],
+								"Scale" : 
+								[
+									2.8563766479492188,
+									2.6478891372680664,
+									2.8563766479492188
+								],
+								"Translate" : 
+								[
+									-15.891115188598633,
+									1.1470054388046265,
+									-19.985868453979492
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Clock",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Clock"
+							},
+							"Name" : "Clock",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99858093261719,
+									89.999946594238281,
+									-179.99858093261719
+								],
+								"Scale" : 
+								[
+									1.4702644348144531,
+									1.4702663421630859,
+									1.4702644348144531
+								],
+								"Translate" : 
+								[
+									16.325746536254883,
+									5.9360857009887695,
+									-4.0647339820861816
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Green",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Signal01",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.69999998807907104,
+											0.60976970195770264,
+											0.69075548648834229
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.0,
+											0.62945556640625
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "White",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "OutherSignal",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.4550130367279053,
+									0.76580405235290527,
+									0.26660668849945068
+								],
+								"Translate" : 
+								[
+									15.940700531005859,
+									8.6517477035522461,
+									-11.830325126647949
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-0.75,
+									0.0,
+									-0.75
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "TrashCan",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "TrashCan"
+							},
+							"Name" : "TrashCan",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-84.999954223632813,
+									0.0
+								],
+								"Scale" : 
+								[
+									2.9999997615814209,
+									2.9999983310699463,
+									3.0000171661376953
+								],
+								"Translate" : 
+								[
+									-15.357075691223145,
+									-0.11305978894233704,
+									4.0251560211181641
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Gray50",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											4.2504138946533203,
+											0.029950598254799843,
+											1.0
+										],
+										"Translate" : 
+										[
+											0.75275421142578125,
+											-0.448070228099823,
+											2.0861625671386719e-06
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Whiteboard",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Background",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.95999991893768311,
+											0.95999997854232788,
+											0.95999985933303833
+										],
+										"Translate" : 
+										[
+											0.10698699951171875,
+											0.0,
+											2.0861625671386719e-06
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Eraser",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.0786783695220947,
+											0.029950598254799843,
+											0.082406766712665558
+										],
+										"Translate" : 
+										[
+											2.5443115234375,
+											-0.42555463314056396,
+											-0.40120276808738708
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Blue",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "BlueMarker",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											-16.773952484130859,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.31095612049102783,
+											0.020748907700181007,
+											0.082406774163246155
+										],
+										"Translate" : 
+										[
+											2.5443115234375,
+											-0.42555463314056396,
+											-0.28036811947822571
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Red",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "RedMarker",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											16.603658676147461,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.31095591187477112,
+											0.020748907700181007,
+											0.082406766712665558
+										],
+										"Translate" : 
+										[
+											2.5443115234375,
+											-0.42555463314056396,
+											-0.17985004186630249
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Gray50",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Whiteboard",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.1811978816986084,
+									4.1244077682495117,
+									7.6268100738525391
+								],
+								"Translate" : 
+								[
+									-16.443508148193359,
+									5.0168914794921875,
+									0.55432462692260742
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-0.75,
+									0.0,
+									-0.75
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "TrashCan",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "TrashCan"
+							},
+							"Name" : "TrashCan",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.999755859375,
+									40.887619018554688,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									3.0000011920928955,
+									3.0,
+									3.0000011920928955
+								],
+								"Translate" : 
+								[
+									15.585221290588379,
+									-0.040198508650064468,
+									-6.3549098968505859
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "ColorRedBlood",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "BlueRug",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.066666670143604279,
+											0.076923079788684845,
+											0.0043522007763385773
+										],
+										"Translate" : 
+										[
+											0.0,
+											0.12674671411514282,
+											0.50233197212219238
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									-0.10000000149011612,
+									0.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-11.600000381469727,
+									-8.6999998092651367,
+									0.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Table",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "Table"
+							},
+							"Name" : "TableTop",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									15.0,
+									13.0,
+									19.787036895751953
+								],
+								"Translate" : 
+								[
+									5.4932479858398438,
+									-0.84002703428268433,
+									-12.638696670532227
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									-0.10000000149011612,
+									0.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-11.600000381469727,
+									-8.6999998092651367,
+									0.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Table",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "Table"
+							},
+							"Name" : "Table",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									15.0,
+									13.0,
+									15.280605316162109
+								],
+								"Translate" : 
+								[
+									-4.9927797317504883,
+									-0.8399999737739563,
+									-0.75936508178710938
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Bird",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Bird"
+							},
+							"Name" : "Bird",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-67.983718872070313,
+									0.0
+								],
+								"Translate" : 
+								[
+									5.9615359306335449,
+									1.5824730396270752,
+									-24.274168014526367
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Bird",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Bird"
+							},
+							"Name" : "Bird",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-2.5551500584697351e-05,
+									68.651016235351563,
+									-2.7460515411803499e-05
+								],
+								"Translate" : 
+								[
+									5.1647849082946777,
+									1.437161922454834,
+									-24.42112922668457
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Bird",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Bird"
+							},
+							"Name" : "Bird",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-2.5551500584697351e-05,
+									68.651016235351563,
+									-2.7460515411803499e-05
+								],
+								"Translate" : 
+								[
+									-12.405411720275879,
+									1.437161922454834,
+									-24.42112922668457
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									3.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-3.0,
+									0.0,
+									-3.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Arcade",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Arcade"
+							},
+							"Name" : "Arcade",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.9996337890625,
+									89.999946594238281,
+									-179.9996337890625
+								],
+								"Scale" : 
+								[
+									5.5808229446411133,
+									5.5808262825012207,
+									5.580925464630127
+								],
+								"Translate" : 
+								[
+									15.076492309570313,
+									-0.057650119066238403,
+									-17.641162872314453
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									3.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-3.0,
+									0.0,
+									-3.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Arcade",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Arcade"
+							},
+							"Name" : "Arcade",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99989318847656,
+									-5.0089556680177338e-06,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									5.5810022354125977,
+									5.5808749198913574,
+									5.5809540748596191
+								],
+								"Translate" : 
+								[
+									11.725103378295898,
+									-0.028803672641515732,
+									-20.930618286132813
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "FireExtinguisher",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "FireExtinguisher"
+									},
+									"Name" : "FE",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0010528564453125,
+											162.22543334960938,
+											-0.0001220703125
+										],
+										"Scale" : 
+										[
+											1.1584485769271851,
+											0.77194374799728394,
+											1.5900013446807861
+										],
+										"Translate" : 
+										[
+											0.031134961172938347,
+											-0.24805974960327148,
+											0.74922943115234375
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "White",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "FireExtinguisherContainer",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99937438964844,
+									-89.999946594238281,
+									-179.99937438964844
+								],
+								"Scale" : 
+								[
+									1.3725144863128662,
+									2.0597138404846191,
+									0.99999439716339111
+								],
+								"Translate" : 
+								[
+									17.049526214599609,
+									4.0617666244506836,
+									-8.7084159851074219
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "CPP01",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Book",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											-65.843460083007813,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.79523712396621704,
+											0.14341942965984344,
+											1.0332013368606567
+										],
+										"Translate" : 
+										[
+											-0.3122173547744751,
+											1.4003006219863892,
+											-12.685661315917969
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "CPP02",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Book",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											158.71714782714844,
+											-76.547874450683594,
+											-149.44731140136719
+										],
+										"Scale" : 
+										[
+											0.79521650075912476,
+											0.14342023432254791,
+											1.0331779718399048
+										],
+										"Translate" : 
+										[
+											-1.1812529563903809,
+											1.5227644443511963,
+											-12.622150421142578
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "CPP03",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Book",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											179.99949645996094,
+											-75.687980651855469,
+											179.99961853027344
+										],
+										"Scale" : 
+										[
+											0.79523378610610962,
+											0.1434200257062912,
+											1.0331940650939941
+										],
+										"Translate" : 
+										[
+											-0.74140632152557373,
+											1.3972111940383911,
+											-11.605816841125488
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "Books",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									5.5382914543151855,
+									2.0017112092318712e-06,
+									-2.2757606506347656
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									-1.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Chair"
+							},
+							"Name" : "Chair",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.8175265789031982,
+									2.8175265789031982,
+									2.8175265789031982
+								],
+								"Translate" : 
+								[
+									-7.9102435111999512,
+									0.045696806162595749,
+									-21.648574829101563
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									-1.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Chair"
+							},
+							"Name" : "Chair",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.8175265789031982,
+									2.8175265789031982,
+									2.8175265789031982
+								],
+								"Translate" : 
+								[
+									15.645748138427734,
+									0.038797438144683838,
+									-15.084723472595215
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									-1.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Chair"
+							},
+							"Name" : "Chair",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-89.999946594238281,
+									0.0
+								],
+								"Scale" : 
+								[
+									2.8175206184387207,
+									2.8175232410430908,
+									2.8175206184387207
+								],
+								"Translate" : 
+								[
+									-2.5601372718811035,
+									0.033970307558774948,
+									1.1775083541870117
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									-1.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Chair"
+							},
+							"Name" : "Chair",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.8175265789031982,
+									2.8175265789031982,
+									2.8175265789031982
+								],
+								"Translate" : 
+								[
+									2.507115364074707,
+									0.033472254872322083,
+									-21.34149169921875
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									-1.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Chair"
+							},
+							"Name" : "Chair",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.00021856598323211074,
+									-89.999946594238281,
+									0.0
+								],
+								"Scale" : 
+								[
+									2.8175177574157715,
+									2.8175225257873535,
+									2.8175177574157715
+								],
+								"Translate" : 
+								[
+									-2.4909663200378418,
+									0.036954611539840698,
+									-21.524280548095703
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.0,
+									1.5,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									-1.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Chair"
+							},
+							"Name" : "Chair",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99974060058594,
+									45.000003814697266,
+									179.99989318847656
+								],
+								"Scale" : 
+								[
+									2.8175199031829834,
+									2.8175277709960938,
+									2.8175201416015625
+								],
+								"Translate" : 
+								[
+									2.6899516582489014,
+									0.063151136040687561,
+									3.244908332824707
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr11",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											89.999946594238281,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.25114735960960388,
+											0.3311924934387207,
+											0.27325108647346497
+										],
+										"Translate" : 
+										[
+											0.411590576171875,
+											0.018469512462615967,
+											0.034240484237670898
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr15",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											89.999946594238281,
+											-0.0,
+											-1.0679836748295202e-07
+										],
+										"Scale" : 
+										[
+											0.16099095344543457,
+											0.28093257546424866,
+											0.089911080896854401
+										],
+										"Translate" : 
+										[
+											0.5677642822265625,
+											0.30951857566833496,
+											0.23166069388389587
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr09",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											2.5893332958221436,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											-0.5879669189453125,
+											-0.28069877624511719,
+											0.23281925916671753
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr04",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.6457366943359375,
+											-0.018504083156585693,
+											-0.15867716073989868
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr01",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.6536102294921875,
+											0.082557618618011475,
+											-0.33661007881164551
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr13",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											90.07147216796875,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.14255675673484802,
+											0.29043444991111755,
+											0.12451249361038208
+										],
+										"Translate" : 
+										[
+											0.8032684326171875,
+											0.085034310817718506,
+											0.41443759202957153
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr01",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.470062255859375,
+											0.34619033336639404,
+											0.41413569450378418
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr02",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.450469970703125,
+											0.052500665187835693,
+											0.24603483080863953
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr12",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											89.999946594238281,
+											-0.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.29944461584091187,
+											0.24902381002902985,
+											0.17562545835971832
+										],
+										"Translate" : 
+										[
+											0.5927581787109375,
+											-0.28069877624511719,
+											0.41527122259140015
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr09",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.55816650390625,
+											0.19241577386856079,
+											-0.16263824701309204
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr08",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.585418701171875,
+											-0.20833462476730347,
+											-0.16122967004776001
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr14",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											89.999946594238281,
+											1.2722217180292147e-14,
+											1.0688907536859915e-07
+										],
+										"Scale" : 
+										[
+											0.16099022328853607,
+											0.21356761455535889,
+											0.15543718636035919
+										],
+										"Translate" : 
+										[
+											0.588165283203125,
+											-0.18749690055847168,
+											-0.33975797891616821
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr07",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.7066497802734375,
+											0.28086137771606445,
+											-0.33513647317886353
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "dr08",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.16099199652671814,
+											0.16099201142787933,
+											0.15545749664306641
+										],
+										"Translate" : 
+										[
+											0.579254150390625,
+											0.39689159393310547,
+											-0.16452676057815552
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "White",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Hall",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.072718672454357147,
+									8.189453125,
+									15.543537139892578
+								],
+								"Translate" : 
+								[
+									-16.416997909545898,
+									5.8251590728759766,
+									-14.441758155822754
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									-0.10000000149011612,
+									0.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-11.600000381469727,
+									-8.6999998092651367,
+									0.0
+								]
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"Material" : "Table",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "Table"
+							},
+							"Name" : "Table",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									15.0,
+									13.0,
+									8.7712249755859375
+								],
+								"Translate" : 
+								[
+									14.871057510375977,
+									-0.8399999737739563,
+									2.4953250885009766
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "Assets"
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									0.83510929346084595,
+									37.0084228515625
+								],
+								"Translate" : 
+								[
+									-16.939323425292969,
+									0.075590610504150391,
+									-8.5041837692260742
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall_U_L",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									48.820468902587891,
+									10.761929512023926,
+									2.0
+								],
+								"Translate" : 
+								[
+									4.1562938690185547,
+									-3.9114091396331787,
+									-23.605190277099609
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall_L",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.0,
+									13.979537963867188,
+									42.009349822998047
+								],
+								"Translate" : 
+								[
+									-17.0,
+									2.9897692203521729,
+									-6.0037479400634766
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Gray50",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall_R",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.2544748783111572,
+									21.922208786010742,
+									42.773857116699219
+								],
+								"Translate" : 
+								[
+									17.812677383422852,
+									-1.1150188446044922,
+									-5.6257104873657227
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Gray50",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.2544748783111572,
+									36.113334655761719,
+									1.9077750444412231
+								],
+								"Translate" : 
+								[
+									17.456184387207031,
+									5.9805455207824707,
+									-4.1137075424194336
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall_U_U",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									128.30055236816406,
+									17.404462814331055,
+									2.0
+								],
+								"Translate" : 
+								[
+									22.412044525146484,
+									16.093870162963867,
+									-23.612165451049805
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall_U_M",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									10.294260025024414,
+									10.761929512023926,
+									0.63244426250457764
+								],
+								"Translate" : 
+								[
+									13.215551376342773,
+									4.2200708389282227,
+									-22.9254150390625
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.2544748783111572,
+									0.66550081968307495,
+									37.012638092041016
+								],
+								"Translate" : 
+								[
+									17.794548034667969,
+									0.36849284172058105,
+									-8.50628662109375
+								]
+							}
+						},
+						{
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 5.0,
+								"mCoeffStaticFriction" : 5.0
+							},
+							"DataFile" : "Cube",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "DigipenFloor",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Floor",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									35.218559265136719,
+									0.52539879083633423,
+									33.103218078613281
+								],
+								"Translate" : 
+								[
+									0.0,
+									-0.26625967025756836,
+									-8.6862363815307617
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "White",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Window",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.3935623168945313,
+									8.2071876525878906,
+									0.58255594968795776
+								],
+								"Translate" : 
+								[
+									-17.057136535644531,
+									3.9161386489868164,
+									-23.605201721191406
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Black",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Door",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-82.67333984375,
+											-179.99989318847656,
+											-82.67333984375
+										],
+										"Scale" : 
+										[
+											0.17783732712268829,
+											0.26749861240386963,
+											0.12957099080085754
+										],
+										"Translate" : 
+										[
+											-0.035954926162958145,
+											0.66982942819595337,
+											0.037825107574462891
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Door",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Door"
+							},
+							"Name" : "Door",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-97.326034545898438,
+									89.999946594238281,
+									-97.326034545898438
+								],
+								"Scale" : 
+								[
+									7.7194595336914063,
+									7.6999044418334961,
+									7.7193846702575684
+								],
+								"Translate" : 
+								[
+									16.757602691650391,
+									-0.13391017913818359,
+									-12.166058540344238
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Sphere"
+							},
+							"Name" : "Ceiling",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									28.941251754760742,
+									6.5802493095397949,
+									28.941251754760742
+								],
+								"Translate" : 
+								[
+									15.999530792236328,
+									24.565608978271484,
+									-21.710372924804688
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Black",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									48.820468902587891,
+									0.41528597474098206,
+									2.0
+								],
+								"Translate" : 
+								[
+									4.1562929153442383,
+									0.27201199531555176,
+									-23.584598541259766
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Window",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.3935623168945313,
+											8.2071876525878906,
+											0.58255594968795776
+										],
+										"Translate" : 
+										[
+											-13.76185417175293,
+											1.0902893543243408,
+											1.1065635681152344
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.43455010652542114,
+											10.761929512023926,
+											0.48021599650382996
+										],
+										"Translate" : 
+										[
+											3.3765578269958496,
+											1.3942990303039551,
+											1.1065635681152344
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Wall",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											25.52745246887207,
+											0.64390987157821655,
+											0.58255594968795776
+										],
+										"Translate" : 
+										[
+											-0.88507699966430664,
+											-1.4346234798431396,
+											1.1065635681152344
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Window",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.43455007672309875,
+											10.761929512023926,
+											0.48021596670150757
+										],
+										"Translate" : 
+										[
+											-4.8362174034118652,
+											1.3942990303039551,
+											1.1065635681152344
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Window",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.3935623168945313,
+											8.2071876525878906,
+											0.58255594968795776
+										],
+										"Translate" : 
+										[
+											11.75135612487793,
+											0.45554089546203613,
+											1.1065635681152344
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-3.9417800903320313,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-8.6236953735351563,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-14.269020080566406,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-19.450279235839844,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "Transparent80",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.0097128227353096008,
+													58.823051452636719,
+													0.21271638572216034
+												],
+												"Translate" : 
+												[
+													-0.46672511100769043,
+													-28.009437561035156,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Louvre",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											7.3677291870117188,
+											0.060222972184419632,
+											0.58255594968795776
+										],
+										"Translate" : 
+										[
+											-9.0692672729492188,
+											4.1669936180114746,
+											1.1065635681152344
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-3.9417800903320313,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-8.6236953735351563,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-14.269020080566406,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-19.450279235839844,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "Transparent80",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.0097128227353096008,
+													58.823051452636719,
+													0.21271638572216034
+												],
+												"Translate" : 
+												[
+													-0.46672511100769043,
+													-28.009437561035156,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Louvre",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											7.3677291870117188,
+											0.060222972184419632,
+											0.58255594968795776
+										],
+										"Translate" : 
+										[
+											-0.687835693359375,
+											4.1771535873413086,
+											1.1065635681152344
+										]
+									}
+								},
+								{
+									"Children" : 
+									[
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-3.9418792724609375,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-8.6236953735351563,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-14.269020080566406,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "White",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Translate" : 
+												[
+													8.3446502685546875e-07,
+													-19.450279235839844,
+													0.0
+												]
+											}
+										},
+										{
+											"DataFile" : "Background",
+											"ModelComponent" : 
+											{
+												"CastsShadow" : false,
+												"Material" : "Transparent80",
+												"MeshMaterials" : 
+												[
+													"None"
+												]
+											},
+											"Name" : "Louvre",
+											"Transform" : 
+											{
+												"Scale" : 
+												[
+													0.0097128227353096008,
+													58.823051452636719,
+													0.21271638572216034
+												],
+												"Translate" : 
+												[
+													-0.46672526001930237,
+													-28.00958251953125,
+													0.0
+												]
+											}
+										}
+									],
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "White",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Louvre",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											7.3677291870117188,
+											0.060222972184419632,
+											0.58255594968795776
+										],
+										"Translate" : 
+										[
+											7.4046101570129395,
+											4.2261614799499512,
+											1.1065635681152344
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "WindowFr",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									-3.1668267250061035,
+									2.7142548561096191,
+									-24.711753845214844
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "DigipenFloor",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "FloorU",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									33.200000762939453,
+									0.49528545141220093,
+									31.205900192260742
+								],
+								"Translate" : 
+								[
+									33.425113677978516,
+									9.7737045288085938,
+									-8.6862363815307617
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Transparent80",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall_R",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.30899998545646667,
+									14.226366996765137,
+									42.773857116699219
+								],
+								"Translate" : 
+								[
+									16.883359909057617,
+									16.834421157836914,
+									-5.6257104873657227
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "DigipenFloor",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "FloorU",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									33.200000762939453,
+									0.49528545141220093,
+									31.205900192260742
+								],
+								"Translate" : 
+								[
+									-33.526531219482422,
+									9.7737045288085938,
+									-8.6862363815307617
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Transparent80",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall_R",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									0.30931553244590759,
+									14.226366996765137,
+									42.773853302001953
+								],
+								"Translate" : 
+								[
+									-16.699237823486328,
+									16.90789794921875,
+									-5.6257104873657227
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Wall",
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									48.820468902587891,
+									10.761929512023926,
+									4.0026254653930664
+								],
+								"Translate" : 
+								[
+									4.1562938690185547,
+									-3.9121618270874023,
+									8.9194717407226563
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "Building"
+				},
+				{
+					"Children" : 
+					[
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree02",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-46.119171142578125,
+									0.0
+								],
+								"Scale" : 
+								[
+									13.007604598999023,
+									13.007599830627441,
+									13.007604598999023
+								],
+								"Translate" : 
+								[
+									0.17824625968933105,
+									-8.1731748580932617,
+									-24.371177673339844
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree03",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-7.9814224243164063,
+									0.0
+								],
+								"Scale" : 
+								[
+									10.489995002746582,
+									10.489999771118164,
+									10.489995002746582
+								],
+								"Translate" : 
+								[
+									-11.182665824890137,
+									-10.528006553649902,
+									-26.16200065612793
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99989318847656,
+									60.320568084716797,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									14.790902137756348,
+									14.790898323059082,
+									14.790902137756348
+								],
+								"Translate" : 
+								[
+									-14.63519287109375,
+									-7.3209776878356934,
+									-24.371177673339844
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree02",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									3.7048087120056152,
+									0.0
+								],
+								"Scale" : 
+								[
+									17.937885284423828,
+									17.937900543212891,
+									17.937885284423828
+								],
+								"Translate" : 
+								[
+									7.8912439346313477,
+									-10.58192253112793,
+									-21.991338729858398
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree03",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99935913085938,
+									-55.951732635498047,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									28.428091049194336,
+									28.428108215332031,
+									28.428091049194336
+								],
+								"Translate" : 
+								[
+									-2.4153091907501221,
+									-21.518331527709961,
+									-38.634227752685547
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99989318847656,
+									58.753032684326172,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									16.323488235473633,
+									16.323490142822266,
+									16.323488235473633
+								],
+								"Translate" : 
+								[
+									-3.2750139236450195,
+									-10.58192253112793,
+									-21.991338729858398
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-6.4482431411743164,
+									0.0
+								],
+								"Scale" : 
+								[
+									16.323488235473633,
+									16.323490142822266,
+									16.323488235473633
+								],
+								"Translate" : 
+								[
+									-8.9185752868652344,
+									-10.581926345825195,
+									-28.635135650634766
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree02",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99989318847656,
+									76.306961059570313,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									16.323488235473633,
+									16.323490142822266,
+									16.323488235473633
+								],
+								"Translate" : 
+								[
+									-19.790542602539063,
+									-10.58192253112793,
+									-30.026691436767578
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									-48.803298950195313,
+									0.0
+								],
+								"Scale" : 
+								[
+									17.302896499633789,
+									17.302898406982422,
+									17.302896499633789
+								],
+								"Translate" : 
+								[
+									3.85546875,
+									-10.581924438476563,
+									-28.787460327148438
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree03",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									45.963886260986328,
+									0.0
+								],
+								"Scale" : 
+								[
+									9.9573297500610352,
+									9.9573287963867188,
+									9.9573297500610352
+								],
+								"Translate" : 
+								[
+									-12.661591529846191,
+									-10.581918716430664,
+									-32.454395294189453
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree03",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99949645996094,
+									-13.183271408081055,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									10.283804893493652,
+									10.283799171447754,
+									10.283804893493652
+								],
+								"Translate" : 
+								[
+									-6.2564554214477539,
+									-9.6168346405029297,
+									-33.293296813964844
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree02",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									80.872505187988281,
+									0.0
+								],
+								"Scale" : 
+								[
+									15.344085693359375,
+									15.344080924987793,
+									15.344085693359375
+								],
+								"Translate" : 
+								[
+									8.0587558746337891,
+									-19.416296005249023,
+									-37.564174652099609
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "DP_Tree02",
+								"MeshMaterials" : 
+								[
+									"None",
+									"None"
+								],
+								"Model" : "DP_Tree"
+							},
+							"Name" : "DP_Tree",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									3.7209925651550293,
+									0.0
+								],
+								"Scale" : 
+								[
+									28.428108215332031,
+									28.428108215332031,
+									28.428108215332031
+								],
+								"Translate" : 
+								[
+									-19.86610221862793,
+									-21.323434829711914,
+									-45.474037170410156
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "Trees",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							-6.5
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "InvisibleLowWall",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.2261402606964111,
+									30.70289421081543,
+									43.284564971923828
+								],
+								"Translate" : 
+								[
+									-17.469978332519531,
+									1.9641304016113281,
+									-5.9757080078125
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "InvisibleLowWall",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									48.820468902587891,
+									30.683418273925781,
+									2.0
+								],
+								"Translate" : 
+								[
+									4.1562938690185547,
+									0.17639392614364624,
+									-17.103368759155273
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "InvisibleLowWall",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									2.2261402606964111,
+									30.269796371459961,
+									43.284564971923828
+								],
+								"Translate" : 
+								[
+									17.475395202636719,
+									1.7475814819335938,
+									-5.9757080078125
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "InvisibleLowWall",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									48.820468902587891,
+									10.761929512023926,
+									2.0
+								],
+								"Translate" : 
+								[
+									4.1562938690185547,
+									0.17639392614364624,
+									13.84620475769043
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "WallColliders",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							-6.5
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Scenario",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.0,
+					0.0,
+					6.5
+				]
+			}
+		},
+		{
+			"Camera" : 
+			{
+				"FieldOfView" : 45.0,
+				"IsDefault" : true,
+				"NearPlane" : 0.10000000149011612
+			},
+			"DataFile" : "Camera",
+			"Name" : "Game_Camera",
+			"ScriptComponent" : 
+			{
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PartyCam.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-45.000003814697266,
+					-0.0,
+					0.0
+				],
+				"Translate" : 
+				[
+					0.0,
+					30.0,
+					22.5
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DRLightComponent" : 
+					{
+						"Intensity" : 1.0,
+						"LightColor" : 
+						[
+							0.70184564590454102,
+							0.70588231086730957,
+							0.64013838768005371
+						]
+					},
+					"DataFile" : "DRLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Sun",
+					"Transform" : 
+					{
+            "RotationAngles": [
+              -84.358,
+              -2.531,
+              12.125
+            ],
+						"Translate" : 
+						[
+							11.324122428894043,
+							10.496254920959473,
+							-18.363571166992188
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"Intensity" : 2.5999999046325684,
+						"Range" : 9.0,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-45.147132873535156,
+							85.838005065917969,
+							1.0788480043411255
+						],
+						"Translate" : 
+						[
+							-13.031702041625977,
+							10.551502227783203,
+							-17.441526412963867
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"Intensity" : 2.5999999046325684,
+						"Range" : 9.0,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-45.147438049316406,
+							85.838386535644531,
+							1.0788748264312744
+						],
+						"Translate" : 
+						[
+							-13.631521224975586,
+							10.542628288269043,
+							-10.950020790100098
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							0.94509804,
+							0.9372549,
+							0.61176471
+						],
+						"Intensity" : 1.0,
+						"Range" : 151.5,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							133.778,
+							-0.31129565834999084,
+							-179.87991333007813
+						],
+						"Translate" : 
+						[
+							-6.5292282104492188,
+							8.7961578369140625,
+							-26.296
+						]
+					}
+				},
+				{
+					"DataFile" : "SpotLight",
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "SpotLight",
+					"SpotLight" : 
+					{
+						"Color" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"Intensity" : 1.5,
+						"Range" : 485.5,
+						"SpotAngle" : 45.0
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							58.821598052978516,
+							-0.30450543761253357,
+							179.86373901367188
+						],
+						"Translate" : 
+						[
+							-6.5292282104492188,
+							19.877429962158203,
+							-23.195
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Lights",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.0,
+					0.0,
+					6.5
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"Audio" : 
+					{
+						"mSoundName" : "GameDeliver01.mp3",
+						"mVolume" : 1.0
+					},
+					"Children" : 
+					[
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Programming",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									-0.32143259048461914,
+									0.32143139839172363,
+									-0.13000640273094177
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Programming",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									0.0,
+									0.32143354415893555,
+									-0.12999771535396576
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Programming",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									0.32142862677574158,
+									0.32143425941467285,
+									-0.13001498579978943
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Design",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									-0.32142874598503113,
+									-2.9859374990337528e-06,
+									-0.13000063598155975
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Art",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									0.0,
+									-5.7052793600576024e-09,
+									-0.130000039935112
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Graphics",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									0.3214285671710968,
+									0.0,
+									-0.12999999523162842
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Graphics",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									-0.3214285671710968,
+									-0.3214285671710968,
+									-0.12999999523162842
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Graphics",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									0.0,
+									-0.32142877578735352,
+									-0.12999999523162842
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"DataFile" : "GridCell",
+							"ModelComponent" : 
+							{
+								"Material" : "Art",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GridCell",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"Red_var" : 
+								[
+									255,
+									1
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									90.0,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									0.28571429848670959,
+									0.28571429848670959,
+									0.28571429848670959
+								],
+								"Translate" : 
+								[
+									0.32142841815948486,
+									-0.32124635577201843,
+									-0.12999995052814484
+								]
+							}
+						}
+					],
+					"DataFile" : "Grid",
+					"ModelComponent" : 
+					{
+						"Material" : "Simulation",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "MainGrid",
+					"ParticlesComponent" : 
+					{
+						"Blue_var" : 
+						[
+							255,
+							1
+						],
+						"Green_var" : 
+						[
+							255,
+							1
+						],
+						"ParticleType" : "Default",
+						"Red_var" : 
+						[
+							255,
+							1
+						]
+					},
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							-11.0,
+							0.010000800713896751,
+							-6.5
+						]
+					}
+				},
+				{
+					"Audio" : 
+					{
+						"Loop" : true,
+						"mVolume" : 1.0
+					},
+					"DataFile" : "LogicObject",
+					"Name" : "LogicObject"
+				},
+				{
+					"Audio" : 
+					{
+						"mSoundName" : "GameDeliver01.mp3",
+						"mVolume" : 1.0
+					},
+					"DataFile" : "GridWaypoint",
+					"GridWaypoint" : 
+					{
+						"Order" : 0
+					},
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Waypoint01",
+					"ParticlesComponent" : 
+					{
+						"MaximumRadius" : 3.0,
+						"MinimumRadius" : 1.0,
+						"Runtime" : -1.0
+					},
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							-6.5
+						]
+					}
+				},
+				{
+					"Audio" : 
+					{
+						"mSoundName" : "GameDeliver01.mp3",
+						"mVolume" : 1.0
+					},
+					"DataFile" : "GridWaypoint",
+					"GridWaypoint" : 
+					{
+						"Order" : 1
+					},
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Waypoint02",
+					"ParticlesComponent" : 
+					{
+						"MaximumRadius" : 3.0,
+						"MinimumRadius" : 1.0,
+						"PartPos" : 
+						[
+							11.0,
+							-7.3306678132212255e-06,
+							0.0
+						],
+						"Runtime" : -1.0
+					},
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							11.0,
+							-7.3306678132212255e-06,
+							-6.5
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Red",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "X",
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.2404905557632446,
+											0.17999999225139618,
+											0.18000070750713348
+										],
+										"Translate" : 
+										[
+											0.52999973297119141,
+											-0.00014960765838623047,
+											0.0
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Blue",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Z",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											-0.00023697597498539835,
+											89.999946594238281,
+											-0.00023697593132965267
+										],
+										"Scale" : 
+										[
+											1.2404793500900269,
+											0.17999999225139618,
+											0.17999972403049469
+										],
+										"Translate" : 
+										[
+											-0.00040435791015625,
+											-0.00031578540802001953,
+											0.52996760606765747
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"Material" : "Green",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Y",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.00048339704517275095,
+											-0.0,
+											-89.999946594238281
+										],
+										"Scale" : 
+										[
+											1.2404885292053223,
+											0.1799980103969574,
+											0.1800011545419693
+										],
+										"Translate" : 
+										[
+											-0.00054645538330078125,
+											0.52999997138977051,
+											-2.7894973754882813e-05
+										]
+									}
+								}
+							],
+							"DataFile" : "Group",
+							"Name" : "Gizmo",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									0.71923065185546875,
+									0.15007948875427246,
+									1.9863510131835938
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mSoundName" : "GameDeliver01.mp3",
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Programming",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "ProgrammingIcon",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											179.99989318847656,
+											-5.0089556680177338e-06,
+											162.99989318847656
+										],
+										"Scale" : 
+										[
+											0.13333271443843842,
+											0.13332855701446533,
+											0.13333320617675781
+										],
+										"Translate" : 
+										[
+											-0.1668548583984375,
+											0.80017364025115967,
+											-4.4265789256314747e-07
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Art",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "ArtIcon",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											179.99989318847656,
+											-5.0089556680177338e-06,
+											162.99989318847656
+										],
+										"Scale" : 
+										[
+											0.13333362340927124,
+											0.1333334743976593,
+											0.1333334743976593
+										],
+										"Translate" : 
+										[
+											-0.1668548583984375,
+											0.80028843879699707,
+											0.36666586995124817
+										]
+									}
+								},
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "Art",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "ArtIcon",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											179.99989318847656,
+											-5.0089556680177338e-06,
+											162.99989318847656
+										],
+										"Scale" : 
+										[
+											0.13333283364772797,
+											0.13333335518836975,
+											0.13333305716514587
+										],
+										"Translate" : 
+										[
+											-0.1668553352355957,
+											0.80031460523605347,
+											-0.36666771769523621
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									-0.5,
+									0.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									0.0
+								]
+							},
+							"DataFile" : "Processor",
+							"ModelComponent" : 
+							{
+								"Material" : "PC_GR",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "PC"
+							},
+							"Name" : "Computer",
+							"ParticlesComponent": {
+						      "Position": [ -0.7, 3.15, 1.4 ],
+						      "Range": [ 2.95, 0.5, 1.55 ],
+						      "Velocity": [ 0.0, 4.4, 0.0 ],
+						      "Direction": [ 0.0, 0.0, 0.0 ],
+						      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+						      "Scale": [ 0.9, 0.9, 0.0 ],
+						      "Life": 0.5,
+						      "Active Time": 1.0,
+						      "Number of Particles": 7,
+						      "Minimum Number Of Particles": 4,
+						      "Material Name": "Particles_PCGraphics",
+						      "Texture": true,
+						      "Effect": 0
+						  	},
+							"Processor" : 
+							{
+								"MaxProcessingTime" : 3.0,
+								"Recipes" : 
+								[
+									6
+								]
+							},
+							"ScriptComponent" : 
+							{
+								"scripts" : 
+								[
+									".\\Resources\\Scripts\\ProcessorInput.py",
+									".\\Resources\\Scripts\\PickupProcessor.py",
+									".\\Resources\\Scripts\\ProcessorGenerate.py",
+									".\\Resources\\Scripts\\ProcessorOutput.py"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99989318847656,
+									5.0089556680177338e-06,
+									-179.99989318847656
+								],
+								"Scale" : 
+								[
+									2.4989297389984131,
+									2.4999966621398926,
+									2.4989330768585205
+								],
+								"Translate" : 
+								[
+									-0.11335945129394531,
+									0.025097966194152832,
+									-0.0004119873046875
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Blue",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Octahedron"
+							},
+							"Name" : "Octahedron",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									1.4426908493041992,
+									0.44915616512298584,
+									-0.070496559143066406
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Red",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Icosahedron"
+							},
+							"Name" : "Icosaedron",
+							"Transform" : 
+							{
+								"Translate" : 
+								[
+									0.91154575347900391,
+									0.50640761852264404,
+									0.85820770263671875
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Graphics",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "RedRug",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									44.999973297119141,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									1.0,
+									0.10000000149011612,
+									0.99999994039535522
+								],
+								"Translate" : 
+								[
+									-0.52023029327392578,
+									0.38181209564208984,
+									1.6954259872436523
+								]
+							}
+						}
+					],
+					"DataFile" : "GraphicsProcessor",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							14.550381660461426,
+							1.2524262666702271,
+							-0.36309003829956055
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Animator" : 
+							{
+								"AffineStates" : 
+								[
+									{
+										"AffineAnimationName" : "Squish",
+										"BlendDuration" : 0.15000000596046448,
+										"ReturnToDefault" : true,
+										"StateName" : "Input"
+									}
+								]
+							},
+							"Audio" : 
+							{
+								"mSoundName" : "coding03.mp3",
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"DataFile" : "Billboard",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "Default",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Simon",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											90.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.60000002384185791,
+											0.60000002384185791,
+											0.60000002384185791
+										],
+										"Translate" : 
+										[
+											0.0,
+											1.5,
+											0.0
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									0.5,
+									0.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									0.0
+								],
+								"mShape" : "OBB"
+							},
+							"DataFile" : "Generator",
+							"ModelComponent" : 
+							{
+								"Material" : "PC_DE",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "PC"
+							},
+							"Name" : "Computer",
+							"ParticlesComponent": {
+								"Position": [ -0.7, 3.15, 1.4 ],
+								"Range": [ 2.95, 0.5, 1.55 ],
+								"Velocity": [ 0.0, 4.4, 0.0 ],
+								"Direction": [ 0.0, 0.0, 0.0 ],
+								"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+								"Scale": [ 0.9, 0.9, 0.0 ],
+								"Life": 0.5,
+								"Active Time": 1.0,
+								"Number of Particles": 7,
+								"Minimum Number Of Particles": 4,
+								"Material Name": "Particles_PCDesign",
+								"Texture": true,
+								"Effect": 0
+							},
+							"ScriptComponent" : 
+							{
+								"scripts" : 
+								[
+									".\\Resources\\Scripts\\DesignResourceGenerator.py",
+									".\\Resources\\Scripts\\GeneratorInput.py",
+									".\\Resources\\Scripts\\GeneratorOutput.py"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-9.5535069704055786e-06,
+									-89.999946594238281,
+									-7.6759606599807739e-06
+								],
+								"Scale" : 
+								[
+									2.4999954700469971,
+									2.4999973773956299,
+									2.4999949932098389
+								],
+								"Translate" : 
+								[
+									0.17475812137126923,
+									1.2159347534179688e-05,
+									-0.074010848999023438
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Design",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "GreenRug",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									44.971488952636719,
+									-89.999618530273438,
+									-0.028515197336673737
+								],
+								"Scale" : 
+								[
+									0.99999767541885376,
+									0.10000010579824448,
+									0.99999749660491943
+								],
+								"Translate" : 
+								[
+									-1.6375497579574585,
+									0.38200092315673828,
+									0.16710853576660156
+								]
+							}
+						}
+					],
+					"DataFile" : "DesignGenerator",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.027938099578022957,
+							89.999610900878906,
+							0.027938321232795715
+						],
+						"Translate" : 
+						[
+							5.9370517730712891,
+							1.2519980669021606,
+							-9.3431196212768555
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Animator" : 
+							{
+								"AffineStates" : 
+								[
+									{
+										"AffineAnimationName" : "Squish",
+										"BlendDuration" : 0.15000000596046448,
+										"ReturnToDefault" : true,
+										"StateName" : "Input"
+									}
+								]
+							},
+							"Audio" : 
+							{
+								"mSoundName" : "coding03.mp3",
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"DataFile" : "Billboard",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "Default",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Simon",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											90.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.60000002384185791,
+											0.60000002384185791,
+											0.60000002384185791
+										],
+										"Translate" : 
+										[
+											0.0,
+											1.5,
+											0.0
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									-0.5,
+									0.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									0.0
+								],
+								"mShape" : "OBB"
+							},
+							"DataFile" : "Generator",
+							"ModelComponent" : 
+							{
+								"Material" : "PC_AR",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "PC"
+							},
+							"Name" : "Computer",
+							"ParticlesComponent": {
+								"Position": [ -0.7, 3.15, 1.4 ],
+								"Range": [ 2.95, 0.5, 1.55 ],
+								"Velocity": [ 0.0, 4.4, 0.0 ],
+								"Direction": [ 0.0, 0.0, 0.0 ],
+								"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+								"Scale": [ 0.9, 0.9, 0.0 ],
+								"Life": 0.5,
+								"Active Time": 1.0,
+								"Number of Particles": 7,
+								"Minimum Number Of Particles": 4,
+								"Material Name": "Particles_PCArt",
+								"Texture": true,
+								"Effect": 1
+							},
+							"ScriptComponent" : 
+							{
+								"scripts" : 
+								[
+									".\\Resources\\Scripts\\GeneratorInput.py",
+									".\\Resources\\Scripts\\ArtResourceGenerator.py",
+									".\\Resources\\Scripts\\GeneratorOutput.py"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.9996337890625,
+									-89.99993896484375,
+									-179.9996337890625
+								],
+								"Scale" : 
+								[
+									2.4999763965606689,
+									2.4999754428863525,
+									2.4999763965606689
+								],
+								"Translate" : 
+								[
+									0.23861393332481384,
+									-0.00019311904907226563,
+									1.1646443605422974
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Art",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "YellowRug",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									45.000003814697266,
+									-89.999946594238281,
+									0.0
+								],
+								"Scale" : 
+								[
+									1.0000027418136597,
+									0.10000009834766388,
+									1.0000075101852417
+								],
+								"Translate" : 
+								[
+									-1.6132075786590576,
+									0.38200068473815918,
+									0.48934489488601685
+								]
+							}
+						}
+					],
+					"DataFile" : "ArtGenerator",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							89.999946594238281,
+							0.0
+						],
+						"Translate" : 
+						[
+							-6.639350414276123,
+							1.2519980669021606,
+							-0.57341575622558594
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Animator" : 
+							{
+								"AffineStates" : 
+								[
+									{
+										"AffineAnimationName" : "Squish",
+										"BlendDuration" : 0.15000000596046448,
+										"ReturnToDefault" : true,
+										"StateName" : "Input"
+									}
+								]
+							},
+							"Audio" : 
+							{
+								"mSoundName" : "I_P.mp3",
+								"mVolume" : 1.0
+							},
+							"Children" : 
+							[
+								{
+									"DataFile" : "Billboard",
+									"IsEnabled" : false,
+									"ModelComponent" : 
+									{
+										"Material" : "Default",
+										"MeshMaterials" : 
+										[
+											"None"
+										]
+									},
+									"Name" : "Simon",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											0.0,
+											90.0,
+											0.0
+										],
+										"Scale" : 
+										[
+											0.60000002384185791,
+											0.60000002384185791,
+											0.60000002384185791
+										],
+										"Translate" : 
+										[
+											0.0,
+											1.5,
+											0.0
+										]
+									}
+								}
+							],
+							"Collider" : 
+							{
+								"Offset" : 
+								[
+									-0.5,
+									0.0,
+									0.0
+								],
+								"Rescale" : 
+								[
+									-1.0,
+									0.0,
+									0.0
+								],
+								"mShape" : "OBB"
+							},
+							"DataFile" : "Generator",
+							"ModelComponent" : 
+							{
+								"Material" : "PC_PR",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "PC"
+							},
+							"Name" : "Computer",
+							"ParticlesComponent": {
+								"Position": [ -0.7, 3.15, 1.4 ],
+								"Range": [ 2.95, 0.5, 1.55 ],
+								"Velocity": [ 0.0, 4.4, 0.0 ],
+								"Direction": [ 0.0, 0.0, 0.0 ],
+								"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+								"Scale": [ 0.9, 0.9, 0.0 ],
+								"Life": 0.5,
+								"Active Time": 1.0,
+								"Number of Particles": 7,
+								"Minimum Number Of Particles": 4,
+								"Material Name": "Particles_PCProg",
+								"Texture": true,
+								"Effect": 0
+							},
+							"ScriptComponent" : 
+							{
+								"scripts" : 
+								[
+									".\\Resources\\Scripts\\GeneratorInput.py",
+									".\\Resources\\Scripts\\ProgrammingResourceGenerator.py",
+									".\\Resources\\Scripts\\GeneratorOutput.py"
+								]
+							},
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-179.99990844726563,
+									89.999885559082031,
+									-179.99990844726563
+								],
+								"Scale" : 
+								[
+									2.5,
+									2.5,
+									2.5
+								],
+								"Translate" : 
+								[
+									0.0021988349035382271,
+									0.00014793872833251953,
+									-0.034629344940185547
+								]
+							}
+						},
+						{
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "Programming",
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "BlueRug",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									44.999622344970703,
+									89.999946594238281,
+									-0.0003497056313790381
+								],
+								"Scale" : 
+								[
+									1.0,
+									0.10000000149011612,
+									1.0000005960464478
+								],
+								"Translate" : 
+								[
+									1.877979040145874,
+									0.38225555419921875,
+									0.26515883207321167
+								]
+							}
+						}
+					],
+					"DataFile" : "ProgrammingGenerator",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.00040798992267809808,
+							-89.999946594238281,
+							0.00040798992267809808
+						],
+						"Translate" : 
+						[
+							4.953514575958252,
+							1.2520751953125,
+							-18.285709381103516
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "Background",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "VolperHead",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "VolperHead"
+									},
+									"Name" : "HeadVolper",
+									"Transform" : 
+									{
+										"RotationAngles" : 
+										[
+											179.99989318847656,
+											-99.150100708007813,
+											179.99989318847656
+										],
+										"Scale" : 
+										[
+											0.74999958276748657,
+											0.49999967217445374,
+											0.75000005960464478
+										],
+										"Translate" : 
+										[
+											0.0005588531494140625,
+											1.0586007833480835,
+											-0.0008869171142578125
+										]
+									}
+								},
+								{
+									"Audio" : 
+									{
+										"mVolume" : 1.0
+									},
+									"DataFile" : "Container",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"Material" : "SemiTransparent",
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "Sphere"
+									},
+									"Name" : "Field",
+									"ParticlesComponent": {
+						                "Position": [ 3.0, 3.85, 3.5 ],
+						                "Range": [ 0.0, 0.0, 0.0 ],
+						                "Velocity": [ 1.75, 5.5, 0.0 ],
+						                "Direction": [ 1.4, 20.5, 0.0 ],
+						                "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+						                "Scale": [ 0.2, 0.4, 0.0 ],
+						                "Life": 2.0,
+						                "Active Time": 5.0,
+						                "Number of Particles": 100,
+						                "Minimum Number Of Particles": 20,
+						                "Material Name": "Particles_Trail",
+						                "Texture": false,
+						                "Effect": 2
+						             },
+									"ScriptComponent" : 
+									{
+										"scripts" : 
+										[
+											".\\Resources\\Scripts\\Container.py",
+											".\\Resources\\Scripts\\ContainerInput.py",
+											".\\Resources\\Scripts\\ContainerOutput.py"
+										]
+									},
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											1.0,
+											2.0,
+											1.0
+										],
+										"Translate" : 
+										[
+											0.00049114227294921875,
+											0.73963433504104614,
+											-0.00079107284545898438
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"Material" : "BodyBlue",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "BodyTall"
+							},
+							"Name" : "BodyVolper",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.0,
+									49.575099945068359,
+									0.0
+								],
+								"Scale" : 
+								[
+									1.9999984502792358,
+									3.0,
+									1.9999984502792358
+								]
+							}
+						},
+						{
+							"Children" : 
+							[
+								{
+									"DataFile" : "ScriptedBackground",
+									"ModelComponent" : 
+									{
+										"CastsShadow" : false,
+										"MeshMaterials" : 
+										[
+											"None"
+										],
+										"Model" : "Quad"
+									},
+									"Name" : "Request",
+									"ScriptComponent" : 
+									{
+										"scripts" : 
+										[
+											".\\Resources\\Scripts\\RequestUI.py"
+										]
+									},
+									"Transform" : 
+									{
+										"Scale" : 
+										[
+											0.57142865657806396,
+											0.57142853736877441,
+											0.57142859697341919
+										],
+										"Translate" : 
+										[
+											-2.9802322387695313e-07,
+											0.13131988048553467,
+											0.010101437568664551
+										]
+									}
+								}
+							],
+							"DataFile" : "Background",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "BubbleLeft",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Model" : "Quad"
+							},
+							"Name" : "RequestBubble",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									-45.000003814697266,
+									-0.0,
+									0.0
+								],
+								"Scale" : 
+								[
+									3.5915596485137939,
+									3.5424423217773438,
+									3.5908629894256592
+								],
+								"Translate" : 
+								[
+									2.416050910949707,
+									5.75,
+									-0.66324388980865479
+								]
+							}
+						}
+					],
+					"DataFile" : "SubmissionArea",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							-12.335506439208984,
+							1.2705423841907759e-06,
+							-19.397014617919922
+						]
+					}
+				},
+				{
+					"Children" : 
+					[
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									-5.0694632530212402,
+									0.82800042629241943,
+									2.1443371772766113
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									-5.0694632530212402,
+									0.82800042629241943,
+									11.920506477355957
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									-5.0694632530212402,
+									0.82800042629241943,
+									9.064483642578125
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.6304173469543457,
+									1.0,
+									4.0053777694702148
+								],
+								"Translate" : 
+								[
+									-4.1785893440246582,
+									0.82800000905990601,
+									5.6227207183837891
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									-5.0694632530212402,
+									0.82800042629241943,
+									-0.60664463043212891
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									5.4187202453613281,
+									0.82800030708312988,
+									2.4745025634765625
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									5.4187202453613281,
+									0.82800030708312988,
+									-0.29811495542526245
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									5.4187202453613281,
+									0.82800030708312988,
+									-5.7709741592407227
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									5.4187202453613281,
+									0.82800030708312988,
+									-8.6084308624267578
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.6304173469543457,
+									1.0,
+									2.372819185256958
+								],
+								"Translate" : 
+								[
+									4.5487174987792969,
+									0.82800000905990601,
+									-3.1081407070159912
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									1.6304173469543457,
+									1.0,
+									2.7308568954467773
+								],
+								"Translate" : 
+								[
+									6.2899713516235352,
+									0.82799994945526123,
+									-11.493769645690918
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									14.771186828613281,
+									0.82800024747848511,
+									9.3005619049072266
+								]
+							}
+						},
+						{
+							"Audio" : 
+							{
+								"mVolume" : 1.0
+							},
+							"Block" : 
+							{
+								"CanInput" : true
+							},
+							"DataFile" : "Block",
+							"ModelComponent" : 
+							{
+								"CastsShadow" : false,
+								"Material" : "Default",
+								"MeshMaterials" : 
+								[
+									"None"
+								],
+								"Renderable" : false
+							},
+							"Name" : "Block",
+							"ParticlesComponent" : 
+							{
+								"Blue_var" : 
+								[
+									255,
+									1
+								],
+								"Green_var" : 
+								[
+									255,
+									1
+								],
+								"PartLife" : 5.0,
+								"PartNumber" : 2000.0,
+								"PartScale" : 
+								[
+									0.05000000074505806,
+									0.05000000074505806,
+									0.05000000074505806
+								],
+								"ParticleType" : "Default",
+								"Red_var" : 
+								[
+									255,
+									1
+								],
+								"Runtime" : -1.0,
+								"Spread" : 3.5
+							},
+							"Transform" : 
+							{
+								"Scale" : 
+								[
+									3.3779604434967041,
+									1.0,
+									2.6038165092468262
+								],
+								"Translate" : 
+								[
+									14.791467666625977,
+									0.82800024747848511,
+									11.991271018981934
+								]
+							}
+						}
+					],
+					"DataFile" : "Group",
+					"Name" : "Blocks",
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							0.0,
+							0.0,
+							-6.5
+						]
+					}
+				},
+				{
+					"Audio" : 
+					{
+						"mSoundName" : "GameDeliver01.mp3",
+						"mVolume" : 1.0
+					},
+					"DataFile" : "GridWaypoint",
+					"GridWaypoint" : 
+					{
+						"Order" : 2
+					},
+					"ModelComponent" : 
+					{
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Waypoint03",
+					"ParticlesComponent" : 
+					{
+						"MaximumRadius" : 3.0,
+						"MinimumRadius" : 1.0,
+						"PartPos" : 
+						[
+							-11.0,
+							8.0107201938517392e-07,
+							0.0
+						],
+						"Runtime" : -1.0
+					},
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							-11.0,
+							8.0107201938517392e-07,
+							-6.5
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "GameElements",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.0,
+					0.0,
+					6.5
+				]
+			}
+		},
+	  {
+      "UIComponent": {
+        "Type": "Image",
+        "Description": "Bar"
+      },
+      "DataFile": "UI",
+      "ModelComponent": {
+        "Material": "Timer_HUD",
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Name": "Button1",
+      "Transform": {
+        "Scale": [
+          500.0,
+          50.0,
+          0.0
+        ],
+        "Translate": [
+          960.0,
+          1040.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "UIComponent": {
+        "Type": "Image",
+        "Description": "Slider"
+      },
+      "DataFile": "UI",
+      "ModelComponent": {
+        "Material": "Timer_Bar",
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Name": "Button1",
+      "Transform": {
+        "Scale": [
+          400.0,
+          30.0,
+          0.0
+        ],
+        "Translate": [
+          754.0,
+          1040.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "UIComponent": {
+        "Type": "Image",
+        "Description": "Slider_Image"
+      },
+      "DataFile": "UI",
+      "ModelComponent": {
+        "Material": "Time_DigiPen",
+        "MeshMaterials": [
+          "None"
+        ]
+      },
+      "Name": "Button1",
+      "Transform": {
+        "Scale": [
+          37.0,
+          30.0,
+          0.0
+        ],
+        "Translate": [
+          1154.0,
+          1040.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

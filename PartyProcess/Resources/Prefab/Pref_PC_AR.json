@@ -1,0 +1,184 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : 
+		[
+			{
+				"AffineAnimationName" : "Squish",
+				"BlendDuration" : 0.15000000596046448,
+				"ReturnToDefault" : true,
+				"StateName" : "Input"
+			}
+		],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "coding03.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Art",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "YellowRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					224.9996337890625,
+					-89.999946594238281,
+					179.9996337890625
+				],
+				"Scale" : 
+				[
+					0.33333349227905273,
+					0.03333350270986557,
+					0.33333498239517212
+				],
+				"Translate" : 
+				[
+					0.077126219868659973,
+					0.11827689409255981,
+					0.70494627952575684
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			-1.0499999523162842
+		],
+		"Rescale" : 
+		[
+			-0.34999999403953552,
+			0.0,
+			-2.4500000476837158
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Generator",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : false,
+		"IsUI" : false,
+		"Material" : "PC_AR",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_AR",
+	"ParticlesComponent" : 
+	{
+		"AlphaHigh" : 255,
+		"AlphaLow" : 1,
+		"Blue_var" : 
+		[
+			204,
+			102
+		],
+		"Green_var" : 
+		[
+			204,
+			102
+		],
+		"MainDir" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"MaximumRadius" : 3.0,
+		"MinimumRadius" : 1.0,
+		"PartLife" : 0.15999999642372131,
+		"PartNumber" : 4000.0,
+		"PartPos" : 
+		[
+			0.46144485473632813,
+			1.3608704805374146,
+			0.0
+		],
+		"PartScale" : 
+		[
+			0.02500000037252903,
+			0.02500000037252903,
+			0.02500000037252903
+		],
+		"ParticleType" : "Default",
+		"Red_var" : 
+		[
+			204,
+			102
+		],
+		"Runtime" : 0.30000001192092896,
+		"Spread" : 5.0
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\ArtResourceGenerator.py",
+			".\\Resources\\Scripts\\GeneratorInput.py",
+			".\\Resources\\Scripts\\GeneratorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			-179.9996337890625,
+			89.999946594238281,
+			-179.9996337890625
+		],
+		"Scale" : 
+		[
+			3.0,
+			3.0,
+			3.0
+		],
+		"Translate" : 
+		[
+			-3.5652031898498535,
+			1.5712770223617554,
+			0.22163772583007813
+		]
+	},
+	"Type" : "Generator"
+}

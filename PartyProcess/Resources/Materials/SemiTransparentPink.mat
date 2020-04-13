@@ -1,0 +1,6 @@
+{
+  "Diffuse": [ 1.0, 0.75294117647, 0.79607843137, 0.9 ],
+  "Specular": [ 0.6, 0.6, 0.6 ],
+  "Shininess": 10.0,
+  "Shader": "DRLighting"
+}

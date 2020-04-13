@@ -1,0 +1,423 @@
+{
+	"Children" : 
+	[
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"Audio" : 
+			{
+				"Loop" : false,
+				"mSoundName" : "GameDeliver01.mp3",
+				"mStartPlaying" : false,
+				"mVolume" : 1.0
+			},
+			"Body" : 
+			{
+				"mApplyFriction" : true,
+				"mConstrainX" : false,
+				"mConstrainY" : false,
+				"mConstrainZ" : false,
+				"mMass" : 0.0,
+				"mUseGravity" : false
+			},
+			"Carrier" : 
+			{
+				"ItemIndices" : []
+			},
+			"Children" : 
+			[
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Programming",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "ProgrammingIcon",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-16.999553680419922,
+							89.999946594238281,
+							2.9142145649529994e-05
+						],
+						"Scale" : 
+						[
+							0.13320000469684601,
+							0.13320000469684601,
+							0.13320000469684601
+						],
+						"Translate" : 
+						[
+							-0.16680033504962921,
+							0.80030184984207153,
+							0.36680641770362854
+						]
+					},
+					"Type" : "Background"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Programming",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "ProgrammingIcon",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-16.999523162841797,
+							89.999946594238281,
+							2.9142145649529994e-05
+						],
+						"Scale" : 
+						[
+							0.1332000195980072,
+							0.13320004940032959,
+							0.13320004940032959
+						],
+						"Translate" : 
+						[
+							-0.16680000722408295,
+							0.80030488967895508,
+							6.3638967731094453e-06
+						]
+					},
+					"Type" : "Background"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Programming",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "ProgrammingIcon",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-16.999523162841797,
+							89.999946594238281,
+							2.9142145649529994e-05
+						],
+						"Scale" : 
+						[
+							0.13319993019104004,
+							0.13320004940032959,
+							0.13320004940032959
+						],
+						"Translate" : 
+						[
+							-0.16679967939853668,
+							0.80030781030654907,
+							-0.36679363250732422
+						]
+					},
+					"Type" : "Background"
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"Rescale" : 
+				[
+					2.4500000476837158,
+					0.0,
+					0.0
+				],
+				"mCoeffDynamicFriction" : 0.0,
+				"mCoeffStaticFriction" : 0.0,
+				"mDepth" : -1.0,
+				"mHeight" : -1.0,
+				"mIsTrigger" : false,
+				"mLType" : "Processor",
+				"mRadius" : -1.0,
+				"mShape" : "OBB",
+				"mWidth" : -1.0
+			},
+			"DataFile" : "Processor",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "PC_PH",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "PC",
+				"Renderable" : true
+			},
+			"Name" : "Computer",
+			"ParticlesComponent" : 
+			{
+				"AlphaHigh" : 255,
+				"AlphaLow" : 1,
+				"Blue_var" : 
+				[
+					255,
+					1
+				],
+				"Green_var" : 
+				[
+					255,
+					1
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"MaximumRadius" : 3.0,
+				"MinimumRadius" : 1.0,
+				"PartLife" : 0.5,
+				"PartNumber" : 400.0,
+				"PartPos" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Default",
+				"Red_var" : 
+				[
+					255,
+					1
+				],
+				"Runtime" : 0.5,
+				"Spread" : 1.0
+			},
+			"Processor" : 
+			{
+				"MaxInput" : 3,
+				"MaxProcessingTime" : 3.0,
+				"Recipes" : 
+				[
+					3
+				]
+			},
+			"ScriptComponent" : 
+			{
+				"always-run" : false,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PickupProcessor.py",
+					".\\Resources\\Scripts\\ProcessorInput.py",
+					".\\Resources\\Scripts\\ProcessorGenerate.py",
+					".\\Resources\\Scripts\\ProcessorOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-0.0004371320828795433,
+					-89.999946594238281,
+					-0.00022868567612022161
+				],
+				"Scale" : 
+				[
+					2.5,
+					2.5,
+					2.5
+				],
+				"Translate" : 
+				[
+					8.276025420528299e-10,
+					0.00023763302306178957,
+					0.0
+				]
+			},
+			"Type" : "Processor"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "Atom",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Atom",
+				"Renderable" : true
+			},
+			"Name" : "Atom",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					-0.0,
+					-0.00019954353047069162
+				],
+				"Scale" : 
+				[
+					0.9999997615814209,
+					0.99999713897705078,
+					0.99999350309371948
+				],
+				"Translate" : 
+				[
+					-1.7511360645294189,
+					6.0986671996943187e-06,
+					0.0
+				]
+			},
+			"Type" : "Background"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "Physics",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Cube",
+				"Renderable" : true
+			},
+			"Name" : "LightBlueRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					45.000003814697266,
+					1.3027550392619158e-11,
+					-4.2040963307954371e-05
+				],
+				"Scale" : 
+				[
+					0.99998807907104492,
+					0.09999963641166687,
+					1.0000122785568237
+				],
+				"Translate" : 
+				[
+					2.0793254375457764,
+					-1.5257128325174563e-06,
+					-4.7278381296728123e-13
+				]
+			},
+			"Type" : "Background"
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "PhysicsProcessor",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.00019954353047069162
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

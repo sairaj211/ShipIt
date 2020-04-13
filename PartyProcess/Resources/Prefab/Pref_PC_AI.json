@@ -1,0 +1,283 @@
+{
+	"Children" : 
+	[
+		{
+			"Audio" : 
+			{
+				"mSoundName" : "GameDeliver01.mp3",
+				"mVolume" : 1.0
+			},
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Programming",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "PR",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							127.32603454589844,
+							89.999946594238281,
+							-97.326034545898438
+						],
+						"Scale" : 
+						[
+							0.16665813326835632,
+							0.0066666663624346256,
+							0.1666666716337204
+						],
+						"Translate" : 
+						[
+							0.051328636705875397,
+							0.71985703706741333,
+							0.36861836910247803
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Design",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "DE",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							127.32603454589844,
+							89.999946594238281,
+							-97.326034545898438
+						],
+						"Scale" : 
+						[
+							0.16665813326835632,
+							0.0066666663624346256,
+							0.16666668653488159
+						],
+						"Translate" : 
+						[
+							0.051279801875352859,
+							0.71985709667205811,
+							0.0028052330017089844
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Design",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "DE",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							127.32603454589844,
+							89.999946594238281,
+							-97.326034545898438
+						],
+						"Scale" : 
+						[
+							0.16665813326835632,
+							0.0066666663624346256,
+							0.16666668653488159
+						],
+						"Translate" : 
+						[
+							0.051233742386102676,
+							0.71985709667205811,
+							-0.38369512557983398
+						]
+					}
+				}
+			],
+			"DataFile" : "Processor",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "PC_AI",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "PC"
+			},
+			"Name" : "PC_AI",
+			"ParticlesComponent" : 
+			{
+				"Blue_var" : 
+				[
+					255,
+					1
+				],
+				"Green_var" : 
+				[
+					255,
+					1
+				],
+				"PartLife" : 0.5,
+				"PartNumber" : 400.0,
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Default",
+				"Red_var" : 
+				[
+					255,
+					1
+				],
+				"Runtime" : 0.5,
+				"Spread" : 1.0
+			},
+			"Processor" : 
+			{
+				"MaxProcessingTime" : 3.0,
+				"Recipes" : 
+				[
+					3
+				]
+			},
+			"ScriptComponent" : 
+			{
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\ProcessorInput.py",
+					".\\Resources\\Scripts\\PickupProcessor.py",
+					".\\Resources\\Scripts\\ProcessorGenerate.py",
+					".\\Resources\\Scripts\\ProcessorOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-97.326034545898438,
+					-89.999946594238281,
+					97.326034545898438
+				],
+				"Scale" : 
+				[
+					3.0021705627441406,
+					3.0,
+					3.0020170211791992
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "IA",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "IA"
+			},
+			"Name" : "Robot",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-179.9996337890625,
+					-22.535531997680664,
+					179.9996337890625
+				],
+				"Scale" : 
+				[
+					1.9844827651977539,
+					1.9822318553924561,
+					1.9844310283660889
+				],
+				"Translate" : 
+				[
+					-2.3109893798828125,
+					0.064718179404735565,
+					0.47338676452636719
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "AI",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Rug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					30.0,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0,
+					0.10000002384185791,
+					1.0
+				],
+				"Translate" : 
+				[
+					2.3279833793640137,
+					0.46406829357147217,
+					0.95155906677246094
+				]
+			}
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "PC_AI",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			-10.683778762817383,
+			0.0,
+			-21.348697662353516
+		]
+	},
+	"Type" : "Group"
+}

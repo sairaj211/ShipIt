@@ -1,0 +1,370 @@
+{
+	"Children" : 
+	[
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"Children" : 
+			[
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "VolperHead",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "VolperHead",
+						"Renderable" : true
+					},
+					"Name" : "HeadVolper",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-179.99989318847656,
+							-0.0,
+							-179.99989318847656
+						],
+						"Scale" : 
+						[
+							0.75,
+							0.5,
+							0.75
+						],
+						"Translate" : 
+						[
+							0.0,
+							1.0586007833480835,
+							0.0
+						]
+					},
+					"Type" : "Background"
+				},
+				{
+					"Audio" : 
+					{
+						"Loop" : false,
+						"mSoundName" : "",
+						"mStartPlaying" : false,
+						"mVolume" : 1.0
+					},
+					"Body" : 
+					{
+						"mApplyFriction" : true,
+						"mConstrainX" : false,
+						"mConstrainY" : false,
+						"mConstrainZ" : false,
+						"mMass" : 0.0,
+						"mUseGravity" : false
+					},
+					"Carrier" : 
+					{
+						"ItemIndices" : []
+					},
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"mCoeffDynamicFriction" : 0.0,
+						"mCoeffStaticFriction" : 0.0,
+						"mDepth" : -1.0,
+						"mHeight" : -1.0,
+						"mIsTrigger" : false,
+						"mLType" : "Container",
+						"mRadius" : -1.0,
+						"mShape" : "AABB",
+						"mWidth" : -1.0
+					},
+					"DataFile" : "Container",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "SemiTransparent",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere",
+						"Renderable" : true
+					},
+					"Name" : "Field",
+					"ParticlesComponent" : 
+					{
+						"AlphaHigh" : 255,
+						"AlphaLow" : 1,
+						"Blue_var" : 
+						[
+							255,
+							64
+						],
+						"Green_var" : 
+						[
+							255,
+							64
+						],
+						"MainDir" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"MaximumRadius" : 3.0,
+						"MinimumRadius" : 1.0,
+						"PartLife" : 0.63999998569488525,
+						"PartNumber" : 4000.0,
+						"PartPos" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"PartScale" : 
+						[
+							0.05000000074505806,
+							0.05000000074505806,
+							0.05000000074505806
+						],
+						"ParticleType" : "Default",
+						"Red_var" : 
+						[
+							255,
+							64
+						],
+						"Runtime" : 0.75,
+						"Spread" : 1.0
+					},
+					"ScriptComponent" : 
+					{
+						"always-run" : false,
+						"scripts" : 
+						[
+							".\\Resources\\Scripts\\Container.py",
+							".\\Resources\\Scripts\\ContainerInput.py",
+							".\\Resources\\Scripts\\ContainerOutput.py"
+						]
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							-0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							1.0,
+							2.0,
+							1.0
+						],
+						"Translate" : 
+						[
+							0.0,
+							0.73963439464569092,
+							0.0
+						]
+					},
+					"Type" : "Container"
+				}
+			],
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "BodyBlue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "BodyTall",
+				"Renderable" : true
+			},
+			"Name" : "BodyVolper",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					2.0,
+					3.0,
+					2.0
+				],
+				"Translate" : 
+				[
+					0.0,
+					-1.9073486328125e-06,
+					0.0
+				]
+			},
+			"Type" : "Background"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"Children" : 
+			[
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "ScriptedBackground",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Ground",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Quad",
+						"Renderable" : true
+					},
+					"Name" : "Request",
+					"ScriptComponent" : 
+					{
+						"always-run" : false,
+						"scripts" : 
+						[
+							".\\Resources\\Scripts\\RequestUI.py"
+						]
+					},
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							-0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							0.57142865657806396,
+							0.57142853736877441,
+							0.57142859697341919
+						],
+						"Translate" : 
+						[
+							-2.9802322387695313e-07,
+							0.13131988048553467,
+							0.010101437568664551
+						]
+					},
+					"Type" : "Background"
+				}
+			],
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "BubbleLeft",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Quad",
+				"Renderable" : true
+			},
+			"Name" : "RequestBubble",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-45.000003814697266,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					3.5915596485137939,
+					3.5424423217773438,
+					3.5908629894256592
+				],
+				"Translate" : 
+				[
+					2.0,
+					5.75,
+					-0.5
+				]
+			},
+			"Type" : "Background"
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "SubmissionArea",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

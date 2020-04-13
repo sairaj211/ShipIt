@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8A0BAA11-63E2-48A7-85C1-78A31B0B8B76}</ProjectGuid>
+    <RootNamespace>PartyProcess</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>ShipIT</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>ShipIT</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>GEAR_PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Project1\Dependencies\Include\;$(SolutionDir)Project1\;$(SolutionDir)Project1\Source\Components;$(SolutionDir)Project1\Source\Editor;$(SolutionDir)Project1\Source\Events;$(SolutionDir)Project1\Source\Input;$(SolutionDir)Project1\Source\Managers;$(SolutionDir)Project1\Source\Random;$(SolutionDir)Project1\Source\Resources;$(SolutionDir)Project1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Project1\Dependencies\Library\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>GEAR_PLATFORM_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Project1\Dependencies\Include\;$(SolutionDir)Project1\;$(SolutionDir)Project1\Source\Components;$(SolutionDir)Project1\Source\Editor;$(SolutionDir)Project1\Source\Events;$(SolutionDir)Project1\Source\Input;$(SolutionDir)Project1\Source\Managers;$(SolutionDir)Project1\Source\Random;$(SolutionDir)Project1\Source\Resources;$(SolutionDir)Project1\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Project1\Dependencies\Library\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\config.json" />
+    <None Include="Resources\AffineAnimations\Box.aat" />
+    <None Include="Resources\AffineAnimations\RotateYEach4Secs.aat" />
+    <None Include="Resources\Level\DigiPenLevel.json" />
+    <None Include="Resources\Level\OBBTest.json" />
+    <None Include="Resources\Level\TestOBB.json" />
+    <None Include="Resources\Level\LevelSelection.json" />
+    <None Include="Resources\Materials\AI.mat" />
+    <None Include="Resources\Materials\Art.mat" />
+    <None Include="Resources\Materials\Audio.mat" />
+    <None Include="Resources\Materials\Design.mat" />
+    <None Include="Resources\Materials\Graphics.mat" />
+    <None Include="Resources\Materials\Physics.mat" />
+    <None Include="Resources\Materials\Programming.mat" />
+    <None Include="Resources\Models\capsule.fbx" />
+    <None Include="Resources\Prefab\ArtResource.json" />
+    <None Include="Resources\Prefab\Background.json" />
+    <None Include="Resources\Prefab\Billboard.json" />
+    <None Include="Resources\Prefab\Container.json" />
+    <None Include="Resources\Prefab\Cuboid.json" />
+    <None Include="Resources\Prefab\Gate.json" />
+    <None Include="Resources\Prefab\Generator.json" />
+    <None Include="Resources\Prefab\Grid.json" />
+    <None Include="Resources\Prefab\GridCell.json" />
+    <None Include="Resources\Prefab\GridWaypoint.json" />
+    <None Include="Resources\Prefab\Group.json" />
+    <None Include="Resources\Prefab\LogicObject.json" />
+    <None Include="Resources\Level\PartyProcessSandbox.json" />
+    <None Include="Resources\Prefab\Platform.json" />
+    <None Include="Resources\Prefab\PlayerBody.json" />
+    <None Include="Resources\Prefab\Players.json" />
+    <None Include="Resources\Prefab\ScriptedEnvironment.json" />
+    <None Include="Resources\Prefab\UI.json" />
+    <None Include="Resources\Prefab\SpotLight.json" />
+    <None Include="Resources\Materials\Ant.mat" />
+    <None Include="Resources\Materials\White.mat" />
+    <None Include="Resources\Materials\Green.mat" />
+    <None Include="Resources\Materials\Man0.mat" />
+    <None Include="Resources\AffineAnimations\Turn.aat" />
+    <None Include="Resources\Materials\Noise0.mat" />
+    <None Include="Resources\Materials\Noise1.mat" />
+    <None Include="Resources\Materials\Presentation.mat" />
+    <None Include="Resources\Materials\Skin.mat" />
+    <None Include="Resources\Scripts\BlockInput.py" />
+    <None Include="Resources\Scripts\BlockOutput.py" />
+    <None Include="Resources\Scripts\ClosingPath.py" />
+    <None Include="Resources\Scripts\GameLogic.py" />
+    <None Include="Resources\Scripts\PlatformRelationship.py" />
+    <None Include="Resources\Scripts\RequestUI.py" />
+    <None Include="Resources\Scripts\Reset.py" />
+    <None Include="Resources\Scripts\Treadmill.py" />
+    <None Include="Resources\Scripts\WaypointTeleport.py" />
+    <None Include="Resources\Shaders\Demo.frag" />
+    <None Include="Resources\Shaders\Demo.vert" />
+    <None Include="Resources\Shaders\Line.frag" />
+    <None Include="Resources\Shaders\Line.vert" />
+    <None Include="Resources\Shaders\Outline.frag" />
+    <None Include="Resources\Shaders\Outline.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Localization\en\hello.txt" />
+    <Text Include="Resources\Localization\en\thankyou.txt" />
+    <Text Include="Resources\Localization\ru\hello.txt" />
+    <Text Include="Resources\Localization\ru\thankyou.txt" />
+    <Text Include="Resources\Text\ResourceKey.txt" />
+    <Text Include="Resources\Text\Default.txt" />
+    <Text Include="Resources\Text\GameRecipes.txt" />
+    <Text Include="Resources\Text\ResourceRecipes.txt" />
+    <Text Include="Resources\Text\UnlockLevelData.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project1\GearEngine.vcxproj">
+      <Project>{1147ae74-3e6f-41f6-98b9-871ac41b33ca}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Audio\BG01.mp3" />
+    <Media Include="Resources\Audio\BG01Ending.mp3" />
+    <Media Include="Resources\Audio\BG02.mp3" />
+    <Media Include="Resources\Audio\BG03.mp3" />
+    <Media Include="Resources\Audio\cartoon_fall-002.wav" />
+    <Media Include="Resources\Audio\cartoon_jump-002.wav" />
+    <Media Include="Resources\Audio\coding01.mp3" />
+    <Media Include="Resources\Audio\coding02.mp3" />
+    <Media Include="Resources\Audio\coding03.mp3" />
+    <Media Include="Resources\Audio\GameDeliver01.mp3" />
+    <Media Include="Resources\Audio\GameDeliver02.mp3" />
+    <Media Include="Resources\Audio\GameFinish.mp3" />
+    <Media Include="Resources\Audio\GameMaker03-01.mp3" />
+    <Media Include="Resources\Audio\GameMaker03.mp3" />
+    <Media Include="Resources\Audio\MergingMaster02.mp3" />
+    <Media Include="Resources\Audio\ModuleDeliver01.mp3" />
+    <Media Include="Resources\Audio\ModuleDeliver02.mp3" />
+    <Media Include="Resources\Audio\warningTimeOut.mp3" />
+    <Media Include="Resources\Audio\WrongInputMaster.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PartyProcess.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

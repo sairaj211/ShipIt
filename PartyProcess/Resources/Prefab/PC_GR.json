@@ -1,0 +1,446 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : [],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "GameDeliver01.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Carrier" : 
+	{
+		"ItemIndices" : []
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "FlatProgramming",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Background",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.1666666716337204,
+					0.1666666716337204,
+					0.1666666716337204
+				],
+				"Translate" : 
+				[
+					-0.01639987900853157,
+					0.7470550537109375,
+					0.00019431114196777344
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "FlatArt",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Background",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.1666666716337204,
+					0.1666666716337204,
+					0.1666666716337204
+				],
+				"Translate" : 
+				[
+					-0.01601492241024971,
+					0.7470550537109375,
+					0.43352770805358887
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "FlatArt",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Sphere"
+			},
+			"Name" : "Background",
+			"Transform" : 
+			{
+				"Scale" : 
+				[
+					0.16666664183139801,
+					0.16666664183139801,
+					0.16666664183139801
+				],
+				"Translate" : 
+				[
+					-0.016795802861452103,
+					0.7470550537109375,
+					-0.43313908576965332
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Graphics",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "RedRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					44.999885559082031,
+					-89.999946594238281,
+					-0.00011848796566482633
+				],
+				"Scale" : 
+				[
+					0.50970089435577393,
+					0.030039871111512184,
+					0.5270952582359314
+				],
+				"Translate" : 
+				[
+					0.25331234931945801,
+					0.19078367948532104,
+					0.90696096420288086
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Red",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Icosahedron"
+			},
+			"Name" : "Icosaedron",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-0.00011848798749269918,
+					-89.999946594238281,
+					-0.00011848796566482633
+				],
+				"Scale" : 
+				[
+					0.3333333432674408,
+					0.3333333432674408,
+					0.3333333432674408
+				],
+				"Translate" : 
+				[
+					-0.35754340887069702,
+					0.15452831983566284,
+					-0.4199681282043457
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Blue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Octahedron"
+			},
+			"Name" : "Octahedron",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-0.00011848798749269918,
+					-89.999946594238281,
+					-0.00011848796566482633
+				],
+				"Scale" : 
+				[
+					0.3333333432674408,
+					0.3333333432674408,
+					0.3333333432674408
+				],
+				"Translate" : 
+				[
+					-0.28410094976425171,
+					0.16655242443084717,
+					-0.079173088073730469
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Z",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.0011057336814701557,
+							89.251220703125,
+							-0.0011058698873966932
+						],
+						"Scale" : 
+						[
+							1.2404813766479492,
+							0.18000000715255737,
+							0.17999960482120514
+						],
+						"Translate" : 
+						[
+							-0.054531097412109375,
+							0.0,
+							0.55945110321044922
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "X",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.2404812574386597,
+							0.18000000715255737,
+							0.18000000715255737
+						],
+						"Translate" : 
+						[
+							-0.57983303070068359,
+							0.0,
+							0.0
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Green",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Y",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							-0.0,
+							-87.614242553710938
+						],
+						"Scale" : 
+						[
+							1.2404924631118774,
+							0.18000000715255737,
+							0.18000000715255737
+						],
+						"Translate" : 
+						[
+							-0.064334869384765625,
+							0.70627856254577637,
+							0.0
+						]
+					}
+				}
+			],
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Red",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Renderable" : false
+			},
+			"Name" : "Gizmo",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-0.00011848798749269918,
+					-89.999946594238281,
+					-0.00011848796566482633
+				],
+				"Scale" : 
+				[
+					0.3333333432674408,
+					0.3333333432674408,
+					0.3333333432674408
+				],
+				"Translate" : 
+				[
+					0.39741286635398865,
+					0.044233024120330811,
+					-0.65948295593261719
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			-0.69999998807907104
+		],
+		"Rescale" : 
+		[
+			0.0,
+			1.0,
+			-1.75
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Processor",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : true,
+		"IsUI" : false,
+		"Material" : "PC_GR",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_GRAPH",
+	"Processor" : 
+	{
+		"MaxInput" : 3,
+		"MaxProcessingTime" : 3.0,
+		"Recipes" : 
+		[
+			6
+		]
+	},
+	"ParticlesComponent": {
+      "Position": [ -0.7, 3.15, 1.4 ],
+      "Range": [ 2.95, 0.5, 1.55 ],
+      "Velocity": [ 0.0, 4.4, 0.0 ],
+      "Direction": [ 0.0, 0.0, 0.0 ],
+      "Color": [ 1.0, 1.0, 1.0, 1.0 ],
+      "Scale": [ 0.9, 0.9, 0.0 ],
+      "Life": 0.5,
+      "Active Time": 1.0,
+      "Number of Particles": 7,
+      "Minimum Number Of Particles": 4,
+      "Material Name": "Particles_PCGraphics",
+      "Texture": true,
+      "Effect": 0
+  	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\ProcessorInput.py",
+			".\\Resources\\Scripts\\PickupProcessor.py",
+			".\\Resources\\Scripts\\ProcessorGenerate.py",
+			".\\Resources\\Scripts\\ProcessorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.00011848798749269918,
+			89.999946594238281,
+			0.00011848796566482633
+		],
+		"Scale" : 
+		[
+			3.0,
+			3.0,
+			3.0
+		],
+		"Translate" : 
+		[
+			10.299417495727539,
+			1.2588349580764771,
+			-6.6505651473999023
+		]
+	},
+	"Type" : "Processor"
+}

@@ -1,0 +1,1028 @@
+{
+  "TestLoadLevel": [
+    {
+      "Name": "Player1",
+      "DataFile": "Player",
+      "IsEnabled": false,
+      "Transform": {
+        "Translate": [
+          -2.0,
+          2.0,
+          -2.0
+        ]
+      },
+      "ModelComponent": {
+        "Material": "White"
+      },
+      "ParticlesComponent": {
+        "PartNumber": 400.0,
+        "PartScale": [ 0.05, 0.05, 0.05 ],
+        "PartLife": 0.1,
+        "Spread": 0.75,
+        "PartPos": [ 0.0, 0.0, 0.0 ],
+        "MainDir": [ 0.0, 0.5, 0.0 ],
+        "Red_var": [ 255, 255 ],
+        "Blue_var": [ 255, 255 ],
+        "Green_var": [ 255, 255 ],
+        "ParticleType": "Explosion"
+      },
+      "Children": [
+        {
+          "Name": "Interact_Area",
+          "DataFile": "SearchArea",
+          "Transform": {
+            "Scale": [ 0.7, 0.7, 0.7 ],
+            "Translate": [ 0.0, -0.1, 0.7 ]
+          },
+          "AreaSearch": {
+            "SearchTypes": [
+              "ProgrammingResource",
+              "ArtResource",
+              "DesignResource",
+              "PhysicsResource",
+              "AudioResource",
+              "AIResource",
+              "GraphicsResource",
+              "Processor",
+              "Container",
+              "Generator",
+              "GridCell",
+              "SimulationGame",
+              "FPSGame",
+              "PlatformerGame"
+            ]
+          }
+        },
+        {
+          "Name": "Player1Head",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.65, 0.65, 0.65 ],
+            "Translate": [ 0.0, 0.6, 0.0 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player1LeftHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ 0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player1RightHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ -0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player1Tie",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.1, 0.5, 0.5 ],
+            "Translate": [ 0.0, 0.2, 0.25 ]
+          },
+          "ModelComponent": {
+            "Material": "Red"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Player2",
+      "DataFile": "Player",
+      "IsEnabled": false,
+      "Transform": {
+        "Translate": [
+          2.0,
+          2.0,
+          -2.0
+        ]
+      },
+      "ModelComponent": {
+        "Material": "White"
+      },
+      "Controller": {
+        "player": 1
+      },
+      "ParticlesComponent": {
+        "PartNumber": 400.0,
+        "PartScale": [ 0.05, 0.05, 0.05 ],
+        "PartLife": 0.1,
+        "Spread": 0.75,
+        "PartPos": [ 0.0, 0.0, 0.0 ],
+        "MainDir": [ 0.0, 0.5, 0.0 ],
+        "Red_var": [ 255, 255 ],
+        "Blue_var": [ 255, 255 ],
+        "Green_var": [ 255, 255 ],
+        "ParticleType": "Explosion"
+      },
+      "Children": [
+        {
+          "Name": "Interact_Area",
+          "DataFile": "SearchArea",
+          "Transform": {
+            "Scale": [ 0.7, 0.7, 0.7 ],
+            "Translate": [ 0.0, -0.1, 0.7 ]
+          },
+          "AreaSearch": {
+            "SearchTypes": [
+              "ProgrammingResource",
+              "ArtResource",
+              "DesignResource",
+              "PhysicsResource",
+              "AudioResource",
+              "AIResource",
+              "GraphicsResource",
+              "Processor",
+              "Container",
+              "Generator",
+              "GridCell",
+              "SimulationGame",
+              "FPSGame",
+              "PlatformerGame"
+            ]
+          }
+        },
+        {
+          "Name": "Player2Head",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.65, 0.65, 0.65 ],
+            "Translate": [ 0.0, 0.6, 0.0 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player2LeftHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ 0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player2RightHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ -0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player2Tie",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.1, 0.5, 0.5 ],
+            "Translate": [ 0.0, 0.2, 0.25 ]
+          },
+          "ModelComponent": {
+            "Material": "Blue"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Player3",
+      "DataFile": "Player",
+      "IsEnabled": false,
+      "Transform": {
+        "Translate": [
+          -2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "ModelComponent": {
+        "Material": "White"
+      },
+      "ParticlesComponent": {
+        "PartNumber": 400.0,
+        "PartScale": [ 0.05, 0.05, 0.05 ],
+        "PartLife": 0.1,
+        "Spread": 0.75,
+        "PartPos": [ 0.0, 0.0, 0.0 ],
+        "MainDir": [ 0.0, 0.5, 0.0 ],
+        "Red_var": [ 255, 255 ],
+        "Blue_var": [ 255, 255 ],
+        "Green_var": [ 255, 255 ],
+        "ParticleType": "Explosion"
+      },
+      "Children": [
+        {
+          "Name": "Interact_Area",
+          "DataFile": "SearchArea",
+          "Transform": {
+            "Scale": [ 0.7, 0.7, 0.7 ],
+            "Translate": [ 0.0, -0.1, 0.7 ]
+          },
+          "AreaSearch": {
+            "SearchTypes": [
+              "ProgrammingResource",
+              "ArtResource",
+              "DesignResource",
+              "PhysicsResource",
+              "AudioResource",
+              "AIResource",
+              "GraphicsResource",
+              "Processor",
+              "Container",
+              "Generator",
+              "GridCell",
+              "SimulationGame",
+              "FPSGame",
+              "PlatformerGame"
+            ]
+          }
+        },
+        {
+          "Name": "Player3Head",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.65, 0.65, 0.65 ],
+            "Translate": [ 0.0, 0.6, 0.0 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player3LeftHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ 0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player3RightHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ -0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player3Tie",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.1, 0.5, 0.5 ],
+            "Translate": [ 0.0, 0.2, 0.25 ]
+          },
+          "ModelComponent": {
+            "Material": "Green"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Player4",
+      "DataFile": "Player",
+      "IsEnabled": false,
+      "Transform": {
+        "Translate": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "ModelComponent": {
+        "Material": "White"
+      },
+      "ParticlesComponent": {
+        "PartNumber": 400.0,
+        "PartScale": [ 0.05, 0.05, 0.05 ],
+        "PartLife": 0.1,
+        "Spread": 0.75,
+        "PartPos": [ 0.0, 0.0, 0.0 ],
+        "MainDir": [ 0.0, 0.5, 0.0 ],
+        "Red_var": [ 255, 255 ],
+        "Blue_var": [ 255, 255 ],
+        "Green_var": [ 255, 255 ],
+        "ParticleType": "Explosion"
+      },
+      "Children": [
+        {
+          "Name": "Interact_Area",
+          "DataFile": "SearchArea",
+          "Transform": {
+            "Scale": [ 0.7, 0.7, 0.7 ],
+            "Translate": [ 0.0, -0.1, 0.7 ]
+          },
+          "AreaSearch": {
+            "SearchTypes": [
+              "ProgrammingResource",
+              "ArtResource",
+              "DesignResource",
+              "PhysicsResource",
+              "AudioResource",
+              "AIResource",
+              "GraphicsResource",
+              "Processor",
+              "Container",
+              "Generator",
+              "GridCell",
+              "SimulationGame",
+              "FPSGame",
+              "PlatformerGame"
+            ]
+          }
+        },
+        {
+          "Name": "Player4Head",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.65, 0.65, 0.65 ],
+            "Translate": [ 0.0, 0.6, 0.0 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player4LeftHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ 0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player4RightHand",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.5, 0.429, 0.5 ],
+            "Translate": [ -0.5, 0.0, 0.5 ]
+          },
+          "ModelComponent": {
+            "Material": "Skin"
+          }
+        },
+        {
+          "Name": "Player4Tie",
+          "DataFile": "PlayerBody",
+          "Transform": {
+            "Scale": [ 0.1, 0.5, 0.5 ],
+            "Translate": [ 0.0, 0.2, 0.25 ]
+          },
+          "ModelComponent": {
+            "Material": "Yellow"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Game_Camera",
+      "DataFile": "Camera",
+      "Camera": {
+        "IsDefault": true,
+        "FieldOfView": 45.0
+      },
+      "Transform": {
+        "Translate": [ 0.0, 25.0, 22.0 ],
+        "RotationAngles": [ -45.0, 0.0, 0.0 ]
+      },
+      "ScriptComponent": {
+        "scripts": [ ".\\Resources\\Scripts\\PartyCam.py" ]
+      }
+    },
+    { "Comment": "______________________________PROCESSORS____________________________________" },
+    {
+      "Name": "Processor1",
+      "DataFile": "Processor",
+      "Transform": {
+        "Scale": [ 4.0, 3.0, 1.5 ],
+        "Translate": [ 8.0, 1.5, -9.5 ]
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\PickupProcessor.py",
+          ".\\Resources\\Scripts\\ProcessorGenerate.py",
+          ".\\Resources\\Scripts\\ProcessorInput.py",
+          ".\\Resources\\Scripts\\ProcessorOutput.py"
+        ]
+      },
+      "Processor": {
+        "Recipes": [ 5 ],
+        "MaxProcessingTime": 3.0
+      },
+      "ModelComponent": {
+        "Material": "SemiTransparentPink"
+      },
+      "ParticlesComponent": {
+        "PartNumber": 400.0,
+        "PartScale": [ 0.05, 0.05, 0.05 ],
+        "PartLife": 0.5,
+        "Spread": 1.0,
+        "Runtime": 0.5,
+        "ParticleType": "Explosion"
+      }
+    },
+
+    {
+      "Name": "Processor2",
+      "DataFile": "Processor",
+      "Transform": {
+        "Scale": [ 4.0, 3.0, 1.5 ],
+        "Translate": [ -5.0, 1.5, -9.5 ]
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\PickupProcessor.py",
+          ".\\Resources\\Scripts\\ProcessorGenerate.py",
+          ".\\Resources\\Scripts\\ProcessorInput.py",
+          ".\\Resources\\Scripts\\ProcessorOutput.py"
+        ]
+      },
+      "Processor": {
+        "Recipes": [ 3, 4, 6 ],
+        "MaxProcessingTime": 3.0
+      },
+      "ModelComponent": {
+        "Material": "SemiTransparentGreen"
+      },
+      "ParticlesComponent": {
+        "PartNumber": 400.0,
+        "PartScale": [ 0.05, 0.05, 0.05 ],
+        "PartLife": 0.5,
+        "Spread": 1.0,
+        "Runtime": 0.5,
+        "ParticleType": "Explosion"
+      }
+    },
+    {
+      "Name": "Processor3",
+      "DataFile": "Processor",
+      "Transform": {
+        "Scale": [ 4.0, 3.0, 1.5 ],
+        "Translate": [ 0.0, 1.5, -9.5 ]
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\PickupProcessor.py",
+          ".\\Resources\\Scripts\\ProcessorGenerate.py",
+          ".\\Resources\\Scripts\\ProcessorInput.py",
+          ".\\Resources\\Scripts\\ProcessorOutput.py"
+        ]
+      },
+      "Processor": {
+        "Recipes": [ 3, 4, 6 ],
+        "MaxProcessingTime": 3.0
+      },
+      "ModelComponent": {
+        "Material": "SemiTransparentGreen"
+      },
+      "ParticlesComponent": {
+        "PartNumber": 400.0,
+        "PartScale": [ 0.05, 0.05, 0.05 ],
+        "PartLife": 0.5,
+        "Spread": 1.0,
+        "Runtime": 0.5,
+        "ParticleType": "Explosion"
+      }
+    },
+    { "Comment": "______________________________CONTAINERS____________________________________" },
+    {
+      "Name": "Container1",
+      "DataFile": "Container",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 3.0 ],
+        "Translate": [ 15.0, 1.1, 0.0 ]
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\Container.py",
+          ".\\Resources\\Scripts\\ContainerInput.py",
+          ".\\Resources\\Scripts\\ContainerOutput.py"
+        ]
+      },
+      "ModelComponent": {
+        "Material": "SemiTransparent"
+      }
+    },
+    {
+      "Name": "Container2",
+      "DataFile": "Container",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 3.0 ],
+        "Translate": [ 15.0, 1.1, 6.0 ]
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\Container.py",
+          ".\\Resources\\Scripts\\ContainerInput.py",
+          ".\\Resources\\Scripts\\ContainerOutput.py"
+        ]
+      },
+      "ModelComponent": {
+        "Material": "SemiTransparent"
+      }
+    },
+    { "Comment": "_________________________________GRID______________________________________" },
+    {
+      "Name": "Grid",
+      "DataFile": "Grid",
+      "Transform": {
+        "Translate": [ 8.0, 0.01, 6.0 ]
+      },
+      "Children": [
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ -0.32142857142, 0.32142857142, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ 0.0, 0.32142857142, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ 0.32142857142, 0.32142857142, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ -0.32142857142, 0.0, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ 0.0, 0.0, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ 0.32142857142, 0.0, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ -0.32142857142, -0.32142857142, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ 0.0, -0.32142857142, -0.13 ]
+          }
+        },
+        {
+          "DataFile": "GridCell",
+          "Transform": {
+            "Scale": [ 0.28571428571, 0.28571428571, 0.28571428571 ],
+            "Translate": [ 0.32142857142, -0.32142857142, -0.13 ]
+          }
+        }
+      ]
+    },
+    { "Comment": "______________________________RESOURCES____________________________________" },
+    {
+      "Name": "ProgrammingResourceGenerator",
+      "DataFile": "Generator",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 2.0 ],
+        "Translate": [ -10.0, 1.0, 7.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Black"
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\ProgrammingResourceGenerator.py",
+          ".\\Resources\\Scripts\\GeneratorInput.py",
+          ".\\Resources\\Scripts\\GeneratorOutput.py"
+        ]
+      },
+      "ParticlesComponent": {
+        "PartNumber": 4000.0,
+        "PartScale": [ 0.025, 0.025, 0.025 ],
+        "PartLife": 0.16,
+        "Runtime": 0.3,
+        "Spread": 5.0,
+        "ParticleType": "Explosion"
+      },
+      "Animator": {
+        "AffineStates": [
+          {
+            "StateName": "Input",
+            "AffineAnimationName": "Squish",
+            "BlendDuration": 0.15,
+            "ReturnToDefault": true
+          }
+        ],
+        "DefaultAffineState": "None"
+      },
+      "Children": [
+        {
+          "DataFile": "Cube",
+          "Transform": {
+            "Scale": [ 0.5, 0.5, 0.5 ],
+            "Translate": [ 0.0, 1.0, 0.0 ]
+          },
+          "ModelComponent": {
+            "Material": "Programming",
+            "Model": "Cube"
+          },
+          "Animator": {
+            "AffineStates": [
+              {
+                "StateName": "Spin",
+                "AffineAnimationName": "Spin",
+                "BlendDuration": 0.3,
+                "ReturnToDefault": true
+              }
+            ],
+            "DefaultAffineState": "Spin"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ArtResourceGenerator",
+      "DataFile": "Generator",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 2.0 ],
+        "Translate": [ -10.0, 1.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Black"
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\ArtResourceGenerator.py",
+          ".\\Resources\\Scripts\\GeneratorInput.py",
+          ".\\Resources\\Scripts\\GeneratorOutput.py"
+        ]
+      },
+      "ParticlesComponent": {
+        "PartNumber": 4000.0,
+        "PartScale": [ 0.025, 0.025, 0.025 ],
+        "PartLife": 0.16,
+        "Runtime": 0.3,
+        "Spread": 5.0,
+        "ParticleType": "Explosion"
+      },
+      "Animator": {
+        "AffineStates": [
+          {
+            "StateName": "Input",
+            "AffineAnimationName": "Squish",
+            "BlendDuration": 0.15,
+            "ReturnToDefault": true
+          }
+        ],
+        "DefaultAffineState": "None"
+      },
+      "Children": [
+        {
+          "DataFile": "Cube",
+          "Transform": {
+            "Scale": [ 0.5, 0.5, 0.5 ],
+            "Translate": [ 0.0, 1.0, 0.0 ]
+          },
+          "ModelComponent": {
+            "Material": "Art",
+            "Model": "Cube"
+          },
+          "Animator": {
+            "AffineStates": [
+              {
+                "StateName": "Spin",
+                "AffineAnimationName": "Spin",
+                "BlendDuration": 0.3,
+                "ReturnToDefault": true
+              }
+            ],
+            "DefaultAffineState": "Spin"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DesignResourceGenerator",
+      "DataFile": "Generator",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 2.0 ],
+        "Translate": [ -10.0, 1.0, -6.0 ]
+      },
+      "ModelComponent": {
+        "Material": "Black"
+      },
+      "ScriptComponent": {
+        "scripts": [
+          ".\\Resources\\Scripts\\DesignResourceGenerator.py",
+          ".\\Resources\\Scripts\\GeneratorInput.py",
+          ".\\Resources\\Scripts\\GeneratorOutput.py"
+        ]
+      },
+      "ParticlesComponent": {
+        "PartNumber": 4000.0,
+        "PartScale": [ 0.025, 0.025, 0.025 ],
+        "PartLife": 0.16,
+        "Runtime": 0.3,
+        "Spread": 5.0,
+        "ParticleType": "Explosion"
+      },
+      "Animator": {
+        "AffineStates": [
+          {
+            "StateName": "Input",
+            "AffineAnimationName": "Squish",
+            "BlendDuration": 0.15,
+            "ReturnToDefault": true
+          }
+        ],
+        "DefaultAffineState": "None"
+      },
+      "Children": [
+        {
+          "DataFile": "Cube",
+          "Transform": {
+            "Scale": [ 0.5, 0.5, 0.5 ],
+            "Translate": [ 0.0, 1.0, 0.0 ]
+          },
+          "ModelComponent": {
+            "Material": "Design",
+            "Model": "Cube"
+          },
+          "Animator": {
+            "AffineStates": [
+              {
+                "StateName": "Spin",
+                "AffineAnimationName": "Spin",
+                "BlendDuration": 0.3,
+                "ReturnToDefault": true
+              }
+            ],
+            "DefaultAffineState": "Spin"
+          }
+        }
+      ]
+    },
+    { "Comment": "______________________________SCENARIO____________________________________" },
+    {
+      "Comment": "Floor",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 30.0, 1.0, 20.0 ],
+        "Translate": [ 0.0, -0.5, 0.0 ]
+      },
+      "Collider": {
+        "mCoeffStaticFriction": 5.0,
+        "mCoeffDynamicFriction": 5.0
+      }
+    },
+
+    {
+      "Comment": "Back Croud",
+      "DataFile": "Cube",
+      "ModelComponent": {
+        "Material": "Crowd"
+      },
+      "Transform": {
+        "Scale": [ 30.0, 1.0, 20.0 ],
+        "Translate": [ 0.0, 5.5, -20.0 ],
+        "RotationAngles": [ 30.0, -0.0, 0.0 ]
+
+      }
+    },
+    {
+      "Comment": "Left Croud",
+      "DataFile": "Cube",
+      "ModelComponent": {
+        "Material": "Crowd"
+      },
+      "Transform": {
+        "Scale": [ 30.0, 1.0, 20.0 ],
+        "Translate": [ -24.0, 5.5, 0.0 ],
+        "RotationAngles": [ 0.0, -0.0, -30.0 ]
+
+      }
+    },
+    {
+      "Comment": "Right Croud",
+      "DataFile": "Cube",
+      "ModelComponent": {
+        "Material": "Crowd"
+      },
+      "Transform": {
+        "Scale": [ 30.0, 1.0, 20.0 ],
+        "Translate": [ 24.0, 5.5, 0.0 ],
+        "RotationAngles": [ 0.0, -0.0, 30.0 ]
+
+      }
+    },
+
+    {
+      "Comment": "Separator",
+      "DataFile": "Cube",
+      "ModelComponent": {
+        "Material": "Black"
+      },
+      "Transform": {
+        "Scale": [ 3.0, 1.0, 1.0 ],
+        "Translate": [ -12.0, 0.5, -3.0 ]
+      }
+    },
+    {
+      "Comment": "Separator",
+      "DataFile": "Cube",
+      "ModelComponent": {
+        "Material": "Black"
+      },
+      "Transform": {
+        "Scale": [ 3.0, 1.0, 1.0 ],
+        "Translate": [ -12.0, 0.5, 3.0 ]
+      }
+    },
+    {
+      "Comment": "Separator",
+      "DataFile": "Cube",
+      "ModelComponent": {
+        "Material": "Black"
+      },
+      "Transform": {
+        "Scale": [ 2.0, 1.0, 8.0 ],
+        "Translate": [ 4.0, 0.5, -8.0 ]
+      }
+    },
+
+    {
+      "Comment": "Back Wall",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 30.5, 2.0, 2.0 ],
+        "Translate": [ 0.0, 1.0, -11.0 ]
+      }
+    },
+    {
+      "Comment": "Back Wall",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 30.5, 2.0, 2.0 ],
+        "Translate": [ 0.0, 1.0, -11.0 ]
+      }
+    },
+    {
+      "Comment": "Front Wall",
+      "DataFile": "Cube",
+      "ModelComponent": {
+        "Material": "Black"
+      },
+      "Transform": {
+        "Scale": [ 30.5, 1.0, 10.0 ],
+        "Translate": [ 0.0, 0.0, 15.0 ]
+      }
+    },
+
+    {
+      "Comment": "left Wall",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 1.0, 2.0, 20.0 ],
+        "Translate": [ -15.0, 1.0, 0.0 ]
+      }
+    },
+    {
+      "Comment": "Right Wall",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 1.0, 2.0, 20.0 ],
+        "Translate": [ 15.0, 1.0, 0.0 ]
+      }
+    },
+    {
+      "Name": "Graphics Recipe",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 2.0 ],
+        "Translate": [ -4.5, 4.0, -11.0 ],
+        "RotationAngles": [ -30.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Model": "Quad",
+        "Material": "GraphicsRecipe",
+        "CastsShadow": false
+      },
+      "Collider": {
+        "mIsTrigger": true
+      }
+    },
+    {
+      "Name": "Audio Recipe",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 2.0 ],
+        "Translate": [ -1.5, 4.0, -11.0 ],
+        "RotationAngles": [ -30.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Model": "Quad",
+        "Material": "AudioRecipe",
+        "CastsShadow": false
+      },
+      "Collider": {
+        "mIsTrigger": true
+      }
+    },
+    {
+      "Name": "Physics Recipe",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 2.0 ],
+        "Translate": [ -3.0, 6.0, -11.0 ],
+        "RotationAngles": [ -30.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Model": "Quad",
+        "Material": "PhysicsRecipe",
+        "CastsShadow": false
+      },
+      "Collider": {
+        "mIsTrigger": true
+      }
+    },
+    {
+      "Name": "AI Recipe",
+      "DataFile": "Cube",
+      "Transform": {
+        "Scale": [ 2.0, 2.0, 2.0 ],
+        "Translate": [ 8.5, 4.0, -10.0 ],
+        "RotationAngles": [ -30.0, 0.0, 0.0 ]
+      },
+      "ModelComponent": {
+        "Model": "Quad",
+        "Material": "AIRecipe",
+        "CastsShadow": false
+      },
+      "Collider": {
+        "mIsTrigger": true
+      }
+    },
+    {
+      "DataFile": "LogicObject",
+      "Audio": {
+        "mSoundName": "GameMaker03-01.mp3",
+        "Loop": true
+      }
+    },
+    {
+      "Name": "Sun",
+      "DataFile": "DRLight",
+      "Transform": {
+        "Translate": [ 10.0, 30.0, 10.0 ]
+      },
+      "DRLightComponent": {
+        "LightColor": [ 0.75, 0.75, 0.75 ],
+        "Direction": [ -10.0, -30.0, -10.0 ]
+      }
+    },
+    {
+      "DataFile": "Skybox"
+    }
+  ]
+}

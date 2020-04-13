@@ -1,0 +1,641 @@
+{
+	"Children" : 
+	[
+		{
+			"Children" : 
+			[
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "X",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.0,
+							-0.0,
+							0.0
+						],
+						"Scale" : 
+						[
+							1.2404905557632446,
+							0.17999999225139618,
+							0.18000070750713348
+						],
+						"Translate" : 
+						[
+							0.52999973297119141,
+							-0.00014960765838623047,
+							0.0
+						]
+					},
+					"Type" : "Background"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "Z",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.00023697597498539835,
+							89.999946594238281,
+							-0.00023697593132965267
+						],
+						"Scale" : 
+						[
+							1.2404793500900269,
+							0.17999999225139618,
+							0.17999972403049469
+						],
+						"Translate" : 
+						[
+							-0.00040435791015625,
+							-0.00031578540802001953,
+							0.52996760606765747
+						]
+					},
+					"Type" : "Background"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : true,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Green",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "Y",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							0.00048339704517275095,
+							-0.0,
+							-89.999946594238281
+						],
+						"Scale" : 
+						[
+							1.2404885292053223,
+							0.1799980103969574,
+							0.1800011545419693
+						],
+						"Translate" : 
+						[
+							-0.00054645538330078125,
+							0.52999997138977051,
+							-2.7894973754882813e-05
+						]
+					},
+					"Type" : "Background"
+				}
+			],
+			"DataFile" : "Group",
+			"IsEnabled" : true,
+			"Name" : "Gizmo",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"Translate" : 
+				[
+					1.4601104259490967,
+					0.0,
+					-0.073112607002258301
+				]
+			},
+			"Type" : "Group"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"Audio" : 
+			{
+				"Loop" : false,
+				"mSoundName" : "GameDeliver01.mp3",
+				"mStartPlaying" : false,
+				"mVolume" : 1.0
+			},
+			"Body" : 
+			{
+				"mApplyFriction" : true,
+				"mConstrainX" : false,
+				"mConstrainY" : false,
+				"mConstrainZ" : false,
+				"mMass" : 0.0,
+				"mUseGravity" : false
+			},
+			"Carrier" : 
+			{
+				"ItemIndices" : []
+			},
+			"Children" : 
+			[
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Programming",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "ProgrammingIcon",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							16.999845504760742,
+							-89.999946594238281,
+							-0.00011848796566482633
+						],
+						"Scale" : 
+						[
+							0.13333334028720856,
+							0.13333334028720856,
+							0.13333334028720856
+						],
+						"Translate" : 
+						[
+							-0.16685505211353302,
+							0.80038833618164063,
+							-4.76837158203125e-07
+						]
+					},
+					"Type" : "Background"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Art",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "ArtIcon",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							16.999874114990234,
+							-89.999946594238281,
+							-0.00011848796566482633
+						],
+						"Scale" : 
+						[
+							0.13333334028720856,
+							0.13333339989185333,
+							0.13333339989185333
+						],
+						"Translate" : 
+						[
+							-0.16685472428798676,
+							0.80038833618164063,
+							0.36666631698608398
+						]
+					},
+					"Type" : "Background"
+				},
+				{
+					"Animator" : 
+					{
+						"AffineStates" : [],
+						"DefaultAffineState" : "None",
+						"DefaultSkeletalState" : "None",
+						"SkeletalStates" : {}
+					},
+					"DataFile" : "Background",
+					"IsEnabled" : true,
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"IsBillboard" : false,
+						"IsUI" : false,
+						"Material" : "Art",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Cube",
+						"Renderable" : true
+					},
+					"Name" : "ArtIcon",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							196.99984741210938,
+							89.999839782714844,
+							179.9998779296875
+						],
+						"Scale" : 
+						[
+							0.13333334028720856,
+							0.13333334028720856,
+							0.13333334028720856
+						],
+						"Translate" : 
+						[
+							-0.16685537993907928,
+							0.80038833618164063,
+							-0.36666727066040039
+						]
+					},
+					"Type" : "Background"
+				}
+			],
+			"Collider" : 
+			{
+				"Offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"Rescale" : 
+				[
+					0.0,
+					0.0,
+          0.0
+				],
+				"mCoeffDynamicFriction" : 0.0,
+				"mCoeffStaticFriction" : 0.0,
+				"mDepth" : -1.0,
+				"mHeight" : -1.0,
+				"mIsTrigger" : false,
+				"mLType" : "Processor",
+				"mRadius" : -1.0,
+				"mShape" : "OBB",
+				"mWidth" : -1.0
+			},
+			"DataFile" : "Processor",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "PC_GR",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "PC",
+				"Renderable" : true
+			},
+			"Name" : "Computer",
+			"ParticlesComponent" : 
+			{
+				"AlphaHigh" : 255,
+				"AlphaLow" : 1,
+				"Blue_var" : 
+				[
+					255,
+					1
+				],
+				"Green_var" : 
+				[
+					255,
+					1
+				],
+				"MainDir" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"MaximumRadius" : 3.0,
+				"MinimumRadius" : 1.0,
+				"PartLife" : 0.5,
+				"PartNumber" : 400.0,
+				"PartPos" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"PartScale" : 
+				[
+					0.05000000074505806,
+					0.05000000074505806,
+					0.05000000074505806
+				],
+				"ParticleType" : "Explosion",
+				"Red_var" : 
+				[
+					255,
+					1
+				],
+				"Runtime" : 0.5,
+				"Spread" : 1.0
+			},
+			"Processor" : 
+			{
+				"MaxInput" : 3,
+				"MaxProcessingTime" : 3.0,
+				"Recipes" : 
+				[
+					6
+				]
+			},
+			"ScriptComponent" : 
+			{
+				"always-run" : false,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\ProcessorInput.py",
+					".\\Resources\\Scripts\\PickupProcessor.py",
+					".\\Resources\\Scripts\\ProcessorGenerate.py",
+					".\\Resources\\Scripts\\ProcessorOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					-89.999946594238281,
+					0.0
+				],
+				"Scale" : 
+				[
+					2.4999566078186035,
+					2.5,
+					2.4999656677246094
+				],
+				"Translate" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				]
+			},
+			"Type" : "Processor"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "Blue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Octahedron",
+				"Renderable" : true
+			},
+			"Name" : "Octahedron",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"Translate" : 
+				[
+					-2.1136810779571533,
+					9.5367431640625e-07,
+					-1.2188843488693237
+				]
+			},
+			"Type" : "Background"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "Red",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Icosahedron",
+				"Renderable" : true
+			},
+			"Name" : "Icosaedron",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					0.0,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"Translate" : 
+				[
+					1.6497786045074463,
+					-9.5367431640625e-07,
+					-1.2723097801208496
+				]
+			},
+			"Type" : "Background"
+		},
+		{
+			"Animator" : 
+			{
+				"AffineStates" : [],
+				"DefaultAffineState" : "None",
+				"DefaultSkeletalState" : "None",
+				"SkeletalStates" : {}
+			},
+			"DataFile" : "Background",
+			"IsEnabled" : true,
+			"ModelComponent" : 
+			{
+				"CastsShadow" : true,
+				"IsBillboard" : false,
+				"IsUI" : false,
+				"Material" : "Graphics",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Cube",
+				"Renderable" : true
+			},
+			"Name" : "RedRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					44.999973297119141,
+					-0.0,
+					0.0
+				],
+				"Scale" : 
+				[
+					1.0,
+					0.10000000149011612,
+					0.99999994039535522
+				],
+				"Translate" : 
+				[
+					-2.0086269378662109,
+					0.0,
+					0.11134451627731323
+				]
+			},
+			"Type" : "Background"
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "GraphicsProcessor",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

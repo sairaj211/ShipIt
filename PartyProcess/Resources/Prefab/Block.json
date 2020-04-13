@@ -1,0 +1,54 @@
+{
+  "Type": "Block",
+  "IsEnabled": true,
+  "Transform": {
+    "Scale": [ 1.0, 1.0, 1.0 ],
+    "Translate": [ 0.0, 0.0, 0.0 ],
+    "RotationAngles": [ 0, 0.0, 0.0 ]
+  },
+  "ModelComponent": {
+    "Model": "Cube",
+    "Renderable": true,
+    "CastsShadow": true
+  },
+  "Body": {
+    "mApplyFriction": true,
+    "mUseGravity": false,
+    "mMass": 0.0
+  },
+  "Collider": {
+    "mCoeffStaticFriction": 0.1,
+    "mCoeffDynamicFriction": 0.1,
+    "mLType": "Block",
+    "mShape": "OBB",
+    "mIsTrigger": false,
+    "mWidth": -1.0,
+    "mHeight": -1.0,
+    "mDepth": -1.0,
+    "mRadius": -1.0,
+    "Offset": [ 0.0, 0.0, 0.0 ],
+    "Rescale": [ 0.0, 0.0, 0.0 ]
+  },
+  "ScriptComponent": {
+    "scripts": [
+      ".\\Resources\\Scripts\\BlockInput.py",
+      ".\\Resources\\Scripts\\BlockOutput.py"
+    ]
+  },
+  "Carrier": {
+
+  },
+  "Block": {
+    "CanInput": false
+  },
+  "ParticlesComponent": {
+    "MaximumRadius": 3.0,
+    "MinimumRadius": 1.0
+  },
+  "Audio": {
+  },
+  "Animator": {
+    "DefaultAffineState": "None",
+    "DefaultSkeletalState": "None"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Type": "Camera",
+  "IsEnabled": true,
+  "ScriptComponent": {
+    "scripts": [ ".\\Resources\\Scripts\\default.py" ],
+    "always-run": true
+  },
+  "Camera": {
+    "IsDefault": false,
+    "Near": 0.01,
+    "FarPlane": 1000.0,
+    "FieldOfView": 90.0
+  },
+  "Transform": {
+    "Scale": [ 1.0, 1.0, 1.0 ],
+    "Translate": [ 0.0, 0, 0.0 ],
+    "RotationAngles": [ 0.0, 0.0, 0.0 ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+	"Children" : 
+	[
+		{
+			"Audio" : 
+			{
+				"mSoundName" : "GameDeliver01.mp3",
+				"mVolume" : 1.0
+			},
+			"Children" : 
+			[
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere"
+					},
+					"Name" : "Table",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.2155625969171524,
+							0.21551136672496796,
+							0.21556362509727478
+						],
+						"Translate" : 
+						[
+							-0.076090604066848755,
+							0.74680876731872559,
+							-0.016931859776377678
+						]
+					}
+				},
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere"
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							0.21566873788833618,
+							0.21559998393058777,
+							0.21566875278949738
+						],
+						"Translate" : 
+						[
+							-0.082343108952045441,
+							0.74657624959945679,
+							0.47976350784301758
+						]
+					}
+				},
+				{
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Sphere"
+					},
+					"Name" : "Cube",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							8.8839035034179688,
+							7.62939453125e-05,
+							-8.8839035034179688
+						],
+						"Scale" : 
+						[
+							0.21548628807067871,
+							0.21551138162612915,
+							0.21550896763801575
+						],
+						"Translate" : 
+						[
+							-0.069440983235836029,
+							0.74677526950836182,
+							-0.45559296011924744
+						]
+					}
+				}
+			],
+			"DataFile" : "Processor",
+			"ModelComponent" : 
+			{
+				"Material" : "PC",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "PC"
+			},
+			"Name" : "PC_PHY",
+			"ParticlesComponent": {
+				"Position": [ -0.7, 3.15, 1.4 ],
+				"Range": [ 2.95, 0.5, 1.55 ],
+				"Velocity": [ 0.0, 4.4, 0.0 ],
+				"Direction": [ 0.0, 0.0, 0.0 ],
+				"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+				"Scale": [ 0.9, 0.9, 0.0 ],
+				"Life": 0.5,
+				"Active Time": 1.0,
+				"Number of Particles": 7,
+				"Minimum Number Of Particles": 4,
+				"Material Name": "Particles_PCPhysics",
+				"Texture": true,
+				"Effect": 0
+			},
+			"Processor" : 
+			{
+				"MaxProcessingTime" : 3.0,
+				"Recipes" : 
+				[
+					3
+				]
+			},
+			"ScriptComponent" : 
+			{
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\ProcessorInput.py",
+					".\\Resources\\Scripts\\PickupProcessor.py",
+					".\\Resources\\Scripts\\ProcessorGenerate.py",
+					".\\Resources\\Scripts\\ProcessorOutput.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-97.326034545898438,
+					-89.999946594238281,
+					97.326034545898438
+				],
+				"Scale" : 
+				[
+					2.0013737678527832,
+					1.9998944997787476,
+					2.0013353824615479
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Atom",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Atom"
+			},
+			"Name" : "Atom",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-97.326034545898438,
+					-89.999946594238281,
+					97.326034545898438
+				],
+				"Scale" : 
+				[
+					1.9841080904006958,
+					1.9822318553924561,
+					1.9840569496154785
+				],
+				"Translate" : 
+				[
+					-1.4469673633575439,
+					-0.26935714483261108,
+					0.2095370888710022
+				]
+			}
+		},
+		{
+			"DataFile" : "Cube",
+			"ModelComponent" : 
+			{
+				"Material" : "Physics",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Rug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-97.326034545898438,
+					-89.999946594238281,
+					97.326034545898438
+				],
+				"Scale" : 
+				[
+					1.5003488063812256,
+					0.10000000149011612,
+					1.5001423358917236
+				],
+				"Translate" : 
+				[
+					-0.12397871166467667,
+					0.046632289886474609,
+					1.5451984405517578
+				]
+			}
+		}
+	],
+	"IsEnabled" : true,
+	"Name" : "PC_PH",
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.0,
+			-0.0,
+			0.0
+		],
+		"Scale" : 
+		[
+			1.0,
+			1.0,
+			1.0
+		],
+		"Translate" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"Type" : "Group"
+}

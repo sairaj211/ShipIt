@@ -1,0 +1,155 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : 
+		[
+			{
+				"AffineAnimationName" : "Squish",
+				"BlendDuration" : 0.15000000596046448,
+				"ReturnToDefault" : true,
+				"StateName" : "Input"
+			}
+		],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "coding03.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Design",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "GreenRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-44.740139007568359,
+					88.79278564453125,
+					90.003555297851563
+				],
+				"Scale" : 
+				[
+					0.52542257308959961,
+					0.017150647938251495,
+					0.5265805721282959
+				],
+				"Translate" : 
+				[
+					0.13974094390869141,
+					0.18644988536834717,
+					0.82886886596679688
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			0.0,
+			0.0,
+			0.69999998807907104
+		],
+		"Rescale" : 
+		[
+			0.0,
+			1.0,
+			-1.75
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Generator",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : true,
+		"IsUI" : false,
+		"Material" : "PC_DE",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_Design",
+	"Name": "PC_Design",
+    "ParticlesComponent": {
+		"Position": [ -0.7, 3.15, 1.4 ],
+		"Range": [ 2.95, 0.5, 1.55 ],
+		"Velocity": [ 0.0, 4.4, 0.0 ],
+		"Direction": [ 0.0, 0.0, 0.0 ],
+		"Color": [ 1.0, 1.0, 1.0, 1.0 ],
+		"Scale": [ 0.9, 0.9, 0.0 ],
+		"Life": 0.5,
+		"Active Time": 1.0,
+		"Number of Particles": 7,
+		"Minimum Number Of Particles": 4,
+		"Material Name": "Particles_PCDesign",
+		"Texture": true,
+		"Effect": 0
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\GeneratorInput.py",
+			".\\Resources\\Scripts\\DesignResourceGenerator.py",
+			".\\Resources\\Scripts\\GeneratorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			89.740142822265625,
+			-88.79278564453125,
+			-90.003555297851563
+		],
+		"Scale" : 
+		[
+			2.9997313022613525,
+			3.0,
+			2.9979064464569092
+		],
+		"Translate" : 
+		[
+			-10.300053596496582,
+			1.2786595821380615,
+			-6.1030426025390625
+		]
+	},
+	"Type" : "Generator"
+}

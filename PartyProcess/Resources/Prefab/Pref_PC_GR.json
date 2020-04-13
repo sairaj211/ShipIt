@@ -1,0 +1,491 @@
+{
+	"Animator" : 
+	{
+		"AffineStates" : [],
+		"DefaultAffineState" : "None",
+		"DefaultSkeletalState" : "None",
+		"SkeletalStates" : {}
+	},
+	"Audio" : 
+	{
+		"Loop" : false,
+		"mSoundName" : "GameDeliver01.mp3",
+		"mStartPlaying" : false,
+		"mVolume" : 1.0
+	},
+	"Body" : 
+	{
+		"mApplyFriction" : true,
+		"mConstrainX" : false,
+		"mConstrainY" : false,
+		"mConstrainZ" : false,
+		"mMass" : 0.0,
+		"mUseGravity" : false
+	},
+	"Carrier" : 
+	{
+		"ItemIndices" : []
+	},
+	"Children" : 
+	[
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Programming",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Background",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					29.917768478393555,
+					89.99969482421875,
+					0.078334018588066101
+				],
+				"Scale" : 
+				[
+					0.16669005155563354,
+					0.0066666402854025364,
+					0.16666668653488159
+				],
+				"Translate" : 
+				[
+					0.050457991659641266,
+					0.74733734130859375,
+					0.00024300813674926758
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Art",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Background",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					29.917768478393555,
+					89.99969482421875,
+					0.078334018588066101
+				],
+				"Scale" : 
+				[
+					0.16667793691158295,
+					0.0066666402854025364,
+					0.16666668653488159
+				],
+				"Translate" : 
+				[
+					0.079046487808227539,
+					0.74705195426940918,
+					0.36212271451950073
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Art",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Background",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					29.917764663696289,
+					89.9998779296875,
+					0.078334018588066101
+				],
+				"Scale" : 
+				[
+					0.16666547954082489,
+					0.0066666570492088795,
+					0.16666664183139801
+				],
+				"Translate" : 
+				[
+					0.055411197245121002,
+					0.74705982208251953,
+					-0.37182033061981201
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Graphics",
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "RedRug",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					32.22894287109375,
+					89.999946594238281,
+					0.092352837324142456
+				],
+				"Scale" : 
+				[
+					0.33333224058151245,
+					0.030039874836802483,
+					0.33333265781402588
+				],
+				"Translate" : 
+				[
+					0.25037294626235962,
+					0.10786110162734985,
+					-0.76613318920135498
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Red",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Icosahedron"
+			},
+			"Name" : "Icosaedron",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					359.99978637695313,
+					-89.999946594238281,
+					359.99978637695313
+				],
+				"Scale" : 
+				[
+					0.3333333432674408,
+					0.3333333432674408,
+					0.3333333432674408
+				],
+				"Translate" : 
+				[
+					0.092808723449707031,
+					0.15454018115997314,
+					0.65462261438369751
+				]
+			}
+		},
+		{
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"Material" : "Blue",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Model" : "Octahedron"
+			},
+			"Name" : "Octahedron",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					359.99978637695313,
+					-89.999946594238281,
+					359.99978637695313
+				],
+				"Scale" : 
+				[
+					0.3333333432674408,
+					0.3333333432674408,
+					0.3333333432674408
+				],
+				"Translate" : 
+				[
+					-0.20897579193115234,
+					0.16655480861663818,
+					0.40283039212226868
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Red",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Z",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.0011045560240745544,
+							89.251205444335938,
+							-0.0011064335703849792
+						],
+						"Scale" : 
+						[
+							1.2404816150665283,
+							0.17999944090843201,
+							0.17999961972236633
+						],
+						"Translate" : 
+						[
+							-0.054549090564250946,
+							-9.059906005859375e-06,
+							0.55946564674377441
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Blue",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "X",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							1.2404812574386597,
+							0.18000000715255737,
+							0.17999997735023499
+						],
+						"Translate" : 
+						[
+							-0.57983279228210449,
+							0.0,
+							-1.9073486328125e-06
+						]
+					}
+				},
+				{
+					"DataFile" : "Background",
+					"ModelComponent" : 
+					{
+						"Material" : "Green",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Y",
+					"Transform" : 
+					{
+						"RotationAngles" : 
+						[
+							-0.081909768283367157,
+							20.867774963378906,
+							-89.999824523925781
+						],
+						"Scale" : 
+						[
+							1.240453839302063,
+							0.18000060319900513,
+							0.18000276386737823
+						],
+						"Translate" : 
+						[
+							-0.064181327819824219,
+							0.70624315738677979,
+							-0.001347959041595459
+						]
+					}
+				}
+			],
+			"DataFile" : "Background",
+			"ModelComponent" : 
+			{
+				"CastsShadow" : false,
+				"Material" : "Red",
+				"MeshMaterials" : 
+				[
+					"None"
+				],
+				"Renderable" : false
+			},
+			"Name" : "Gizmo",
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-0.00032094866037368774,
+					69.132102966308594,
+					-9.8749995231628418e-05
+				],
+				"Scale" : 
+				[
+					0.33333185315132141,
+					0.33333128690719604,
+					0.3333318829536438
+				],
+				"Translate" : 
+				[
+					-0.1758592426776886,
+					0.04421156644821167,
+					-0.99240231513977051
+				]
+			}
+		}
+	],
+	"Collider" : 
+	{
+		"Offset" : 
+		[
+			-1.0499999523162842,
+			0.0,
+			0.0
+		],
+		"Rescale" : 
+		[
+			-2.4500000476837158,
+			0.0,
+			0.0
+		],
+		"mCoeffDynamicFriction" : 0.0,
+		"mCoeffStaticFriction" : 0.0,
+		"mDepth" : -1.0,
+		"mHeight" : -1.0,
+		"mIsTrigger" : false,
+		"mLType" : "Processor",
+		"mRadius" : -1.0,
+		"mShape" : "AABB",
+		"mWidth" : -1.0
+	},
+	"IsEnabled" : true,
+	"ModelComponent" : 
+	{
+		"CastsShadow" : false,
+		"IsUI" : false,
+		"Material" : "PC_GR",
+		"MeshMaterials" : 
+		[
+			"None"
+		],
+		"Model" : "PC",
+		"Renderable" : true
+	},
+	"Name" : "PC_GR",
+	"ParticlesComponent" : 
+	{
+		"AlphaHigh" : 255,
+		"AlphaLow" : 1,
+		"Blue_var" : 
+		[
+			255,
+			1
+		],
+		"Green_var" : 
+		[
+			255,
+			1
+		],
+		"MainDir" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"MaximumRadius" : 3.0,
+		"MinimumRadius" : 1.0,
+		"PartLife" : 0.5,
+		"PartNumber" : 400.0,
+		"PartPos" : 
+		[
+			0.0,
+			0.0,
+			0.0
+		],
+		"PartScale" : 
+		[
+			0.05000000074505806,
+			0.05000000074505806,
+			0.05000000074505806
+		],
+		"ParticleType" : "Explosion",
+		"Red_var" : 
+		[
+			255,
+			1
+		],
+		"Runtime" : 0.5,
+		"Spread" : 1.0
+	},
+	"Processor" : 
+	{
+		"MaxInput" : 3,
+		"MaxProcessingTime" : 3.0,
+		"Recipes" : 
+		[
+			6
+		]
+	},
+	"ScriptComponent" : 
+	{
+		"always-run" : false,
+		"scripts" : 
+		[
+			".\\Resources\\Scripts\\PickupProcessor.py",
+			".\\Resources\\Scripts\\ProcessorInput.py",
+			".\\Resources\\Scripts\\ProcessorGenerate.py",
+			".\\Resources\\Scripts\\ProcessorOutput.py"
+		]
+	},
+	"Transform" : 
+	{
+		"RotationAngles" : 
+		[
+			0.082230716943740845,
+			-89.9998779296875,
+			-0.078334018588066101
+		],
+		"Scale" : 
+		[
+			3.0,
+			3.0,
+			3.0
+		],
+		"Translate" : 
+		[
+			-4.3121061325073242,
+			1.571287989616394,
+			-23.194576263427734
+		]
+	},
+	"Type" : "Processor"
+}

@@ -1,0 +1,375 @@
+{
+	"TestOBB" : 
+	[
+		{
+			"DataFile" : "SpotLight",
+			"ModelComponent" : 
+			{
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "SpotLight",
+			"SpotLight" : 
+			{
+				"Color" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"Intensity" : 1.0,
+				"Range" : 10.0,
+				"SpotAngle" : 30.0
+			},
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.44156602025032043,
+					0.33464935421943665,
+					0.0
+				]
+			}
+		},
+		{
+			"DataFile" : "SpotLight",
+			"ModelComponent" : 
+			{
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "SpotLight",
+			"SpotLight" : 
+			{
+				"Color" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"Intensity" : 1.0,
+				"Range" : 10.0,
+				"SpotAngle" : 45.0
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					116.47892761230469,
+					-2.1240842342376709,
+					0.09644075483083725
+				],
+				"Translate" : 
+				[
+					0.0,
+					-0.51342177391052246,
+					-1.2788105010986328
+				]
+			}
+		},
+		{
+			"Camera" : 
+			{
+				"FieldOfView" : 45.0,
+				"IsDefault" : true,
+				"NearPlane" : 0.10000000149011612
+			},
+			"DataFile" : "Camera",
+			"Name" : "Game_Camera",
+			"ScriptComponent" : 
+			{
+				"always-run" : true,
+				"scripts" : 
+				[
+					".\\Resources\\Scripts\\PartyCam.py"
+				]
+			},
+			"Transform" : 
+			{
+				"RotationAngles" : 
+				[
+					-45.0,
+					-0.0,
+					0.0
+				],
+				"Translate" : 
+				[
+					0.52954322099685669,
+					25.0,
+					14.574170112609863
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"Audio" : 
+					{
+						"mSoundName" : "cartoon_jump-002.wav",
+						"mVolume" : 1.0
+					},
+					"Children" : 
+					[
+						{
+							"Body" : 
+							{
+								"mApplyFriction" : true,
+								"mMass" : 1.0
+							},
+							"Collider" : 
+							{
+								"mCoeffDynamicFriction" : 0.11999999731779099,
+								"mCoeffStaticFriction" : 0.20000000298023224,
+								"mLType" : "Player-foot"
+							},
+							"DataFile" : "InvisibleCube",
+							"ModelComponent" : 
+							{
+								"MeshMaterials" : 
+								[
+									"None"
+								]
+							},
+							"Name" : "Player1Feet",
+							"Transform" : 
+							{
+								"RotationAngles" : 
+								[
+									0.00010427392408018932,
+									-73.083076477050781,
+									0.00010427392408018932
+								],
+								"Scale" : 
+								[
+									0.79990315437316895,
+									0.099999494850635529,
+									0.79990315437316895
+								],
+								"Translate" : 
+								[
+									0.86328554153442383,
+									1.0204769372940063,
+									-27.959316253662109
+								]
+							}
+						}
+					],
+					"Collider" : 
+					{
+						"Offset" : 
+						[
+							0.0,
+							0.82499998807907104,
+							0.0
+						]
+					},
+					"Controller" : 
+					{
+						"player" : 0
+					},
+					"DataFile" : "Player",
+					"ModelComponent" : 
+					{
+						"Material" : "BodyGreen",
+						"MeshMaterials" : 
+						[
+							"None"
+						],
+						"Model" : "Body"
+					},
+					"Name" : "Player1",
+					"ParticlesComponent" : 
+					{
+						"Blue_var" : 
+						[
+							255,
+							255
+						],
+						"Green_var" : 
+						[
+							255,
+							255
+						],
+						"MainDir" : 
+						[
+							0.0,
+							0.5,
+							0.0
+						],
+						"PartLife" : 0.10000000149011612,
+						"PartNumber" : 400.0,
+						"PartPos" : 
+						[
+							-7.7982053756713867,
+							3.87209153175354,
+							-5.4921870231628418
+						],
+						"PartScale" : 
+						[
+							0.05000000074505806,
+							0.05000000074505806,
+							0.05000000074505806
+						],
+						"ParticleType" : "Explosion",
+						"Red_var" : 
+						[
+							255,
+							255
+						],
+						"Runtime" : -1.0,
+						"Spread" : 0.75
+					},
+					"Player" : 
+					{
+						"mHitRecharge" : 0.0,
+						"mRecharge" : 0.0
+					},
+					"Transform" : 
+					{
+						"Translate" : 
+						[
+							3.70680832862854,
+							0.029934676364064217,
+							-4.1358585357666016
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Characters"
+		},
+		{
+			"DataFile" : "Skybox",
+			"ModelComponent" : 
+			{
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Skybox",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.52954322099685669,
+					25.0,
+					14.574170112609863
+				]
+			}
+		},
+		{
+			"Children" : 
+			[
+				{
+					"DataFile" : "Cuboid",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "Wood01",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Table",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							2.6552901268005371,
+							1.9999345541000366,
+							9.9995851516723633
+						],
+						"Translate" : 
+						[
+							-5.4757966995239258,
+							0.72071099281311035,
+							-12.545058250427246
+						]
+					}
+				},
+				{
+					"Collider" : 
+					{
+						"Rescale" : 
+						[
+							0.0,
+							0.0,
+							20.299999237060547
+						],
+						"mCoeffDynamicFriction" : 5.0,
+						"mCoeffStaticFriction" : 5.0
+					},
+					"DataFile" : "Cube",
+					"ModelComponent" : 
+					{
+						"CastsShadow" : false,
+						"Material" : "FloorStarbucks",
+						"MeshMaterials" : 
+						[
+							"None"
+						]
+					},
+					"Name" : "Floor",
+					"Transform" : 
+					{
+						"Scale" : 
+						[
+							39.101943969726563,
+							0.49528545141220093,
+							30.941043853759766
+						],
+						"Translate" : 
+						[
+							-1.1732341051101685,
+							-0.26625967025756836,
+							-8.5538082122802734
+						]
+					}
+				}
+			],
+			"DataFile" : "Group",
+			"Name" : "Scenario",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					3.0,
+					0.0,
+					10.5
+				]
+			}
+		},
+		{
+			"DataFile" : "Light",
+			"LocalLightComponent" : 
+			{
+				"Intensity" : 1.0,
+				"Radius" : 100.0
+			},
+			"ModelComponent" : 
+			{
+				"MeshMaterials" : 
+				[
+					"None"
+				]
+			},
+			"Name" : "Light",
+			"Transform" : 
+			{
+				"Translate" : 
+				[
+					0.40000000596046448,
+					14.519712448120117,
+					1.0
+				]
+			}
+		}
+	]
+}

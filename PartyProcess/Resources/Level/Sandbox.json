@@ -1,0 +1,20 @@
+{
+  "Sandbox": [
+    {
+      "Name": "Sun",
+      "DataFile": "DRLight",
+      "Transform": {
+        "RotationAngles": [ -45.0, 45.0, 0.0 ]
+      }
+    },
+    {
+      "DataFile": "Ground",
+      "Transform": {
+        "Scale": [ 1000.0, 1000.0, 1000.0 ]
+      }
+    },
+    {
+      "DataFile": "Skybox"
+    }
+  ]
+}
