@@ -1,6 +1,8 @@
 # ShipIt
 DigiPen 3D Game Project 
 
+Game Trailer : [Trailer](https://www.youtube.com/watch?v=Rc0dhPNnr1o)
+
 Ship it!
 
 Game/Project Summary
